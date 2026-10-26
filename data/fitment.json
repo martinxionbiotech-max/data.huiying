@@ -1,0 +1,52 @@
+{
+  "_meta": {
+    "title": "huiying Filter Fitment Reference Framework",
+    "version": "0.1.0",
+    "generated": "2026-10-26",
+    "brand": "huiying",
+    "nature": "reference-only",
+    "purpose": "Common-application reference framework for engine air / oil / cabin filters across mainstream passenger vehicles. This is NOT a verified OE cross-reference table.",
+    "disclaimer": "Every entry is a common-application reference. No exact OE number, exact dimension, or precise year range is asserted. Always confirm the exact part against the buyer's OE number, cross-reference number, or Huiying's fitment table before ordering."
+  },
+  "vehicles": [
+    { "brand": "Toyota", "region": "Japan", "model": "Corolla", "zh": "卡罗拉", "era": "2000s–present (reference)" },
+    { "brand": "Toyota", "region": "Japan", "model": "Camry", "zh": "凯美瑞", "era": "2000s–present (reference)" },
+    { "brand": "Honda", "region": "Japan", "model": "Civic", "zh": "思域", "era": "2000s–present (reference)" },
+    { "brand": "Honda", "region": "Japan", "model": "Accord", "zh": "雅阁", "era": "2000s–present (reference)" },
+    { "brand": "Volkswagen", "region": "Germany", "model": "Lavida", "zh": "朗逸", "era": "2008–present (reference)" },
+    { "brand": "Volkswagen", "region": "Germany", "model": "Passat", "zh": "帕萨特", "era": "2000s–present (reference)" },
+    { "brand": "BMW", "region": "Germany", "model": "3 Series", "zh": "宝马 3 系", "era": "2000s–present (reference)" },
+    { "brand": "Mercedes-Benz", "region": "Germany", "model": "C-Class", "zh": "奔驰 C 级", "era": "2000s–present (reference)" },
+    { "brand": "Ford", "region": "USA", "model": "Focus", "zh": "福克斯", "era": "2000s–present (reference)" },
+    { "brand": "Hyundai", "region": "South Korea", "model": "Elantra", "zh": "伊兰特", "era": "2000s–present (reference)" },
+    { "brand": "Nissan", "region": "Japan", "model": "Sylphy", "zh": "轩逸", "era": "2000s–present (reference)" },
+    { "brand": "Geely", "region": "China", "model": "Emgrand", "zh": "帝豪", "era": "2009–present (reference)" },
+    { "brand": "Great Wall", "region": "China", "model": "Haval", "zh": "哈弗", "era": "2011–present (reference)" }
+  ],
+  "filters": [
+    {
+      "type": "air-filter",
+      "label": "Engine Air Filter",
+      "intro": "Engine air filters are among the most widely replaced service parts. The brands and models below are common-application references for passenger-car engine air filters across global and domestic Chinese brands.",
+      "typical_size_range": "Panel type: L 230–350 × W 130–220 × H 25–60 mm (reference range across compact to mid-size cars)",
+      "matching_path": "Look up the vehicle's OE number → cross-reference to a HY-AF-xxx model by panel dimensions and seal style → confirm with Huiying sales before ordering.",
+      "data_status": "reference"
+    },
+    {
+      "type": "oil-filter",
+      "label": "Engine Oil Filter",
+      "intro": "Oil filters are replaced at every engine-oil service. The references below are common-application examples for spin-on and cartridge oil filters across the brands we serve.",
+      "typical_size_range": "Spin-on / cartridge: OD 60–95 × H 65–140 mm; thread commonly 3/4-16 UNF, M20 or M22 (reference range — confirm per engine)",
+      "matching_path": "Look up the engine's OE oil-filter number → cross-reference to a HY-OF-xxx model by thread, seal diameter and bypass-valve setting → confirm with Huiying sales.",
+      "data_status": "reference"
+    },
+    {
+      "type": "cabin-filter",
+      "label": "Cabin Air Filter",
+      "intro": "Cabin (pollen) filters are standard on the majority of modern vehicles. The references below reflect common applications for cabin air filtration across global and domestic Chinese brands.",
+      "typical_size_range": "Panel type: L 200–320 × W 150–260 × H 15–40 mm (reference range; activated-carbon variants share panel footprint)",
+      "matching_path": "Look up the vehicle's OE cabin-filter number → cross-reference to a HY-CF-xxx model by frame dimensions and carbon/plain grade → confirm with Huiying sales.",
+      "data_status": "reference"
+    }
+  ]
+}

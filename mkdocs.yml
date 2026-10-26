@@ -1,0 +1,82 @@
+site_name: Huiying Filter Data
+site_description: >-
+  Canonical product database for huiying — structured SKU records, reference-level
+  vehicle fitment framework and filter-media comparison. Machine-readable, zero marketing.
+site_url: https://data.huiying.com
+repo_url: https://github.com/martinxionbiotech-max/data.huiying
+repo_name: data.huiying
+copyright: 'Qinghe County Huiying Filter Manufacturing Co., Ltd. · huiyingfilter.com'
+
+theme:
+  name: material
+  language: en
+  custom_dir: overrides
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - tables
+  - footnotes
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
+
+extra:
+  version: 0.1.0
+  main_site: https://huiyingfilter.com
+
+nav:
+  - Home: index.md
+  - SKU Index: products/index.md
+  - Categories:
+      - Air Filter: products/air-filter.md
+      - Cabin Filter: products/cabin-filter.md
+      - Oil Filter: products/oil-filter.md
+      - Fuel Filter: products/fuel-filter.md
+      - Wiper: products/wiper.md
+  - SKU Details:
+      - Air Filter:
+          - HY-AF-692: products/HY-AF-692.md
+          - HY-AF-693: products/HY-AF-693.md
+          - HY-AF-698: products/HY-AF-698.md
+          - HY-AF-699: products/HY-AF-699.md
+          - HY-AF-700: products/HY-AF-700.md
+          - HY-AF-701: products/HY-AF-701.md
+          - HY-AF-702: products/HY-AF-702.md
+          - HY-AF-703: products/HY-AF-703.md
+      - Cabin Filter:
+          - HY-CF-691: products/HY-CF-691.md
+      - Oil Filter:
+          - HY-OF-690: products/HY-OF-690.md
+  - Fitment Reference:
+      - Fitment Index: fitment/index.md
+      - Engine Air Filter: fitment/air-filter.md
+      - Engine Oil Filter: fitment/oil-filter.md
+      - Cabin Air Filter: fitment/cabin-filter.md
+  - Filter Media: materials/media-comparison.md
+  - Data Specification:
+      - Field Schema: specification/field-schema.md
+      - Data Status Labels: specification/data-status.md
+      - Sources & Disclaimer: specification/sources.md
+      - Changelog: specification/changelog.md

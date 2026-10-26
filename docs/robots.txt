@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://data.huiying.com/sitemap.xml

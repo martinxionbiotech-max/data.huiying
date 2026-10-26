@@ -1,0 +1,8 @@
+/* Brand palette — matches the huiying main site (deep navy primary · safety orange accent). */
+:root {
+  --md-primary-fg-color: #0F2A43;
+  --md-primary-fg-color--light: #14385A;
+  --md-primary-fg-color--dark: #0A1E30;
+  --md-accent-fg-color: #E8622C;
+  --md-accent-fg-color--transparent: rgba(232, 98, 44, 0.1);
+}

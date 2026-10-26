@@ -1,0 +1,41 @@
+# Huiying Filter Data
+
+> Canonical product database for the huiying filter manufacturer — structured SKU records,
+> reference-level vehicle-fitment framework and filter-media comparison. Machine-readable,
+> zero marketing. 10 SKUs across 5 categories; 13 vehicle models in the fitment reference
+> framework. Operator: Qinghe County Huiying Filter Manufacturing Co., Ltd. — commercial
+> catalog and inquiries at huiyingfilter.com.
+
+- [Home](https://data.huiying.com/): data-site overview, section index and honest data posture.
+- [SKU Index](https://data.huiying.com/products/): all 10 SKUs (identity verified; specs NEEDS_VERIFICATION).
+- [Air Filter category](https://data.huiying.com/products/air-filter/): 8 SKUs.
+- [Cabin Filter category](https://data.huiying.com/products/cabin-filter/): 1 SKU.
+- [Oil Filter category](https://data.huiying.com/products/oil-filter/): 1 SKU.
+- [Fuel Filter category](https://data.huiying.com/products/fuel-filter/): 0 SKUs (placeholder).
+- [Wiper category](https://data.huiying.com/products/wiper/): 0 SKUs (placeholder).
+- [SKU HY-AF-692](https://data.huiying.com/products/HY-AF-692/): air filter parameter page.
+- [SKU HY-AF-693](https://data.huiying.com/products/HY-AF-693/): air filter parameter page.
+- [SKU HY-AF-698](https://data.huiying.com/products/HY-AF-698/): air filter parameter page.
+- [SKU HY-AF-699](https://data.huiying.com/products/HY-AF-699/): air filter parameter page.
+- [SKU HY-AF-700](https://data.huiying.com/products/HY-AF-700/): air filter parameter page.
+- [SKU HY-AF-701](https://data.huiying.com/products/HY-AF-701/): air filter parameter page.
+- [SKU HY-AF-702](https://data.huiying.com/products/HY-AF-702/): air filter parameter page.
+- [SKU HY-AF-703](https://data.huiying.com/products/HY-AF-703/): air filter parameter page.
+- [SKU HY-CF-691](https://data.huiying.com/products/HY-CF-691/): cabin filter parameter page.
+- [SKU HY-OF-690](https://data.huiying.com/products/HY-OF-690/): oil filter parameter page.
+- [Fitment Index](https://data.huiying.com/fitment/): reference framework overview + stats.
+- [Engine Air Filter fitment](https://data.huiying.com/fitment/air-filter/): 13 vehicle references.
+- [Engine Oil Filter fitment](https://data.huiying.com/fitment/oil-filter/): 13 vehicle references.
+- [Cabin Air Filter fitment](https://data.huiying.com/fitment/cabin-filter/): 13 vehicle references.
+- [Filter Media comparison](https://data.huiying.com/materials/media-comparison/): cellulose vs blended vs synthetic vs nano-fibre.
+- [Field Schema](https://data.huiying.com/specification/field-schema/): dataset field definitions.
+- [Data Status Labels](https://data.huiying.com/specification/data-status/): verified / reference / NEEDS_VERIFICATION.
+- [Sources & Disclaimer](https://data.huiying.com/specification/sources/): provenance and honest disclosures.
+
+## Notes
+
+- Per-SKU dimensions, material, efficiency, OE numbers and packing are NOT published by the
+  source catalogue; they are marked `NEEDS_VERIFICATION` here, never invented.
+- Vehicle fitment is `reference` only — common applications, not verified OE cross-references.
+- Filter-media efficiency figures are typical framework ranges (`[框架参考]`), not measured SKU specs.
+- Commercial catalog and quotations: huiyingfilter.com (this data site is reference-only).

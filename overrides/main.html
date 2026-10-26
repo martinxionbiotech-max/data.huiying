@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block announce %}
+  <a href="https://huiyingfilter.com" target="_blank" rel="noopener">→ huiyingfilter.com — Commercial catalog &amp; inquiry</a>
+{% endblock %}
+{% block extrahead %}
+  {{ super() }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Qinghe County Huiying Filter Manufacturing Co., Ltd.",
+    "alternateName": "huiying",
+    "url": "https://huiyingfilter.com",
+    "email": "davidwang@huiyingfilter.com",
+    "telephone": "+86-319-8291681",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Qinghe County, Xingtai City",
+      "addressRegion": "Hebei",
+      "addressCountry": "CN"
+    }
+  }
+  </script>
+{% endblock %}

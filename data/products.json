@@ -1,0 +1,149 @@
+{
+  "_meta": {
+    "title": "huiying Canonical Product Dataset",
+    "version": "0.1.0",
+    "generated": "2026-10-26",
+    "brand": "huiying",
+    "source": "source site (brand renamed to huiying)",
+    "purpose": "Single source of truth for the huiying main site product pages."
+  },
+  "categories": [
+    {
+      "slug": "air-filter",
+      "name": "Air Filter",
+      "code": "af",
+      "icon": "/images/d6a0298e-b775-4dac-8ba0-3d4a059757e5.png",
+      "desc": "Engine air filters that remove dust and suspended particles from intake air before it reaches the combustion chamber, reducing cylinder, piston and piston-ring wear."
+    },
+    {
+      "slug": "cabin-filter",
+      "name": "Cabin Filter",
+      "code": "cf",
+      "icon": "/images/d6028db0-eb29-447e-8e5a-1c238d99f4c0.png",
+      "desc": "Cabin air filters that capture dust, pollen and particulate from outside air before it enters the passenger cabin."
+    },
+    {
+      "slug": "oil-filter",
+      "name": "Oil Filter",
+      "code": "of",
+      "icon": "/images/d3c90754-3b64-49fe-9777-7973fb0eab78.png",
+      "desc": "Engine oil filters that remove contaminants and carbon sludge from circulating engine oil, protecting lubrication components and extending oil life."
+    },
+    {
+      "slug": "fuel-filter",
+      "name": "Fuel Filter",
+      "code": "ff",
+      "icon": "/images/dfa88509-8560-4df5-88f7-e980a578d65a.png",
+      "desc": "Fuel filters that remove iron oxide, dust and other impurities from fuel to prevent fuel-system blockage and reduce mechanical wear."
+    },
+    {
+      "slug": "wiper",
+      "name": "Wiper",
+      "code": "wb",
+      "icon": "/images/d8dc5304-3276-4f48-95dd-1e16fa3e4e23.png",
+      "desc": "Wiper blades and related wiper products for clear visibility."
+    }
+  ],
+  "products": [
+    {
+      "slug": "of-690",
+      "name": "Oil Filter",
+      "category": "oil-filter",
+      "sourceId": 690,
+      "model": "HY-OF-690",
+      "desc": "An accessory that filters impurities from engine oil through filter paper. It is an engine accessory that protects the lubrication system.",
+      "image": "/images/6a2fe246-680d-466b-8ec1-301773bc3506.jpg",
+      "gallery": ["/images/6a2fe246-680d-466b-8ec1-301773bc3506.jpg"]
+    },
+    {
+      "slug": "cf-691",
+      "name": "Cabin Filter",
+      "category": "cabin-filter",
+      "sourceId": 691,
+      "model": "HY-CF-691",
+      "desc": "An accessory that filters impurities and gases through filter paper, keeping in-cabin air clean.",
+      "image": "/images/b10a3bb2-030f-4546-ad8e-345129cba1ee.jpg",
+      "gallery": ["/images/b10a3bb2-030f-4546-ad8e-345129cba1ee.jpg"]
+    },
+    {
+      "slug": "af-692",
+      "name": "Air Filter",
+      "category": "air-filter",
+      "sourceId": 692,
+      "model": "HY-AF-692",
+      "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
+      "image": "/images/44f1165c-0b5b-4af2-9b3f-fce56e89ff63.jpg",
+      "gallery": ["/images/44f1165c-0b5b-4af2-9b3f-fce56e89ff63.jpg"]
+    },
+    {
+      "slug": "af-693",
+      "name": "Air Filter",
+      "category": "air-filter",
+      "sourceId": 693,
+      "model": "HY-AF-693",
+      "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
+      "image": "/images/5549999c-f7bf-479f-952c-9b57973a8af3.jpg",
+      "gallery": ["/images/5549999c-f7bf-479f-952c-9b57973a8af3.jpg"]
+    },
+    {
+      "slug": "af-698",
+      "name": "Air Filter",
+      "category": "air-filter",
+      "sourceId": 698,
+      "model": "HY-AF-698",
+      "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
+      "image": "/images/f5fb9a94-ba63-4c1e-bfc3-f649ef04fab2.jpg",
+      "gallery": ["/images/f5fb9a94-ba63-4c1e-bfc3-f649ef04fab2.jpg"]
+    },
+    {
+      "slug": "af-699",
+      "name": "Air Filter",
+      "category": "air-filter",
+      "sourceId": 699,
+      "model": "HY-AF-699",
+      "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
+      "image": "/images/5e60e81c-72b8-4b7a-a41b-41b595c20329.jpg",
+      "gallery": ["/images/5e60e81c-72b8-4b7a-a41b-41b595c20329.jpg"]
+    },
+    {
+      "slug": "af-700",
+      "name": "Air Filter",
+      "category": "air-filter",
+      "sourceId": 700,
+      "model": "HY-AF-700",
+      "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
+      "image": "/images/eebd9d62-1f5b-4c05-9574-9d8ce7604cbb.jpg",
+      "gallery": ["/images/eebd9d62-1f5b-4c05-9574-9d8ce7604cbb.jpg"]
+    },
+    {
+      "slug": "af-701",
+      "name": "Air Filter",
+      "category": "air-filter",
+      "sourceId": 701,
+      "model": "HY-AF-701",
+      "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
+      "image": "/images/658c68a8-ef1e-4ace-bd56-7e74f5b7583e.jpg",
+      "gallery": ["/images/658c68a8-ef1e-4ace-bd56-7e74f5b7583e.jpg"]
+    },
+    {
+      "slug": "af-702",
+      "name": "Air Filter",
+      "category": "air-filter",
+      "sourceId": 702,
+      "model": "HY-AF-702",
+      "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
+      "image": "/images/7ae94ce9-09fa-42eb-bfc2-d76335c09b7c.jpg",
+      "gallery": ["/images/7ae94ce9-09fa-42eb-bfc2-d76335c09b7c.jpg"]
+    },
+    {
+      "slug": "af-703",
+      "name": "Air Filter",
+      "category": "air-filter",
+      "sourceId": 703,
+      "model": "HY-AF-703",
+      "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
+      "image": "/images/af7c5e9c-3e08-474f-acfc-290640d53816.jpg",
+      "gallery": ["/images/af7c5e9c-3e08-474f-acfc-290640d53816.jpg"]
+    }
+  ]
+}
