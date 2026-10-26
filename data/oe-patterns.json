@@ -1,0 +1,69 @@
+{
+  "_meta": {
+    "title": "huiying OE Number Prefix-Pattern Reference",
+    "version": "0.2.0",
+    "generated": "2026-10-26",
+    "brand": "huiying",
+    "nature": "prefix-pattern-reference",
+    "purpose": "Directional OE-number prefix patterns for mainstream vehicle brands. Prefixes are public common knowledge and are shown at pattern level only.",
+    "disclaimer": "These are prefix PATTERNS, not complete OE numbers. A prefix alone is never a valid part match. Always obtain the buyer's FULL OE number and confirm the exact part against it before ordering."
+  },
+  "status_label": "prefix pattern reference — verify full OE number",
+  "filters": [
+    {
+      "type": "air-filter",
+      "label": "Engine Air Filter",
+      "patterns": [
+        { "brand": "Toyota", "prefix": "17801-\u2026", "note": "Engine air-filter OE prefix pattern" },
+        { "brand": "Honda", "prefix": "17220-\u2026", "note": "Engine air-filter OE prefix pattern" },
+        { "brand": "Nissan", "prefix": "16546-\u2026", "note": "Engine air-filter OE prefix pattern" },
+        { "brand": "Hyundai / Kia", "prefix": "28113-\u2026", "note": "Engine air-filter OE prefix pattern" },
+        { "brand": "Volkswagen Group (VW / Audi / Skoda)", "prefix": "\u2026 129 620", "note": "Engine air-filter element number pattern (e.g. 06A / 1K0 \u2026 129 620)" },
+        { "brand": "BMW", "prefix": "13 71 \u2026", "note": "Engine air-filter part-number prefix pattern" },
+        { "brand": "Mercedes-Benz", "prefix": "A \u2026 094 \u2026", "note": "Engine air-filter part-number pattern" }
+      ]
+    },
+    {
+      "type": "oil-filter",
+      "label": "Engine Oil Filter",
+      "patterns": [
+        { "brand": "Toyota", "prefix": "90915-\u2026", "note": "Engine oil-filter OE prefix pattern" },
+        { "brand": "Honda", "prefix": "15400-\u2026", "note": "Engine oil-filter OE prefix pattern" },
+        { "brand": "Nissan", "prefix": "15208-\u2026", "note": "Engine oil-filter OE prefix pattern" },
+        { "brand": "Hyundai / Kia", "prefix": "26300-\u2026", "note": "Engine oil-filter OE prefix pattern" },
+        { "brand": "Volkswagen Group", "prefix": "06A / 06J 115 \u2026", "note": "Engine oil-filter part-number pattern" },
+        { "brand": "BMW", "prefix": "11 42 \u2026", "note": "Engine oil-filter part-number prefix pattern" },
+        { "brand": "Mercedes-Benz", "prefix": "A 651 / A 271 / A 272 180 \u2026", "note": "Engine oil-filter part-number pattern (engine-family based)" },
+        { "brand": "Ford", "prefix": "\u2026-6731-\u2026", "note": "Engine oil-filter base-number pattern (Motorcraft FL-series cross)" }
+      ]
+    },
+    {
+      "type": "cabin-filter",
+      "label": "Cabin Air Filter",
+      "patterns": [
+        { "brand": "Toyota", "prefix": "87139-\u2026", "note": "Cabin-filter OE prefix pattern" },
+        { "brand": "Honda", "prefix": "80292-\u2026", "note": "Cabin-filter OE prefix pattern" },
+        { "brand": "Volkswagen Group", "prefix": "\u2026 819 644 / \u2026 819 653", "note": "Cabin-filter element number pattern" },
+        { "brand": "BMW", "prefix": "64 31 \u2026", "note": "Cabin-filter part-number prefix pattern" }
+      ]
+    },
+    {
+      "type": "fuel-filter",
+      "label": "Fuel Filter",
+      "patterns": [
+        { "brand": "Toyota", "prefix": "23300-\u2026", "note": "Fuel-filter OE prefix pattern" },
+        { "brand": "Honda", "prefix": "16900-\u2026", "note": "Fuel-filter OE prefix pattern" },
+        { "brand": "Volkswagen Group", "prefix": "\u2026 201 511", "note": "Fuel-filter element number pattern" },
+        { "brand": "Mercedes-Benz", "prefix": "A \u2026 477 \u2026", "note": "Fuel-filter part-number pattern" }
+      ]
+    }
+  ],
+  "cross_reference_path": [
+    "Obtain the buyer's FULL OE number (prefix alone is not a match).",
+    "Resolve the brand and filter type from the prefix/pattern above.",
+    "Cross-reference the full OE number to competitor numbers (e.g. MANN, Bosch, Mahle, WIX, Fram, Sakura) in a parts catalog.",
+    "Match the resulting part to a Huiying SKU by dimensions (panel / thread / seal) and specification.",
+    "Confirm the final part with Huiying sales before ordering."
+  ],
+  "coverage_note": "Brands whose OE numbering is supplier-specific or numeric-arbitrary (e.g. Ford air filters, Chevrolet/GM, and most Chinese domestic brands such as Geely, Great Wall, BYD, Chery, Changan, Roewe) do not follow a single stable public prefix pattern; for these, always work from the buyer's full OE or cross-reference number rather than a prefix."
+}

@@ -1,6 +1,8 @@
 # SKU Index
 
-Full index of every SKU in the canonical dataset. Identification fields > **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.1.0 (2026-10-26). Do not edit values by hand — edit the dataset, then rebuild.
+Full index of every SKU in the canonical dataset. Identification fields are `verified` (from `data/products.json`); all specification fields (dimensions, material, efficiency, OE, packing) are `NEEDS_VERIFICATION`.
+
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.1.0 (2026-10-26). Do not edit values by hand — edit the dataset, then rebuild.
 
 **10 SKUs across 5 categories.**
 

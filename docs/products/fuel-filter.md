@@ -14,4 +14,4 @@ Fuel filters that remove iron oxide, dust and other impurities from fuel to prev
 
 ## Data status
 
-Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. 
+Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. See [Data status labels](../specification/data-status.md) for the label definitions.

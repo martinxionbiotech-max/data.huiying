@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "title": "huiying Filter Procurement Reference",
+    "version": "0.2.0",
+    "generated": "2026-10-26",
+    "brand": "huiying",
+    "nature": "reference-only",
+    "purpose": "HS-code reference and MOQ / packing framework for huiying filters. Public common-knowledge HS codes for estimation; MOQ/packing described at framework level (no fixed numbers asserted).",
+    "disclaimer": "HS codes are common-knowledge REFERENCE classifications \u2014 confirm with your customs broker / freight forwarder before shipping. MOQ and packing vary by SKU and program \u2014 confirm with Huiying sales."
+  },
+  "hs_codes": [
+    { "code": "8421.31", "label": "Intake air filters for internal combustion engines", "applies_to": "Engine air filters", "status": "reference \u2014 verify with customs" },
+    { "code": "8421.23", "label": "Oil or petrol-filters for internal combustion engines", "applies_to": "Oil filters; petrol (gasoline) fuel filters", "status": "reference \u2014 verify with customs" },
+    { "code": "8421.39", "label": "Other filtering / purifying machinery and parts", "applies_to": "Cabin filters; some diesel fuel filters", "status": "reference \u2014 verify with customs" },
+    { "code": "8421.99", "label": "Parts of filtering / purifying machinery (heading 8421)", "applies_to": "Filter elements and replacement parts", "status": "reference \u2014 verify with customs" },
+    { "code": "8512.40 / 8512.90", "label": "Windscreen wipers / parts thereof", "applies_to": "Wiper blades and parts", "status": "reference \u2014 verify with customs" }
+  ],
+  "moq_packing": [
+    { "topic": "MOQ", "framework": "Varies by SKU and program. Export orders are commonly discussed per SKU / carton and per container; no fixed quantity is asserted here \u2014 confirm the MOQ per SKU with Huiying." },
+    { "topic": "Packing", "framework": "Standard export packing: neutral white box, colour box or OEM / private-label box; carton quantity varies by filter size. Confirm the exact packing per SKU with Huiying." },
+    { "topic": "Private label / OEM", "framework": "Supported, consistent with the main site: private-label and OEM-supply programs with consistent batch quality and testing documentation on request." },
+    { "topic": "Mixed orders", "framework": "Mixed-container and multi-SKU orders are supported (consistent with the main site); OE / cross-reference matching to your market is provided." }
+  ],
+  "export_markets": "Asia, Middle East, Africa, South America and Europe (consistent with the main site).",
+  "contact": "For verified HS classification, MOQ and packing per SKU, contact Huiying through huiyingfilter.com."
+}

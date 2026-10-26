@@ -16,4 +16,4 @@ Cabin air filters that capture dust, pollen and particulate from outside air bef
 
 ## Data status
 
-Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. 
+Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. See [Data status labels](../specification/data-status.md) for the label definitions.

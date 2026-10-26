@@ -1,8 +1,10 @@
 # Filter Media Comparison
 
-How the four common filter-media types — **cellulose paper**, **synthetic fibre**,
-**blended**, and **nano-fibre** — compare on structure, efficiency, dust capacity,
-pressure drop, service life, cost and best-fit applications.
+How the seven common filter-media types compare on structure, efficiency, dust
+capacity, pressure drop, service life, cost and best-fit applications. The first four
+(**cellulose paper**, **synthetic fibre**, **blended**, **nano-fibre**) are the core
+engine-air / oil media; the last three (**activated-carbon cabin**, **glass fibre**,
+**electrostatic electret**) are cabin and specialty media.
 
 !!! note "Source & status"
     This page is **framework reference + editorial**, not a per-SKU specification. The
@@ -10,7 +12,7 @@ pressure drop, service life, cost and best-fit applications.
     measured values for any specific huiying SKU. Subjective conclusions are signed
     (`小筑 ✍️`) and are procurement guidance, not product claims.
 
-## Comparison matrix
+## Core engine-air / oil media
 
 | Attribute | Cellulose paper | Blended (cellulose + synthetic) | Synthetic fibre | Nano-fibre |
 |---|---|---|---|---|
@@ -21,6 +23,19 @@ pressure drop, service life, cost and best-fit applications.
 | Service life | Shorter (moisture-sensitive) | Medium | Longer (moisture-tolerant) | Longest (deep-loading) |
 | Relative cost | Lowest | Low–medium | Medium–high | Highest |
 | Best-fit scenario | Price-sensitive, normal-duty | Balanced default | High-dust, heavy-duty, humid | Premium / long-interval / high-efficiency |
+
+## Cabin & specialty media
+
+| Attribute | Activated-carbon cabin | Glass fibre | Electrostatic electret |
+|---|---|---|---|
+| Structure | Particulate layer + granular/coated activated-carbon adsorption layer | Fine glass-fibre mat (often resin-bonded) | Charged (electret) synthetic non-woven fibres |
+| Key mechanism | Physical filtration + gas/odour **adsorption** | Fine-fibre mechanical capture, high-temperature tolerance | Mechanical capture + **electrostatic attraction** |
+| Filtration efficiency (typical) | Particulate ~99%; adds gas/odour/VOC adsorption (`[框架参考]`) | ~99–99.9% (fine capture) | ~99–99.5% at lower pressure drop |
+| Pressure drop | Slightly higher (extra layer) | Higher (fine fibres) | Lower–medium (charge assists capture) |
+| Temperature tolerance | Cabin temperature only | High (typically 150–200 °C+ `[框架参考]`) | Standard (cabin / intake) |
+| Service life | Finite adsorption capacity — degrades as carbon saturates | Long (high dust-loading) | Long (deep-loading) |
+| Relative cost | Medium–high | High | Medium–high |
+| Best-fit scenario | Urban / heavy-traffic, odour & VOC control | High-temperature, turbo / commercial, heavy-dust | High-efficiency cabin / premium intake |
 
 ## Micro characteristics by media type
 
@@ -47,6 +62,34 @@ surface layer that captures very fine particles while the open substrate keeps f
 It delivers the highest efficiency and dust loading, aimed at premium, long-interval or
 high-filtration applications.
 
+### Activated-carbon cabin `[行业常识]`
+A particulate layer plus an activated-carbon layer that **adsorbs** gaseous pollutants —
+exhaust fumes, VOCs, and odours — that a plain particulate filter cannot stop. Its gas
+removal is a finite capacity: once the carbon saturates, adsorption drops even though the
+particulate layer still works. Best positioned as a premium cabin line for urban markets.
+
+### Glass fibre `[行业常识]`
+Fine glass fibres give high efficiency, high dust-holding and, critically, a much higher
+temperature tolerance than cellulose or standard synthetics — suitable for turbocharged,
+high-temperature or commercial/heavy-duty intake and oil applications. The cost is higher
+and pressure drop greater, so it is matched to demanding duty rather than normal service.
+
+### Electrostatic electret `[框架参考]`
+Charged synthetic fibres add an electrostatic capture mechanism on top of mechanical
+filtration, raising efficiency for fine particles at a comparatively low pressure drop.
+The charge can dissipate with age or moisture in some constructions, so the efficiency
+gain should be validated for the target service life before it is claimed on a SKU.
+
+## Material × vehicle class / application pairing `小筑 ✍️`
+
+| Vehicle class / scenario | Engine-air media | Cabin media | Rationale |
+|---|---|---|---|
+| Compact / city car (normal duty) | Cellulose or blended | Particulate (plain) | Cost-appropriate; dust load is light and intervals short |
+| Mid-size / premium sedan | Blended or synthetic | Activated-carbon | Balanced performance; odour/VOC control for urban driving |
+| SUV / off-road (dusty) | Synthetic | Electrostatic electret or activated-carbon | High dust-holding; high cabin efficiency on unpaved roads |
+| Pickup / commercial / turbo | Synthetic or glass fibre | Particulate (plain) | High-temperature and heavy-dust duty |
+| Urban / heavy-traffic | Blended | Activated-carbon | Exhaust odour and VOC adsorption is the value driver |
+
 ## Buying advice `小筑 ✍️`
 
 - **High-dust markets** (construction, agriculture, desert, unpaved roads): prioritise
@@ -58,6 +101,11 @@ high-filtration applications.
 - **Premium / long-interval positioning**: offer **nano-fibre** as the "good-better-best"
   top tier — sell it on total cost of ownership (fewer changes, better protection), not on
   media price alone.
+- **Urban cabin line**: lead with **activated-carbon** and sell air quality (odour / VOC /
+  exhaust), not just particulate removal — it is the clearest premium upsell in the cabin
+  category.
+- **Heavy-duty & turbo**: match **glass fibre** where temperature is the binding constraint;
+  do not use a normal-service media to chase a high-temperature application.
 - **Whichever media you choose, match it by OE**: media grade does not compensate for a
   wrong panel dimension, seal or bypass-valve specification. Confirm the exact part before
   ordering — see [Fitment Reference](../fitment/index.md).

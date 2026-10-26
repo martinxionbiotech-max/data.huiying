@@ -1,0 +1,31 @@
+{
+  "_meta": {
+    "title": "huiying Filter Size Reference Ranges",
+    "version": "0.2.0",
+    "generated": "2026-10-26",
+    "brand": "huiying",
+    "nature": "reference-only",
+    "purpose": "Typical dimensional ranges for filters by vehicle class, and common oil-filter thread specifications. Public common-knowledge ranges for estimation only.",
+    "disclaimer": "These are typical REFERENCE ranges, not measurements of any specific SKU. They are for planning and estimation only; never use them to confirm a part. Always match the exact part by OE / cross-reference number."
+  },
+  "air_filter_by_class": [
+    { "class": "compact", "label": "Compact / C-segment", "zh": "紧凑型", "length_mm": "230\u2013280", "width_mm": "140\u2013180", "height_mm": "25\u201345", "example_vehicles": "Corolla, Civic, Lavida, Focus, Elantra, Sylphy, Emgrand" },
+    { "class": "mid-size", "label": "Mid-size / D-segment", "zh": "中型", "length_mm": "250\u2013310", "width_mm": "160\u2013200", "height_mm": "30\u201350", "example_vehicles": "Camry, Accord, Passat, 3 Series, C-Class, A4, Malibu" },
+    { "class": "suv", "label": "SUV / Crossover", "zh": "SUV / 跨界", "length_mm": "250\u2013330", "width_mm": "170\u2013220", "height_mm": "35\u201360", "example_vehicles": "RAV4, CR-V, Tiguan, X3, GLC, Q5, Haval H6" },
+    { "class": "pickup", "label": "Pickup / Light truck", "zh": "皮卡 / 轻卡", "length_mm": "270\u2013350", "width_mm": "180\u2013230", "height_mm": "40\u201370", "example_vehicles": "F-150, Ranger, Poer" }
+  ],
+  "oil_filter_threads": [
+    { "thread": "3/4-16 UNF", "typical": "Most common spin-on thread (Toyota, Honda, Ford, GM and many aftermarket)", "status": "reference" },
+    { "thread": "M20 \u00d7 1.5", "typical": "Volkswagen Group, Mercedes-Benz and many European engines", "status": "reference" },
+    { "thread": "M22 \u00d7 1.5", "typical": "BMW, Mercedes-Benz and Volvo (some applications)", "status": "reference" },
+    { "thread": "M18 \u00d7 1.5", "typical": "Nissan, Subaru and some Japanese applications", "status": "reference" },
+    { "thread": "M26 \u00d7 1.5 / M27 \u00d7 2", "typical": "Heavy-duty / cartridge applications", "status": "reference" }
+  ],
+  "cabin_filter_range": "Panel type: L 200\u2013320 \u00d7 W 150\u2013260 \u00d7 H 15\u201340 mm (reference; carbon variants share footprint).",
+  "fuel_filter_range": "In-line / cartridge: OD 50\u201390 \u00d7 H 80\u2013160 mm (reference).",
+  "notes": [
+    "Air-filter panel dimensions scale with engine displacement and vehicle class, not with brand.",
+    "Oil-filter thread is engine-specific; the same vehicle name can use different threads across model years and engines.",
+    "Never order on dimensional ranges alone \u2014 confirm the OE / cross-reference number first."
+  ]
+}

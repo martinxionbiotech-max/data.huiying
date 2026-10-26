@@ -1,10 +1,11 @@
 # Huiying Filter Data
 
 > Canonical product database for the huiying filter manufacturer — structured SKU records,
-> reference-level vehicle-fitment framework and filter-media comparison. Machine-readable,
-> zero marketing. 10 SKUs across 5 categories; 13 vehicle models in the fitment reference
-> framework. Operator: Qinghe County Huiying Filter Manufacturing Co., Ltd. — commercial
-> catalog and inquiries at huiyingfilter.com.
+> reference-level vehicle-fitment framework and filter reference data (media, OE prefix
+> patterns, size ranges, replacement intervals, procurement). Machine-readable, zero
+> marketing. 10 SKUs across 5 categories; 66 vehicle models across 22 brands in the
+> fitment reference framework. Operator: Qinghe County Huiying Filter Manufacturing Co.,
+> Ltd. — commercial catalog and inquiries at huiyingfilter.com.
 
 - [Home](https://data.huiying.com/): data-site overview, section index and honest data posture.
 - [SKU Index](https://data.huiying.com/products/): all 10 SKUs (identity verified; specs NEEDS_VERIFICATION).
@@ -23,11 +24,17 @@
 - [SKU HY-AF-703](https://data.huiying.com/products/HY-AF-703/): air filter parameter page.
 - [SKU HY-CF-691](https://data.huiying.com/products/HY-CF-691/): cabin filter parameter page.
 - [SKU HY-OF-690](https://data.huiying.com/products/HY-OF-690/): oil filter parameter page.
-- [Fitment Index](https://data.huiying.com/fitment/): reference framework overview + stats.
-- [Engine Air Filter fitment](https://data.huiying.com/fitment/air-filter/): 13 vehicle references.
-- [Engine Oil Filter fitment](https://data.huiying.com/fitment/oil-filter/): 13 vehicle references.
-- [Cabin Air Filter fitment](https://data.huiying.com/fitment/cabin-filter/): 13 vehicle references.
-- [Filter Media comparison](https://data.huiying.com/materials/media-comparison/): cellulose vs blended vs synthetic vs nano-fibre.
+- [Fitment Index](https://data.huiying.com/fitment/): reference framework overview + stats (22 brands · 66 models · 330 rows).
+- [Engine Air Filter fitment](https://data.huiying.com/fitment/air-filter/): 66 vehicle references.
+- [Engine Oil Filter fitment](https://data.huiying.com/fitment/oil-filter/): 66 vehicle references.
+- [Cabin Air Filter fitment](https://data.huiying.com/fitment/cabin-filter/): 66 vehicle references.
+- [Fuel Filter fitment](https://data.huiying.com/fitment/fuel-filter/): 66 vehicle references.
+- [Wiper fitment](https://data.huiying.com/fitment/wiper/): 66 vehicle references.
+- [OE Prefix Patterns](https://data.huiying.com/reference/oe-patterns/): OE-number prefix-pattern framework + cross-reference path.
+- [Size Ranges](https://data.huiying.com/reference/size-ranges/): air-filter L×W×H by class + oil-filter thread specs.
+- [Replacement Intervals](https://data.huiying.com/reference/replacement-intervals/): 5 filter types (km/months) + factors + localised suggestions.
+- [Procurement](https://data.huiying.com/reference/procurement/): HS-code reference + MOQ/packing framework.
+- [Filter Media comparison](https://data.huiying.com/materials/media-comparison/): 7 media types compared + material × vehicle-class pairing.
 - [Field Schema](https://data.huiying.com/specification/field-schema/): dataset field definitions.
 - [Data Status Labels](https://data.huiying.com/specification/data-status/): verified / reference / NEEDS_VERIFICATION.
 - [Sources & Disclaimer](https://data.huiying.com/specification/sources/): provenance and honest disclosures.
@@ -37,5 +44,8 @@
 - Per-SKU dimensions, material, efficiency, OE numbers and packing are NOT published by the
   source catalogue; they are marked `NEEDS_VERIFICATION` here, never invented.
 - Vehicle fitment is `reference` only — common applications, not verified OE cross-references.
+- OE-number data is `prefix pattern reference` only — prefixes are shown, never full OE numbers.
+- Size ranges, replacement intervals and HS codes are `reference` / common-knowledge — verify
+  with the manufacturer, customs or the OEM schedule before relying on them.
 - Filter-media efficiency figures are typical framework ranges (`[框架参考]`), not measured SKU specs.
 - Commercial catalog and quotations: huiyingfilter.com (this data site is reference-only).

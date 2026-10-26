@@ -12,7 +12,11 @@ data.huiying/
 ├── requirements.txt            # mkdocs / mkdocs-material
 ├── data/
 │   ├── products.json           # ★ 权威数据集（canonical，与主站 src/data/products.json 字节一致）
-│   └── fitment.json            # ★ 车型适配参考框架（reference-only，非 OE 精确对照）
+│   ├── fitment.json            # ★ 车型适配参考框架（reference-only，非 OE 精确对照）
+│   ├── oe-patterns.json        # OE 号前缀模式框架（prefix-pattern reference）
+│   ├── size-ranges.json        # 尺寸参考区间库（按车辆级别 / 机滤螺纹）
+│   ├── replacement-intervals.json # 替换周期参考数据（五类滤芯）
+│   └── procurement.json        # HS 编码 + MOQ/包装参考框架
 ├── scripts/
 │   └── build-fitment-pages.py  # ★ 从两个 JSON 生成全部数据页（零手工抄写）
 ├── overrides/
@@ -25,9 +29,14 @@ data.huiying/
     │   └── {model}.md          # 10 SKU 参数页（生成）
     ├── fitment/                # 车型适配参考框架（生成）
     │   ├── index.md
-    │   └── {type}.md           # air / oil / cabin 各一
+    │   └── {type}.md           # air / oil / cabin / fuel / wiper 各一
     ├── materials/
-    │   └── media-comparison.md # 滤材对比（手写：纤维素/混纺/合成/纳米）
+    │   └── media-comparison.md # 滤材对比（手写：纤维素/混纺/合成/纳米 + 活性炭/玻纤/驻极）
+    ├── reference/              # 参考数据页（生成）
+    │   ├── oe-patterns.md      # OE 前缀模式框架
+    │   ├── size-ranges.md      # 尺寸区间库
+    │   ├── replacement-intervals.md # 替换周期
+    │   └── procurement.md      # 采购参考
     ├── specification/          # 数据规范（手写）
     │   ├── field-schema.md
     │   ├── data-status.md

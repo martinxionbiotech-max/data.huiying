@@ -15,7 +15,11 @@ Generated pages (zero manual transcription of values):
   - docs/products/{slug}.md              x5 category pages (incl. empty ones)
   - docs/products/{model}.md             x10 SKU parameter pages
   - docs/fitment/index.md                fitment reference index + stats
-  - docs/fitment/{type}.md               x3 vehicle-fitment reference tables
+  - docs/fitment/{type}.md               x5 vehicle-fitment reference tables
+  - docs/reference/oe-patterns.md        OE prefix-pattern reference framework
+  - docs/reference/size-ranges.md        filter size reference ranges
+  - docs/reference/replacement-intervals.md  replacement-interval reference
+  - docs/reference/procurement.md        HS-code + MOQ/packing reference
 
 Honesty discipline: the source product pages contain no per-SKU dimensions,
 material, efficiency, OE or packing data. Every such field is rendered as
@@ -31,6 +35,10 @@ import os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PRODUCTS_PATH = os.path.join(ROOT, "data", "products.json")
 FITMENT_PATH = os.path.join(ROOT, "data", "fitment.json")
+OE_PATH = os.path.join(ROOT, "data", "oe-patterns.json")
+SIZE_PATH = os.path.join(ROOT, "data", "size-ranges.json")
+INTERVALS_PATH = os.path.join(ROOT, "data", "replacement-intervals.json")
+PROCUREMENT_PATH = os.path.join(ROOT, "data", "procurement.json")
 DOCS = os.path.join(ROOT, "docs")
 
 SITE_URL = "https://data.huiying.com"
@@ -50,6 +58,20 @@ GENERATED = META.get("generated", "")
 FIT_META = FIT.get("_meta", {})
 VEHICLES = FIT["vehicles"]
 FILTERS = FIT["filters"]
+
+with open(OE_PATH, "r", encoding="utf-8") as f:
+    OE = json.load(f)
+with open(SIZE_PATH, "r", encoding="utf-8") as f:
+    SIZES = json.load(f)
+with open(INTERVALS_PATH, "r", encoding="utf-8") as f:
+    INTERVALS = json.load(f)
+with open(PROCUREMENT_PATH, "r", encoding="utf-8") as f:
+    PROC = json.load(f)
+
+OE_META = OE.get("_meta", {})
+SIZE_META = SIZES.get("_meta", {})
+INTERVALS_META = INTERVALS.get("_meta", {})
+PROC_META = PROC.get("_meta", {})
 
 # Map category slug -> category object; category code -> slug
 CAT_BY_SLUG = {c["slug"]: c for c in CATS}
@@ -106,9 +128,11 @@ def gen_index():
         "|---|---|---|---|---|",
     ] + rows)
     text = "# SKU Index\n\n"
-    text += "Full index of every SKU in the canonical dataset. Identification fields "
-    "are `verified` (from `data/products.json`); all specification fields (dimensions, "
-    "material, efficiency, OE, packing) are `NEEDS_VERIFICATION`.\n\n"
+    text += (
+        "Full index of every SKU in the canonical dataset. Identification fields "
+        "are `verified` (from `data/products.json`); all specification fields (dimensions, "
+        "material, efficiency, OE, packing) are `NEEDS_VERIFICATION`.\n\n"
+    )
     text += autogen_note()
     text += f"\n**{len(PRODUCTS)} SKUs across {len(CATS)} categories.**\n\n"
     text += f"> **Commercial catalog** — [View all products &amp; request a quote on huiyingfilter.com →]({MAIN_URL}/products/)\n\n"
@@ -156,8 +180,10 @@ def gen_category(slug):
     text += f"> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →]({MAIN_URL}/products/{c['slug']}/)\n\n"
     text += sku_block
     text += "## Data status\n\n"
-    text += "Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. "
-    "See [Data status labels](../specification/data-status.md) for the label definitions.\n"
+    text += (
+        "Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. "
+        "See [Data status labels](../specification/data-status.md) for the label definitions.\n"
+    )
     write(f"products/{slug}.md", text)
 
 
@@ -249,14 +275,18 @@ def gen_fitment_index():
     ] + rows)
 
     text = "# Fitment Reference Index\n\n"
-    text += "Reference-level vehicle-fitment framework for the three core filter types. "
-    "These are **common-application references**, not precise OE cross-references.\n\n"
+    text += (
+        "Reference-level vehicle-fitment framework for the five core filter types. "
+        "These are **common-application references**, not precise OE cross-references.\n\n"
+    )
     text += autogen_note(
         f"Fitment framework `data/fitment.json` v{FIT_META.get('version','0.1.0')} "
         f"({FIT_META.get('generated','')}) — `{FIT_META.get('nature','reference-only')}`."
     )
-    text += f"\n**{len(brands)} brands · {len(VEHICLES)} vehicle models · "
-    f"{total_rows} fitment rows ({len(FILTERS)} filter types).**\n\n"
+    text += (
+        f"\n**{len(brands)} brands · {len(VEHICLES)} vehicle models · "
+        f"{total_rows} fitment rows ({len(FILTERS)} filter types).**\n\n"
+    )
     text += "| Attribute | Value |\n|---|---|\n"
     text += f"| Brands | {', '.join(brands)} |\n"
     text += f"| Regions | {', '.join(regions)} |\n"
@@ -273,6 +303,8 @@ def gen_fitment(flt):
     typical = flt["typical_size_range"]
     path = flt["matching_path"]
     status = flt["data_status"]
+    material = flt.get("material_suggestion", "`reference`")
+    interval = flt.get("replacement_interval", "`reference`")
 
     rows = []
     for v in VEHICLES:
@@ -284,14 +316,15 @@ def gen_fitment(flt):
                 name,
                 f"{v['brand']} ({v['region']})",
                 v["era"],
-                label,
                 typical,
-                path,
+                material,
+                interval,
+                "`reference`",
             ]) + " |"
         )
     table = "\n".join([
-        "| Vehicle model | Brand (region) | Era (reference) | Filter type | Typical size range (reference) | Matching path |",
-        "|---|---|---|---|---|---|",
+        "| Vehicle model | Brand (region) | Era (reference) | Typical size range (reference) | Material suggestion (reference) | Replacement interval (reference) | Status |",
+        "|---|---|---|---|---|---|---|",
     ] + rows)
 
     text = f"# {label} — Fitment Reference\n\n"
@@ -304,6 +337,8 @@ def gen_fitment(flt):
     text += f"> ⚠️ **Data status: `{status}`.** {FIT_META.get('disclaimer','')}\n\n"
     text += f"**Filter type:** {label}\n\n"
     text += f"**Typical size range (reference):** {typical}\n\n"
+    text += f"**Material suggestion (reference):** {material}\n\n"
+    text += f"**Replacement interval (reference):** {interval}\n\n"
     text += f"**Matching path:** {path}\n\n"
     text += f"**{len(VEHICLES)} vehicle references:**\n\n"
     text += table + "\n"
@@ -313,6 +348,163 @@ def gen_fitment(flt):
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+
+# ---------------------------------------------------------------------------
+# 5. OE prefix-pattern reference
+# ---------------------------------------------------------------------------
+
+def gen_oe_patterns():
+    text = "# OE Number Prefix-Pattern Reference\n\n"
+    text += (
+        "Directional OE-number prefix patterns for mainstream vehicle brands. "
+        "Prefixes are **public common knowledge** and are shown at pattern level only — "
+        "a prefix alone is never a valid part match.\n\n"
+    )
+    text += autogen_note(
+        f"OE-pattern dataset `data/oe-patterns.json` v{OE_META.get('version','0.1.0')} — "
+        f"`{OE_META.get('nature','prefix-pattern-reference')}`."
+    )
+    text += "\n"
+    text += f"> ⚠️ **{OE_META.get('nature','prefix-pattern-reference')}** — {OE_META.get('disclaimer','')}\n\n"
+    for flt in OE["filters"]:
+        text += f"## {flt['label']}\n\n"
+        rows = []
+        for p in flt["patterns"]:
+            rows.append(
+                f"| {p['brand']} | `{p['prefix']}` | {p['note']} | "
+                f"`{OE.get('status_label','prefix pattern reference')}` |"
+            )
+        text += "\n".join([
+            "| Brand | Prefix pattern | Note | Status |",
+            "|---|---|---|---|",
+        ] + rows) + "\n\n"
+    text += "## Cross-reference lookup path\n\n"
+    for i, step in enumerate(OE["cross_reference_path"], 1):
+        text += f"{i}. {step}\n"
+    text += "\n## Coverage note\n\n"
+    text += OE["coverage_note"] + "\n\n"
+    write("reference/oe-patterns.md", text)
+
+
+# ---------------------------------------------------------------------------
+# 6. Size reference ranges
+# ---------------------------------------------------------------------------
+
+def gen_size_ranges():
+    text = "# Filter Size Reference Ranges\n\n"
+    text += (
+        "Typical dimensional ranges by vehicle class, plus common oil-filter thread "
+        "specifications. Public common-knowledge ranges for estimation only.\n\n"
+    )
+    text += autogen_note(
+        f"Size dataset `data/size-ranges.json` v{SIZE_META.get('version','0.1.0')} — `reference-only`."
+    )
+    text += "\n"
+    text += f"> ⚠️ **reference-only** — {SIZE_META.get('disclaimer','')}\n\n"
+    text += "## Engine air filter — typical L×W×H by vehicle class\n\n"
+    rows = []
+    for c in SIZES["air_filter_by_class"]:
+        rows.append(
+            f"| {c['label']} (`{c['class']}`) · {c['zh']} | {c['length_mm']} | "
+            f"{c['width_mm']} | {c['height_mm']} | {c['example_vehicles']} | `reference` |"
+        )
+    text += "\n".join([
+        "| Vehicle class | Length (mm) | Width (mm) | Height (mm) | Example vehicles | Status |",
+        "|---|---|---|---|---|---|",
+    ] + rows) + "\n\n"
+    text += "## Oil filter — typical thread specifications\n\n"
+    rows = []
+    for t in SIZES["oil_filter_threads"]:
+        rows.append(f"| `{t['thread']}` | {t['typical']} | `{t['status']}` |")
+    text += "\n".join([
+        "| Thread | Typical applications | Status |",
+        "|---|---|---|",
+    ] + rows) + "\n\n"
+    text += "## Other filter types (typical ranges)\n\n"
+    text += f"- **Cabin filter:** {SIZES['cabin_filter_range']}\n"
+    text += f"- **Fuel filter:** {SIZES['fuel_filter_range']}\n\n"
+    text += "## Notes\n\n"
+    for n in SIZES["notes"]:
+        text += f"- {n}\n"
+    text += "\n"
+    write("reference/size-ranges.md", text)
+
+
+# ---------------------------------------------------------------------------
+# 7. Replacement-interval reference
+# ---------------------------------------------------------------------------
+
+def gen_replacement_intervals():
+    text = "# Filter Replacement-Interval Reference\n\n"
+    text += (
+        "Industry-common replacement intervals for the five filter categories. "
+        "Reference guidance only — always follow the vehicle/engine manufacturer's schedule first.\n\n"
+    )
+    text += autogen_note(
+        f"Intervals dataset `data/replacement-intervals.json` v{INTERVALS_META.get('version','0.1.0')} — `reference-only`."
+    )
+    text += "\n"
+    text += f"> ⚠️ **reference-only** — {INTERVALS_META.get('disclaimer','')}\n\n"
+    text += "## Reference intervals by filter type\n\n"
+    rows = []
+    for i in INTERVALS["intervals"]:
+        rows.append(
+            f"| {i['label']} (`{i['type']}`) | {i['km']} | {i['months']} | {i['note']} | `{i['status']}` |"
+        )
+    text += "\n".join([
+        "| Filter type | Kilometres (reference) | Months (reference) | Note | Status |",
+        "|---|---|---|---|---|",
+    ] + rows) + "\n\n"
+    text += "## Factors affecting replacement interval\n\n"
+    rows = []
+    for f in INTERVALS["factors"]:
+        rows.append(f"| {f['factor']} | {f['effect']} |")
+    text += "\n".join([
+        "| Factor | Effect |",
+        "|---|---|",
+    ] + rows) + "\n\n"
+    text += "## Localised suggestions `小筑 ✍️`\n\n"
+    for s in INTERVALS["suggestions"]:
+        text += f"- **{s['region']}:** {s['text']} _(signed: {s['author']})_\n"
+    text += "\n"
+    write("reference/replacement-intervals.md", text)
+
+
+# ---------------------------------------------------------------------------
+# 8. Procurement reference
+# ---------------------------------------------------------------------------
+
+def gen_procurement():
+    text = "# Procurement Reference\n\n"
+    text += (
+        "HS-code reference and MOQ / packing framework for huiying filters. "
+        "Public common-knowledge HS codes for estimation; MOQ/packing described at framework level.\n\n"
+    )
+    text += autogen_note(
+        f"Procurement dataset `data/procurement.json` v{PROC_META.get('version','0.1.0')} — `reference-only`."
+    )
+    text += "\n"
+    text += f"> ⚠️ **reference-only** — {PROC_META.get('disclaimer','')}\n\n"
+    text += "## HS-code reference\n\n"
+    rows = []
+    for h in PROC["hs_codes"]:
+        rows.append(f"| `{h['code']}` | {h['label']} | {h['applies_to']} | `{h['status']}` |")
+    text += "\n".join([
+        "| HS Code | Description | Applies to | Status |",
+        "|---|---|---|---|",
+    ] + rows) + "\n\n"
+    text += "## MOQ & packing framework\n\n"
+    rows = []
+    for m in PROC["moq_packing"]:
+        rows.append(f"| {m['topic']} | {m['framework']} |")
+    text += "\n".join([
+        "| Topic | Framework |",
+        "|---|---|",
+    ] + rows) + "\n\n"
+    text += f"**Export markets:** {PROC['export_markets']}\n\n"
+    text += f"{PROC['contact']}\n"
+    write("reference/procurement.md", text)
+
 
 def main():
     print(f"Dataset: v{VERSION} ({GENERATED}) — {len(PRODUCTS)} SKUs, {len(CATS)} categories")
@@ -325,6 +517,10 @@ def main():
     gen_fitment_index()
     for flt in FILTERS:
         gen_fitment(flt)
+    gen_oe_patterns()
+    gen_size_ranges()
+    gen_replacement_intervals()
+    gen_procurement()
     print("\nDone.")
 
 

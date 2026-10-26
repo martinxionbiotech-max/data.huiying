@@ -42,6 +42,10 @@ extra_css:
 plugins:
   - search
 
+exclude_docs: |
+  build-report.md
+  expansion-report.md
+
 extra:
   version: 0.1.0
   main_site: https://huiyingfilter.com
@@ -74,7 +78,14 @@ nav:
       - Engine Air Filter: fitment/air-filter.md
       - Engine Oil Filter: fitment/oil-filter.md
       - Cabin Air Filter: fitment/cabin-filter.md
+      - Fuel Filter: fitment/fuel-filter.md
+      - Wiper: fitment/wiper.md
   - Filter Media: materials/media-comparison.md
+  - Reference Data:
+      - OE Prefix Patterns: reference/oe-patterns.md
+      - Size Ranges: reference/size-ranges.md
+      - Replacement Intervals: reference/replacement-intervals.md
+      - Procurement: reference/procurement.md
   - Data Specification:
       - Field Schema: specification/field-schema.md
       - Data Status Labels: specification/data-status.md
