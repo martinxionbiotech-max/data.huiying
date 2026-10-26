@@ -26,7 +26,7 @@ canonical dataset or explicitly marked `NEEDS_VERIFICATION` / `reference`.
 ## Quick facts
 
 - **10 SKUs** across **5 categories** (air filter: 8 · cabin filter: 1 · oil filter: 1 · fuel: 0 · wiper: 0).
-- **66 vehicle models** across **22 brands** in the fitment reference framework (5 filter types × 66 vehicles = 330 rows).
+- **74 vehicle models** across **28 brands** in the fitment reference framework (5 filter types × 74 vehicles = 370 rows), prioritising **overseas-market models** (56 overseas + 18 Chinese domestic).
 - **OE prefix-pattern framework** across 4 filter types (prefix patterns only — full OE numbers are never asserted).
 - Canonical dataset version: `0.1.0` (generated 2026-10-26); fitment framework `0.2.0`.
 

@@ -11,13 +11,14 @@ byte-identical with the main site.
 
 | Dimension | Before | After | Δ |
 |---|---|---|---|
-| Brands | 10 | **22** | +12 |
-| Vehicle models | 13 | **66** | +53 |
+| Brands | 10 | **28** | +18 |
+| Vehicle models | 13 | **74** | +61 |
 | Filter types | 3 | **5** | +2 |
-| Fitment rows | 39 | **330** | +291 |
+| Fitment rows | 39 | **370** | +331 |
 
-- **New brands (12):** Audi, Mazda, Kia, Subaru, Chevrolet, Renault, Peugeot, Skoda,
-  BYD, Roewe, Chery, Changan.
+- **Overseas-market models prioritised**: **56 overseas** models + 18 Chinese domestic.
+- **New brands (18):** Audi, Mazda, Kia, Subaru, Chevrolet, Renault, Peugeot, Skoda,
+  BYD, Roewe, Chery, Changan, Dodge, Jeep, GMC, Volvo, Land Rover, Mitsubishi.
 - **New filter types (2):** fuel filter + wiper → all five categories covered
   (air / oil / cabin / fuel / wiper).
 - Each fitment row now carries: vehicle model / brand (region) / era / typical size
@@ -92,7 +93,7 @@ New dataset `data/procurement.json` → `reference/procurement.md`.
 - [x] Generator idempotent (re-run → identical md5 of all generated `.md`)
 - [x] `mkdocs build` — 0 warnings; 33 HTML pages (32 content + 1 404); 32 sitemap URLs
 - [x] `llms.txt` updated (new fitment + reference pages, 32 links + Notes)
-- [x] Fitment matrix: 22 brands · 66 models · 5 types · 330 rows (all `reference`)
+- [x] Fitment matrix: 28 brands · 74 models (56 overseas + 18 China) · 5 types · 370 rows (all `reference`)
 - [x] OE framework: prefix-pattern only, no full OE numbers
 - [x] `mkdocs.yml` nav updated; report files excluded via `exclude_docs`
 

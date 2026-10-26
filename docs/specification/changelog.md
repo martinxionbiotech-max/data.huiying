@@ -2,8 +2,9 @@
 
 ## v0.2.0 — 2026-10-26 (data expansion)
 
-- **Fitment matrix expansion**: 10 → **22 brands**, 13 → **66 vehicle models**, 3 → **5 filter types** (added fuel filter + wiper), 39 → **330 fitment rows**.
-  - New brands: Audi, Mazda, Kia, Subaru, Chevrolet, Renault, Peugeot, Skoda, BYD, Roewe, Chery, Changan.
+- **Fitment matrix expansion**: 10 → **28 brands**, 13 → **74 vehicle models**, 3 → **5 filter types** (added fuel filter + wiper), 39 → **370 fitment rows**.
+  - Overseas-market models prioritised (**56 overseas** + 18 Chinese domestic).
+  - New overseas brands: Audi, Mazda, Kia, Subaru, Chevrolet, Renault, Peugeot, Skoda, Dodge, Jeep, GMC, Volvo, Land Rover, Mitsubishi.
   - Each row now carries: vehicle model / brand / era / typical size range / material suggestion / replacement interval / status (all `reference`).
 - **OE prefix-pattern framework** (`data/oe-patterns.json` → `reference/oe-patterns.md`): prefix-pattern reference across 4 filter types + cross-reference lookup path + coverage note. Prefixes only; full OE numbers are never asserted.
 - **Size reference ranges** (`data/size-ranges.json` → `reference/size-ranges.md`): air-filter L×W×H by vehicle class (compact / mid-size / SUV / pickup) + oil-filter thread specs (3/4-16 UNF, M18/M20/M22, M26/M27).
