@@ -1,6 +1,6 @@
 # data.huiying — Expansion Report (v0.2.0)
 
-**Date:** 2026-10-26 · **Repo:** `data.huiying` · **Brand:** huiying ·
+**Date:** 2026-10-26 · **Repo:** `data.huiying` · **Brand:** huiying
 **Main site:** huiyingfilter.com · **Deploy domain:** data.huiying.com
 
 Data-content expansion for the huiying bottom-layer data sub-site. Builds on the v0.1.0
@@ -61,7 +61,7 @@ New dataset `data/replacement-intervals.json` → `reference/replacement-interva
 
 - **5 filter types** with km / months reference intervals.
 - **6 factors** affecting replacement interval.
-- **3 localised suggestions** (`小筑 ✍️`): China north-west dust (air filter 5,000–10,000 km),
+- **3 localised suggestions** (` ✍️`): China north-west dust (air filter 5,000–10,000 km),
   south humid (cabin filter before rainy season), diesel fleet (fuel filter 20,000 km).
 
 ## 6. Procurement data expansion

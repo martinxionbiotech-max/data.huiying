@@ -17,7 +17,7 @@
 - **Fitment is reference-only.** Vehicle-model listings are common-application examples,
   not verified OE cross-references. No exact OE number, exact dimension or precise year
   range is asserted.
-- **Typical media figures are framework references** (`[框架参考]`), not measured
+- **Typical media figures are framework references** (`[]`), not measured
   performance of any specific SKU. They are intended for comparison only.
 - **No certification is claimed.** Standards mentioned (ISO / SAE / GB) are test-method
   frameworks, not certificates held by any product.

@@ -16,7 +16,6 @@ theme:
     primary: indigo
     accent: indigo
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.indexes
     - navigation.top
@@ -40,7 +39,8 @@ extra_css:
   - assets/extra.css
 
 plugins:
-  - search
+  - search:
+      lang: [en]
 
 exclude_docs: |
   build-report.md
@@ -91,3 +91,6 @@ nav:
       - Data Status Labels: specification/data-status.md
       - Sources & Disclaimer: specification/sources.md
       - Changelog: specification/changelog.md
+
+hooks:
+  - hooks/build_hook.py

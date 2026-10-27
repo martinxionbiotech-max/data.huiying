@@ -47,5 +47,5 @@
 - OE-number data is `prefix pattern reference` only — prefixes are shown, never full OE numbers.
 - Size ranges, replacement intervals and HS codes are `reference` / common-knowledge — verify
   with the manufacturer, customs or the OEM schedule before relying on them.
-- Filter-media efficiency figures are typical framework ranges (`[框架参考]`), not measured SKU specs.
+- Filter-media efficiency figures are typical framework ranges (`[]`), not measured SKU specs.
 - Commercial catalog and quotations: huiyingfilter.com (this data site is reference-only).

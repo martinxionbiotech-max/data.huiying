@@ -108,7 +108,7 @@ Four additional reference datasets drive the `reference/` pages. All are `refere
 |---|---|---|
 | `intervals[]` | object[] | km / months / note per filter type (`reference`) |
 | `factors[]` | object[] | Factors affecting replacement interval |
-| `suggestions[]` | object[] | Localised subjective suggestions (signed `小筑 ✍️`) |
+| `suggestions[]` | object[] | Localised subjective suggestions (signed ` ✍️`) |
 
 ### `procurement.json`
 
