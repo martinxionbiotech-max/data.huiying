@@ -4,7 +4,7 @@
 > reference-level vehicle-fitment framework and filter reference data (media, OE prefix
 > patterns, size ranges, replacement intervals, procurement). Machine-readable, zero
 > marketing. 10 SKUs across 5 categories; 74 vehicle models across 28 brands in the
-> fitment reference framework (56 overseas-market models + 18 Chinese domestic). Operator: Qinghe County Huiying Filter Manufacturing Co.,
+> fitment reference framework (56 overseas-market models + 18 Chinese domestic). Operator: Qinghe County Huiying Automotive Parts Co.,
 > Ltd. — commercial catalog and inquiries at huiyingfilter.com.
 
 - [Home](https://data.huiying.com/): data-site overview, section index and honest data posture.
