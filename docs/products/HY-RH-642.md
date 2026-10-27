@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits, supplied in Premium Silicone Rubber. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+High-temperature radiator silicone hose in Premium Silicone Rubber. Silicone tolerates the heat cycling of a radiator circuit better than EPDM, and the hose is supplied straight, as 45°/90° elbows or a 180° U-bend to match the layout.
 
 ## Identification
 

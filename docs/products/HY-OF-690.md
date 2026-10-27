@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-An accessory that filters impurities from engine oil through filter paper. It is an engine accessory that protects the lubrication system.
+Spin-on engine oil filter for the passenger and light-commercial service market. Its media traps wear metal and carbon sludge before either can reach the oil pump, journals or bearing shells, and it is replaced at every oil service as a matter of course.
 
 ## Identification
 

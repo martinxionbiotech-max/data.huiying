@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-An accessory that filters impurities and gases through filter paper, keeping in-cabin air clean.
+Cabin air filter that sits between the outside intake and the passenger compartment, holding back dust, pollen and road particulate before they reach occupants or the blower. Frame fit and any activated-carbon option are matched to the model rather than guessed.
 
 ## Identification
 

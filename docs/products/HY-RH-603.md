@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits, supplied in Nitrile Butadiene Rubber (Buna-N). Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+Nitrile butadiene (NBR/Buna-N) rubber hose for oil and fuel transfer circuits. The compound's oil resistance is the reason to choose it over EPDM, and reinforcement plus inner diameter are confirmed per application.
 
 ## Identification
 

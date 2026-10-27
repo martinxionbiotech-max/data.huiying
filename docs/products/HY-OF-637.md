@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, built with High-Grade Filter Paper and PP media. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.
+Motorcycle oil and fuel filter line built with High-Grade Filter Paper and PP, positioned for the small-engine and two-wheeler aftermarket. Thread, seal and media rating are confirmed per application because motorcycle filters carry tight space and flow constraints.
 
 ## Identification
 

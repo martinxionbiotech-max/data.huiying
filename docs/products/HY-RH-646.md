@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+Auto black elbow EPDM rubber hose for coolant elbow and radiator pipe circuits. EPDM's glycol resistance suits the coolant loop, and the elbow bend is matched to the engine bay routing per application.
 
 ## Identification
 

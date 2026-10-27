@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+High-temperature radiator hose in auto-elbow silicone for car cooling circuits. The silicone compound holds up to the heat of the cooling loop, and the elbow geometry is supplied to the routing the vehicle requires.
 
 ## Identification
 

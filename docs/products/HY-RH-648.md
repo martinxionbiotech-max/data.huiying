@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+Reinforced silicone turbo and heater hose in a 90-degree elbow form. The reinforcement holds pressure and vacuum, silicone holds heat, and the 90° bend matches the turbo-to-intercooler or heater routing per application.
 
 ## Identification
 

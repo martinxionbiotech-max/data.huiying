@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits, supplied in Silicone, EPDM, NBR. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+Braided silicone heater and vacuum hose, available in Silicone, EPDM and NBR. The braided reinforcement resists collapse under vacuum, which is what a heater or vacuum line needs; compound and inner diameter are confirmed per circuit.
 
 ## Identification
 

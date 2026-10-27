@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits, supplied in Premium EPDM (Ethylene Propylene Diene Monomer). Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+EPDM rubber elbow hose in premium EPDM for coolant and air circuits. EPDM resists water, glycol and heat ageing, and the elbow form is supplied to the bend angle the circuit requires — compound, reinforcement and bore are confirmed per application.
 
 ## Identification
 

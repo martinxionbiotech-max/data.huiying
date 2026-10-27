@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.
+Intake air filter for passenger and light-commercial applications where bore and ring wear are the dominant service risk. We match the panel or cylindrical dimensions and the seal style per application instead of judging by outer size alone.
 
 ## Identification
 

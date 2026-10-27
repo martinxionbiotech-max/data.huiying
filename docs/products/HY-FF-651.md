@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Fuel filter that removes particulate and free water before fuel reaches the injectors and high-pressure pump. On common-rail diesel the filtration rating and any water-separation capability are the procurement checks that protect injectors from premature wear.
+Diesel fuel filter water separator for the common-rail aftermarket. Particulate and free-water removal are confirmed per application — the filtration rating and drain arrangement protect injectors and the high-pressure pump from premature wear.
 
 ## Identification
 

@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.
+Engine air filter positioned for intake-air cleanliness across a wide passenger fleet. Because a near-match by eye is not a match, we confirm the element geometry and media specification against the air-cleaner housing rather than relying on appearance.
 
 ## Identification
 

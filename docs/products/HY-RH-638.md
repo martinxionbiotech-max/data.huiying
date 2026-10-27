@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits, supplied in Premium Silicone. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+Reinforced silicone turbo and heater hose in Premium Silicone. Silicone holds its shape at higher heat than EPDM, and the reinforcement lets it hold pressure and vacuum without collapsing — compound, reinforcement and bore are confirmed per application.
 
 ## Identification
 

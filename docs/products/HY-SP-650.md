@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Spark plug for gasoline ignition. Heat range, thread reach and electrode gap are the details that must match the engine, so the exact application is confirmed per model before ordering.
+Gasoline engine spark plug for the ignition aftermarket. Heat range, thread reach and electrode gap are the three details that must match the engine, so the exact application is confirmed per model before ordering.
 
 ## Identification
 

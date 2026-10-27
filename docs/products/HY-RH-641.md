@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits, supplied in NBR / Silicone / EPDM. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+Oil-resistant NBR automotive fuel hose, available in NBR, Silicone and EPDM. NBR's oil and fuel resistance is what makes it the fuel-line choice, with reinforcement and inner diameter confirmed per application.
 
 ## Identification
 

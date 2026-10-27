@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.
+Black hydraulic, oil and fuel hose for high-pressure fuel line duty. Compound, reinforcement and inner diameter are confirmed per application, because a hose that hardens or swells under oil is a premature-failure risk on the end vehicle.
 
 ## Identification
 

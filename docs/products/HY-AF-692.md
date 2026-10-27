@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.
+Panel-type engine air filter that keeps abrasive dust out of the combustion chamber, protecting pistons, rings and bores from the wear that shortens engine life. Element dimensions, pleat count and the seal design are confirmed by OE or cross-reference before quoting.
 
 ## Identification
 

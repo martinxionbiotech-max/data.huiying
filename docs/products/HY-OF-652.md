@@ -9,7 +9,7 @@
 
 ## Description (source site)
 
-Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.
+Heavy-duty truck oil filter for extended-drain commercial fleets. Canister integrity, media capacity and bypass-valve setting are confirmed per application, since a truck filter runs far longer between services than a passenger filter.
 
 ## Identification
 
