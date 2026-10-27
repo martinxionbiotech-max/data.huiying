@@ -2,7 +2,7 @@
 
 Typical dimensional ranges by vehicle class, plus common oil-filter thread specifications. Public common-knowledge ranges for estimation only.
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.1.0 (2026-10-26). Do not edit values by hand — edit the dataset, then rebuild. Size dataset `data/size-ranges.json` v0.2.0 — `reference-only`.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild. Size dataset `data/size-ranges.json` v0.2.0 — `reference-only`.
 
 > ⚠️ **reference-only** — These are typical REFERENCE ranges, not measurements of any specific SKU. They are for planning and estimation only; never use them to confirm a part. Always match the exact part by OE / cross-reference number.
 
@@ -10,10 +10,10 @@ Typical dimensional ranges by vehicle class, plus common oil-filter thread speci
 
 | Vehicle class | Length (mm) | Width (mm) | Height (mm) | Example vehicles | Status |
 |---|---|---|---|---|---|
-| Compact / C-segment (`compact`)| 230–280 | 140–180 | 25–45 | Corolla, Civic, Lavida, Focus, Elantra, Sylphy, Emgrand | `reference` |
-| Mid-size / D-segment (`mid-size`)| 250–310 | 160–200 | 30–50 | Camry, Accord, Passat, 3 Series, C-Class, A4, Malibu | `reference` |
-| SUV / Crossover (`suv`) · SUV| 250–330 | 170–220 | 35–60 | RAV4, CR-V, Tiguan, X3, GLC, Q5, Haval H6 | `reference` |
-| Pickup / Light truck (`pickup`) ·| 270–350 | 180–230 | 40–70 | F-150, Ranger, Poer | `reference` |
+| Compact / C-segment (`compact`) · 紧凑型 | 230–280 | 140–180 | 25–45 | Corolla, Civic, Lavida, Focus, Elantra, Sylphy, Emgrand | `reference` |
+| Mid-size / D-segment (`mid-size`) · 中型 | 250–310 | 160–200 | 30–50 | Camry, Accord, Passat, 3 Series, C-Class, A4, Malibu | `reference` |
+| SUV / Crossover (`suv`) · SUV / 跨界 | 250–330 | 170–220 | 35–60 | RAV4, CR-V, Tiguan, X3, GLC, Q5, Haval H6 | `reference` |
+| Pickup / Light truck (`pickup`) · 皮卡 / 轻卡 | 270–350 | 180–230 | 40–70 | F-150, Ranger, Poer | `reference` |
 
 ## Oil filter — typical thread specifications
 

@@ -78,6 +78,14 @@ CAT_BY_SLUG = {c["slug"]: c for c in CATS}
 CAT_BY_CODE = {c["code"]: c for c in CATS}
 
 
+def spec_status(p):
+    """Per-SKU spec status: verified-by-source when the source catalog carries
+    OE/material/fitment data, otherwise NEEDS_VERIFICATION."""
+    if p.get("oeNumbers") or p.get("material") or p.get("crossReference") or p.get("fitment"):
+        return "`verified-by-source`"
+    return "`NEEDS_VERIFICATION`"
+
+
 def write(path, text):
     full = os.path.join(DOCS, path)
     os.makedirs(os.path.dirname(full), exist_ok=True)
@@ -120,7 +128,7 @@ def gen_index():
                 f"{c['name']} (`{c['code']}`)",
                 p["name"],
                 f"`{p['sourceId']}`",
-                "`NEEDS_VERIFICATION`",
+                spec_status(p),
             ]) + " |"
         )
     table = "\n".join([
@@ -130,8 +138,9 @@ def gen_index():
     text = "# SKU Index\n\n"
     text += (
         "Full index of every SKU in the canonical dataset. Identification fields "
-        "are `verified` (from `data/products.json`); all specification fields (dimensions, "
-        "material, efficiency, OE, packing) are `NEEDS_VERIFICATION`.\n\n"
+        "are `verified` (from `data/products.json`). Per-SKU specification fields "
+        "(OE, material, fitment, cross-reference) are `verified-by-source` where the "
+        "congbenfilter.com catalog publishes them, and `NEEDS_VERIFICATION` otherwise.\n\n"
     )
     text += autogen_note()
     text += f"\n**{len(PRODUCTS)} SKUs across {len(CATS)} categories.**\n\n"
@@ -156,7 +165,7 @@ def gen_category(slug):
                     link,
                     p["name"],
                     f"`{p['sourceId']}`",
-                    "`NEEDS_VERIFICATION`",
+                    spec_status(p),
                 ]) + " |"
             )
         table = "\n".join([
@@ -194,6 +203,26 @@ def gen_category(slug):
 def gen_sku(p):
     c = cat_of(p)
     desc = p.get("desc", "").strip()
+    oe = p.get("oeNumbers") or []
+    crossref = p.get("crossReference")
+    material = p.get("material")
+    dimensions = p.get("dimensions")
+    fitment = p.get("fitment") or {}
+    src = p.get("source") or {}
+
+    def cell(value, status="verified-by-source"):
+        return f"`{value}`" if value else "`—`", ("`verified-by-source`" if value else "`NEEDS_VERIFICATION`")
+
+    oe_v, oe_s = cell(" / ".join(oe) if oe else None)
+    cr_v, cr_s = cell(crossref)
+    mat_v, mat_s = cell(material)
+    dim_v, dim_s = cell(dimensions)
+    fit_val = None
+    if fitment.get("brand"):
+        fit_val = fitment["brand"] + (" " + ", ".join(fitment.get("models") or []) if fitment.get("models") else "")
+        if fitment.get("engine"):
+            fit_val += f" (engine: {fitment['engine']})"
+    fit_v, fit_s = cell(fit_val, status="reference")
 
     ident = "\n".join([
         "| Field | Value | Status |",
@@ -209,11 +238,12 @@ def gen_sku(p):
     spec = "\n".join([
         "| Field | Value | Status |",
         "|---|---|---|",
-        "| Dimensions (L×W×H / OD×ID×H) | `—` | `NEEDS_VERIFICATION` |",
-        "| Filter media material | `—` | `NEEDS_VERIFICATION` |",
+        f"| OE number(s) | {oe_v} | {oe_s} |",
+        f"| Cross-reference (competitor) | {cr_v} | {cr_s} |",
+        f"| Material | {mat_v} | {mat_s} |",
+        f"| Dimensions (L×W×H / OD×ID×H) | {dim_v} | {dim_s} |",
+        f"| Fitment | {fit_v} | {fit_s} |",
         "| Filtration efficiency | `—` | `NEEDS_VERIFICATION` |",
-        "| OE number(s) | `—` | `NEEDS_VERIFICATION` |",
-        "| Cross-reference (competitor) | `—` | `NEEDS_VERIFICATION` |",
         "| Packing / carton qty | `—` | `NEEDS_VERIFICATION` |",
         "| HS Code | `—` | `NEEDS_VERIFICATION` |",
     ])
@@ -223,6 +253,10 @@ def gen_sku(p):
         "air-filter": "air-filter",
         "oil-filter": "oil-filter",
         "cabin-filter": "cabin-filter",
+        "fuel-filter": "fuel-filter",
+        "brake-pads": "brake-pads",
+        "spark-plugs": "spark-plugs",
+        "rubber-hoses": "rubber-hoses",
     }.get(p["category"])
 
     fit_block = ""
@@ -246,10 +280,17 @@ def gen_sku(p):
     text += (desc if desc else "`—`") + "\n\n"
     text += "## Identification\n\n" + ident + "\n"
     text += "## Parameters\n\n"
-    text += "The source product pages do not publish per-SKU dimensions, material, "
-    "efficiency, OE or packing data. Every specification below is therefore "
-    "`NEEDS_VERIFICATION` — request the value from Huiying before quoting.\n\n"
+    text += (
+        "OE numbers, cross-references, material, dimensions and fitment are "
+        "`verified-by-source` where the source catalog (congbenfilter.com) publishes "
+        "them, and `NEEDS_VERIFICATION` otherwise — request the value from Huiying "
+        "before quoting.\n\n"
+    )
     text += spec + "\n"
+    # source attribution
+    if src.get("name") or src.get("status"):
+        src_line = f"| Source | {src.get('name', '—')} · status `{src.get('status', '—')}` | `{src.get('status', 'reference')}` |"
+        text += "\n## Source\n\n| Field | Value | Status |\n|---|---|---|\n" + src_line + "\n"
     text += fit_block
     write(f"products/{p['model']}.md", text)
 
@@ -509,6 +550,17 @@ def gen_procurement():
 def main():
     print(f"Dataset: v{VERSION} ({GENERATED}) — {len(PRODUCTS)} SKUs, {len(CATS)} categories")
     print(f"Fitment: v{FIT_META.get('version','0.1.0')} — {len(VEHICLES)} vehicles, {len(FILTERS)} filter types\n")
+    # remove stale auto-generated pages so renamed/removed SKUs don't linger
+    for d, suffix in [("products", ".md"), ("fitment", ".md")]:
+        dp = os.path.join(DOCS, d)
+        if os.path.isdir(dp):
+            for fn in os.listdir(dp):
+                if fn.endswith(suffix):
+                    os.remove(os.path.join(dp, fn))
+    for ref in ["reference/oe-patterns.md", "reference/size-ranges.md", "reference/replacement-intervals.md", "reference/procurement.md"]:
+        rp = os.path.join(DOCS, ref)
+        if os.path.isfile(rp):
+            os.remove(rp)
     gen_index()
     for c in CATS:
         gen_category(c["slug"])

@@ -1,11 +1,11 @@
 {
   "_meta": {
     "title": "huiying Canonical Product Dataset",
-    "version": "0.1.0",
-    "generated": "2026-10-26",
+    "version": "0.2.0",
+    "generated": "2026-10-27",
     "brand": "huiying",
-    "source": "source site (brand renamed to huiying)",
-    "purpose": "Single source of truth for the huiying main site product pages."
+    "source": "huiying + congbenfilter.com (merged)",
+    "purpose": "Single source of truth for the huiying main site product pages (huiying brand + congben catalog)."
   },
   "categories": [
     {
@@ -42,6 +42,27 @@
       "code": "wb",
       "icon": "/images/d8dc5304-3276-4f48-95dd-1e16fa3e4e23.png",
       "desc": "Wiper blades and related wiper products for clear visibility."
+    },
+    {
+      "slug": "brake-pads",
+      "name": "Brake Pads",
+      "code": "bp",
+      "desc": "Ceramic and semi-metallic brake pads for passenger cars, matched by OE number.",
+      "icon": "/images/congben/e69a383eeb894ae8.webp"
+    },
+    {
+      "slug": "spark-plugs",
+      "name": "Spark Plugs",
+      "code": "sp",
+      "desc": "Ignition spark plugs for gasoline engines, matched by OE and engine application.",
+      "icon": "/images/congben/2ef777a7484fa06f.webp"
+    },
+    {
+      "slug": "rubber-hoses",
+      "name": "Rubber Hoses",
+      "code": "rh",
+      "desc": "EPDM, NBR and silicone hoses for cooling, fuel and air-transfer circuits, custom and OE-matched.",
+      "icon": "/images/congben/c221ff4ffc6f5a33.webp"
     }
   ],
   "products": [
@@ -53,7 +74,9 @@
       "model": "HY-OF-690",
       "desc": "An accessory that filters impurities from engine oil through filter paper. It is an engine accessory that protects the lubrication system.",
       "image": "/images/6a2fe246-680d-466b-8ec1-301773bc3506.jpg",
-      "gallery": ["/images/6a2fe246-680d-466b-8ec1-301773bc3506.jpg"]
+      "gallery": [
+        "/images/6a2fe246-680d-466b-8ec1-301773bc3506.jpg"
+      ]
     },
     {
       "slug": "cf-691",
@@ -63,7 +86,9 @@
       "model": "HY-CF-691",
       "desc": "An accessory that filters impurities and gases through filter paper, keeping in-cabin air clean.",
       "image": "/images/b10a3bb2-030f-4546-ad8e-345129cba1ee.jpg",
-      "gallery": ["/images/b10a3bb2-030f-4546-ad8e-345129cba1ee.jpg"]
+      "gallery": [
+        "/images/b10a3bb2-030f-4546-ad8e-345129cba1ee.jpg"
+      ]
     },
     {
       "slug": "af-692",
@@ -73,7 +98,9 @@
       "model": "HY-AF-692",
       "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
       "image": "/images/44f1165c-0b5b-4af2-9b3f-fce56e89ff63.jpg",
-      "gallery": ["/images/44f1165c-0b5b-4af2-9b3f-fce56e89ff63.jpg"]
+      "gallery": [
+        "/images/44f1165c-0b5b-4af2-9b3f-fce56e89ff63.jpg"
+      ]
     },
     {
       "slug": "af-693",
@@ -83,7 +110,9 @@
       "model": "HY-AF-693",
       "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
       "image": "/images/5549999c-f7bf-479f-952c-9b57973a8af3.jpg",
-      "gallery": ["/images/5549999c-f7bf-479f-952c-9b57973a8af3.jpg"]
+      "gallery": [
+        "/images/5549999c-f7bf-479f-952c-9b57973a8af3.jpg"
+      ]
     },
     {
       "slug": "af-698",
@@ -93,7 +122,9 @@
       "model": "HY-AF-698",
       "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
       "image": "/images/f5fb9a94-ba63-4c1e-bfc3-f649ef04fab2.jpg",
-      "gallery": ["/images/f5fb9a94-ba63-4c1e-bfc3-f649ef04fab2.jpg"]
+      "gallery": [
+        "/images/f5fb9a94-ba63-4c1e-bfc3-f649ef04fab2.jpg"
+      ]
     },
     {
       "slug": "af-699",
@@ -103,7 +134,9 @@
       "model": "HY-AF-699",
       "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
       "image": "/images/5e60e81c-72b8-4b7a-a41b-41b595c20329.jpg",
-      "gallery": ["/images/5e60e81c-72b8-4b7a-a41b-41b595c20329.jpg"]
+      "gallery": [
+        "/images/5e60e81c-72b8-4b7a-a41b-41b595c20329.jpg"
+      ]
     },
     {
       "slug": "af-700",
@@ -113,7 +146,9 @@
       "model": "HY-AF-700",
       "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
       "image": "/images/eebd9d62-1f5b-4c05-9574-9d8ce7604cbb.jpg",
-      "gallery": ["/images/eebd9d62-1f5b-4c05-9574-9d8ce7604cbb.jpg"]
+      "gallery": [
+        "/images/eebd9d62-1f5b-4c05-9574-9d8ce7604cbb.jpg"
+      ]
     },
     {
       "slug": "af-701",
@@ -123,7 +158,9 @@
       "model": "HY-AF-701",
       "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
       "image": "/images/658c68a8-ef1e-4ace-bd56-7e74f5b7583e.jpg",
-      "gallery": ["/images/658c68a8-ef1e-4ace-bd56-7e74f5b7583e.jpg"]
+      "gallery": [
+        "/images/658c68a8-ef1e-4ace-bd56-7e74f5b7583e.jpg"
+      ]
     },
     {
       "slug": "af-702",
@@ -133,7 +170,9 @@
       "model": "HY-AF-702",
       "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
       "image": "/images/7ae94ce9-09fa-42eb-bfc2-d76335c09b7c.jpg",
-      "gallery": ["/images/7ae94ce9-09fa-42eb-bfc2-d76335c09b7c.jpg"]
+      "gallery": [
+        "/images/7ae94ce9-09fa-42eb-bfc2-d76335c09b7c.jpg"
+      ]
     },
     {
       "slug": "af-703",
@@ -143,7 +182,1836 @@
       "model": "HY-AF-703",
       "desc": "An accessory that filters impurities and gases through filter paper. It is an engine accessory protecting the intake system.",
       "image": "/images/af7c5e9c-3e08-474f-acfc-290640d53816.jpg",
-      "gallery": ["/images/af7c5e9c-3e08-474f-acfc-290640d53816.jpg"]
+      "gallery": [
+        "/images/af7c5e9c-3e08-474f-acfc-290640d53816.jpg"
+      ]
+    },
+    {
+      "slug": "oil-filter-90915-yzze1",
+      "name": "Toyota Oil Filter 90915YZZE1",
+      "category": "oil-filter",
+      "model": "90915-YZZE1",
+      "sourceId": 23029,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, built with High-Density Filtration Media, listed for Toyota RAV4, Camry, Corolla, Prius, matched to OE 90915-YZZE1, 90915-YZZJ1 (cross-reference: 90915-10003, 90915-10001, 90915-YZZF2). Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/2fbb0f7760f59e56.webp",
+      "gallery": [
+        "/images/congben/2fbb0f7760f59e56.webp",
+        "/images/congben/3df87a45c849b693.webp",
+        "/images/congben/db40781edbf99c61.webp",
+        "/images/congben/e7292b6634981291.webp",
+        "/images/congben/2f34fdc8ef528ab6.webp",
+        "/images/congben/a6c6c1d3eeb3a040.webp",
+        "/images/congben/a37182815a6221e1.webp",
+        "/images/congben/bf9b624224871434.webp",
+        "/images/congben/3debb1c357c25cb9.webp",
+        "/images/congben/151c58231bf9cd43.webp",
+        "/images/congben/cb5fc57fcf8bb88b.webp",
+        "/images/congben/10015be91d820b9d.webp",
+        "/images/congben/0c7dd8158adc9e45.webp",
+        "/images/congben/4ed97d85f029cae2.webp",
+        "/images/congben/92e1b447f0ad2b41.webp",
+        "/images/congben/39af2382b4bd2c97.webp",
+        "/images/congben/3adecd968536efb9.webp",
+        "/images/congben/8679c458f107877d.webp"
+      ],
+      "oeNumbers": [
+        "90915-YZZE1",
+        "90915-YZZJ1"
+      ],
+      "crossReference": "90915-10003, 90915-10001, 90915-YZZF2",
+      "material": "High-Density Filtration Media",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [
+          "RAV4",
+          "Camry",
+          "Corolla",
+          "Prius"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/premium-toyota-oil-filter-90915yzze1-factory-suppliers-from-china.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "fuel-filter-500fh",
+      "name": "500FGFH Diesel Fuel Water Separator",
+      "category": "fuel-filter",
+      "model": "500FH",
+      "sourceId": 23004,
+      "desc": "Fuel filter that removes particulate and free water before fuel reaches the injectors and high-pressure pump, matched to OE 500FH, 500FG. On common-rail diesel the filtration rating and any water-separation capability are the procurement checks that protect injectors from premature wear.",
+      "image": "/images/congben/9531530e1cd3e0a3.webp",
+      "gallery": [
+        "/images/congben/9531530e1cd3e0a3.webp",
+        "/images/congben/96907399af873f87.webp",
+        "/images/congben/3c0abf06fbe5d3ff.webp",
+        "/images/congben/020017fd942983e9.webp",
+        "/images/congben/eaa47151d3fcad29.webp"
+      ],
+      "oeNumbers": [
+        "500FH",
+        "500FG"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/500fgfh-diesel-fuel-water-separator-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-premium-nbr-nitrile-rubber-hose-china-factory-and",
+      "name": "NBR Nitrile Rubber Hose and",
+      "category": "rubber-hoses",
+      "model": "HY-RH-603",
+      "sourceId": 22986,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits, supplied in Nitrile Butadiene Rubber (Buna-N). Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/c221ff4ffc6f5a33.webp",
+      "gallery": [
+        "/images/congben/c221ff4ffc6f5a33.webp",
+        "/images/congben/c52443406c8f14e2.webp",
+        "/images/congben/cfde3242d4a09250.webp",
+        "/images/congben/7bc88a945e887dc4.webp",
+        "/images/congben/7935a2fd59b1df9a.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": "Nitrile Butadiene Rubber (Buna-N)",
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/premium-nbr-nitrile-rubber-hose-china-factory-and-professional-suppliers.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-17801-30070",
+      "name": "1780130070 Car Air Intake Filter and",
+      "category": "air-filter",
+      "model": "17801-30070",
+      "sourceId": 22975,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with PP and Non-woven fabric media, matched to OE 17801-30070 (cross-reference: 1780130070). Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/64c3903b43abb874.webp",
+      "gallery": [
+        "/images/congben/64c3903b43abb874.webp",
+        "/images/congben/8c96dc4e7508d94b.webp",
+        "/images/congben/d19a1d8e3a375ec7.webp",
+        "/images/congben/0a2c6993b931d3c1.webp",
+        "/images/congben/40d5c03ca7fcf11f.webp",
+        "/images/congben/8287c1f171e37ff8.webp",
+        "/images/congben/5ca41da9be6ab932.webp",
+        "/images/congben/19dc04d61a24607b.webp",
+        "/images/congben/04f3687398a4b996.webp",
+        "/images/congben/7fb020d6f72fc606.webp",
+        "/images/congben/626a056caad6b3d3.webp",
+        "/images/congben/15ea0121bb78d6b8.webp",
+        "/images/congben/98b89169e263e054.webp",
+        "/images/congben/b64bc59cfbab03e7.webp"
+      ],
+      "oeNumbers": [
+        "17801-30070"
+      ],
+      "crossReference": "1780130070",
+      "material": "PP, Non-woven fabric",
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/1780130070-car-air-intake-filter-china-factory-and-reliable-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-17801-21050",
+      "name": "Car Engine Air Filter 1780121050 Toyota Corolla",
+      "category": "air-filter",
+      "model": "17801-21050",
+      "sourceId": 22964,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with Non-woven fabric media, listed for Toyota Corolla, Avensis, Auris, matched to OE 17801-21050 (cross-reference: 17801-0M020, 17801-0T020, 17801-0T030). Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/6b70ffcd1b5eca9f.webp",
+      "gallery": [
+        "/images/congben/6b70ffcd1b5eca9f.webp",
+        "/images/congben/afbde4497b8a901c.webp",
+        "/images/congben/18b8472a7e99572f.webp",
+        "/images/congben/2ac3e977a5694654.webp",
+        "/images/congben/ea57e5a4981943f7.webp",
+        "/images/congben/c3d4f23326403990.webp",
+        "/images/congben/8287c1f171e37ff8.webp",
+        "/images/congben/5ca41da9be6ab932.webp",
+        "/images/congben/19dc04d61a24607b.webp",
+        "/images/congben/04f3687398a4b996.webp",
+        "/images/congben/7fb020d6f72fc606.webp",
+        "/images/congben/626a056caad6b3d3.webp",
+        "/images/congben/15ea0121bb78d6b8.webp",
+        "/images/congben/98b89169e263e054.webp",
+        "/images/congben/b64bc59cfbab03e7.webp"
+      ],
+      "oeNumbers": [
+        "17801-21050"
+      ],
+      "crossReference": "17801-0M020, 17801-0T020, 17801-0T030",
+      "material": "Non-woven fabric",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [
+          "Corolla",
+          "Avensis",
+          "Auris"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/car-engine-air-filter-1780121050-for-toyota-corolla-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-lf14000nn",
+      "name": "LF14000NN Heavy Duty Truck Engine Oil Filter",
+      "category": "oil-filter",
+      "model": "LF14000NN",
+      "sourceId": 22942,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, matched to OE LF14000NN. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/c9d155545d7a9dbe.webp",
+      "gallery": [
+        "/images/congben/c9d155545d7a9dbe.webp",
+        "/images/congben/9299cc738e63353b.webp",
+        "/images/congben/44e1d672b66bd54f.webp",
+        "/images/congben/a2565cb7900eb432.webp",
+        "/images/congben/7617de6c3d838e48.webp",
+        "/images/congben/c2ae93ab95ab451a.webp"
+      ],
+      "oeNumbers": [
+        "LF14000NN"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/lf14000nn-heavy-duty-truck-engine-oil-filter-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-15400-plc-004",
+      "name": "of Honda Engine Oil Filter 15400PLC004 15400PLC003",
+      "category": "oil-filter",
+      "model": "15400-PLC-004",
+      "sourceId": 22921,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, listed for Honda, matched to OE 15400-PLC-004, 15400-PLC-003 (cross-reference: 15400-PLM-A02, 15400-RTA-003, 15400-PH1-003, etc.). Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/a40ba1d3a620cb30.webp",
+      "gallery": [
+        "/images/congben/a40ba1d3a620cb30.webp",
+        "/images/congben/b15093e6ba637121.webp",
+        "/images/congben/5c044c48b484fce2.webp",
+        "/images/congben/78e69dff077c2488.webp"
+      ],
+      "oeNumbers": [
+        "15400-PLC-004",
+        "15400-PLC-003"
+      ],
+      "crossReference": "15400-PLM-A02, 15400-RTA-003, 15400-PH1-003, etc.",
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Honda",
+        "models": [],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/china-factory-suppliers-of-honda-engine-oil-filter-15400plc004-15400plc003.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "fuel-filter-ff5507",
+      "name": "Diesel Fuel Filter FF5507",
+      "category": "fuel-filter",
+      "model": "FF5507",
+      "sourceId": 22911,
+      "desc": "Fuel filter that removes particulate before fuel reaches the injectors and high-pressure pump, matched to OE FF5507. On common-rail diesel the filtration rating and any water-separation capability are the procurement checks that protect injectors from premature wear.",
+      "image": "/images/congben/1f21b1e685a301ff.webp",
+      "gallery": [
+        "/images/congben/1f21b1e685a301ff.webp",
+        "/images/congben/8364d4ae1b0ba609.webp",
+        "/images/congben/49d7460c0517b5ee.webp",
+        "/images/congben/168bba7232463855.webp",
+        "/images/congben/49e2455abf684af7.webp",
+        "/images/congben/795735dbb23e2aa3.webp",
+        "/images/congben/c2ae93ab95ab451a.webp"
+      ],
+      "oeNumbers": [
+        "FF5507"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/high-performance-diesel-fuel-filter-ff5507-from-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-03-42776-010",
+      "name": "Truck Engine Air Filter P320510 0342776010",
+      "category": "air-filter",
+      "model": "03-42776-010",
+      "sourceId": 22901,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, listed for Freightliner Cascadia, Detroit Diesel, matched to OE 03-42776-010, 0342776010 (cross-reference: P320510 / 91559 / 997879). Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/b9661854cbadd9f6.webp",
+      "gallery": [
+        "/images/congben/b9661854cbadd9f6.webp",
+        "/images/congben/1066e0ae49e65314.webp",
+        "/images/congben/c9dca6e61e69384e.webp",
+        "/images/congben/0948586b0b399e49.webp",
+        "/images/congben/1f3ae2fbb28c284e.webp",
+        "/images/congben/3c2631672ce1d780.webp",
+        "/images/congben/2ecbb44760b320b1.webp",
+        "/images/congben/36d6db66be407d89.webp",
+        "/images/congben/afe4fab0ee51c34c.webp"
+      ],
+      "oeNumbers": [
+        "03-42776-010",
+        "0342776010"
+      ],
+      "crossReference": "P320510 / 91559 / 997879",
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Freightliner",
+        "models": [
+          "Cascadia",
+          "Detroit Diesel"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/truck-engine-air-filter-p320510-0342776010-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-17127525023",
+      "name": "EPDM Upper Radiator Hose 17127525023 BMW Parts",
+      "category": "rubber-hoses",
+      "model": "17127525023",
+      "sourceId": 22889,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits, supplied in High-Grade EPDM Rubber, listed for BMW, matched to OE 17127525023. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/c4ad907db277ae0f.webp",
+      "gallery": [
+        "/images/congben/c4ad907db277ae0f.webp",
+        "/images/congben/b7b41b3b8b3a84e6.webp",
+        "/images/congben/5a61f38f7e6c0aa4.webp",
+        "/images/congben/c6a909f79fc6d908.webp",
+        "/images/congben/92cca8fba6b86a56.webp",
+        "/images/congben/361fba5db3924736.webp",
+        "/images/congben/6a4571849b0c34a4.webp",
+        "/images/congben/bbdc8c5b499d7099.webp"
+      ],
+      "oeNumbers": [
+        "17127525023"
+      ],
+      "crossReference": null,
+      "material": "High-Grade EPDM Rubber",
+      "dimensions": null,
+      "fitment": {
+        "brand": "BMW",
+        "models": [],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/premium-epdm-upper-radiator-hose-17127525023-bmw-parts-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-re596317",
+      "name": "RE596317 Air Filter John Deere ESeries",
+      "category": "air-filter",
+      "model": "RE596317",
+      "sourceId": 22881,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, listed for John Deere E-, matched to OE RE596317, RE596318. Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/9687b4677f515e46.webp",
+      "gallery": [
+        "/images/congben/9687b4677f515e46.webp",
+        "/images/congben/fff5c0e12af75441.webp",
+        "/images/congben/1ff6c922abb78317.webp",
+        "/images/congben/161e4a3defd42218.webp",
+        "/images/congben/7c7e497db968ad92.webp"
+      ],
+      "oeNumbers": [
+        "RE596317",
+        "RE596318"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "John Deere",
+        "models": [
+          "E-"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/re596317-air-filter-for-john-deere-eseries-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "brake-pads-04465-04030",
+      "name": "Ceramic Front Brake Pads 044650K070 Toyota",
+      "category": "brake-pads",
+      "model": "04465-04030",
+      "sourceId": 22874,
+      "desc": "Ceramic front brake pads, listed for Toyota, matched to OE 04465-04030, 04465-0K020 (cross-reference: 04465-04030, 04465-0K020). Friction formulation, backing-plate fit and the completeness of the noise/hardware kit determine pedal feel, disc life and return rate, so the full set contents are confirmed per application.",
+      "image": "/images/congben/e69a383eeb894ae8.webp",
+      "gallery": [
+        "/images/congben/e69a383eeb894ae8.webp",
+        "/images/congben/58364e5f51252ded.webp",
+        "/images/congben/3adbb542f519cd04.webp",
+        "/images/congben/830f6b2404620b3b.webp",
+        "/images/congben/69790a0d807e868a.webp"
+      ],
+      "oeNumbers": [
+        "04465-04030",
+        "04465-0K020"
+      ],
+      "crossReference": "04465-04030, 04465-0K020",
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/premium-ceramic-front-brake-pads-044650k070-for-toyota-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-35330-08010",
+      "name": "of 3533008010 Automatic Transmission Oil Filter Toyota ",
+      "category": "oil-filter",
+      "model": "35330-08010",
+      "sourceId": 22865,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, listed for Toyota Lexus, matched to OE 35330-08010, 58010. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/5e09a43a4c28609c.webp",
+      "gallery": [
+        "/images/congben/5e09a43a4c28609c.webp",
+        "/images/congben/cbeccba00f35e149.webp",
+        "/images/congben/bda9ab890ecf2623.webp",
+        "/images/congben/2d76a42fb8b6d852.webp",
+        "/images/congben/dfd11c4f561e5614.webp"
+      ],
+      "oeNumbers": [
+        "35330-08010",
+        "58010"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [
+          "Lexus"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/china-factory-suppliers-of-3533008010-automatic-transmission-oil-filter-for-toyota-lexus.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-04e129620",
+      "name": "04E129620 Air Intake Filter VW of Car Filters",
+      "category": "air-filter",
+      "model": "04E129620",
+      "sourceId": 22854,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with PU and Filter Paper media, listed for Volkswagen VW, matched to OE 04E129620, L04E129620D. Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/ac5266c97107c835.webp",
+      "gallery": [
+        "/images/congben/ac5266c97107c835.webp",
+        "/images/congben/3b255ba8a3a1e516.webp",
+        "/images/congben/05b7edfdec17972f.webp",
+        "/images/congben/bd6dcea57dbc4c39.webp",
+        "/images/congben/07f1b778640546ee.webp",
+        "/images/congben/b39d5f80ea0d335e.webp",
+        "/images/congben/8287c1f171e37ff8.webp",
+        "/images/congben/5ca41da9be6ab932.webp",
+        "/images/congben/19dc04d61a24607b.webp",
+        "/images/congben/04f3687398a4b996.webp"
+      ],
+      "oeNumbers": [
+        "04E129620",
+        "L04E129620D"
+      ],
+      "crossReference": null,
+      "material": "PU, Filter Paper",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Volkswagen",
+        "models": [
+          "VW"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/04e129620-air-intake-filter-for-vw-china-factory-suppliers-of-premium-car-filters.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-16546-ed000",
+      "name": "Car Air Filter 16546ED000 16546ED500 Nissan Tiida NV200",
+      "category": "air-filter",
+      "model": "16546-ED000",
+      "sourceId": 22842,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with PU and High-grade Filter Paper media, listed for Nissan Tiida, NV200, March, matched to OE 16546-ED000 (cross-reference: 16546-ED500). Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/56d5ef23d5258875.webp",
+      "gallery": [
+        "/images/congben/56d5ef23d5258875.webp",
+        "/images/congben/8cb2f662b214227c.webp",
+        "/images/congben/a0e3d0d9eaf91457.webp",
+        "/images/congben/a2a8b46f88ddf534.webp",
+        "/images/congben/45257042361478c1.webp",
+        "/images/congben/6ffd9d176451984a.webp",
+        "/images/congben/8287c1f171e37ff8.webp",
+        "/images/congben/5ca41da9be6ab932.webp",
+        "/images/congben/19dc04d61a24607b.webp",
+        "/images/congben/04f3687398a4b996.webp",
+        "/images/congben/7fb020d6f72fc606.webp",
+        "/images/congben/626a056caad6b3d3.webp",
+        "/images/congben/15ea0121bb78d6b8.webp",
+        "/images/congben/98b89169e263e054.webp",
+        "/images/congben/b64bc59cfbab03e7.webp"
+      ],
+      "oeNumbers": [
+        "16546-ED000"
+      ],
+      "crossReference": "16546-ED500",
+      "material": "PU, High-grade Filter Paper",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Nissan",
+        "models": [
+          "Tiida",
+          "NV200",
+          "March"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/premium-car-air-filter-16546ed000-16546ed500-china-factory-suppliers-for-nissan-tiida-nv200-march.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-1500a098",
+      "name": "1500A098 1500A358 Engine Air Filter Mitsubishi",
+      "category": "air-filter",
+      "model": "1500A098",
+      "sourceId": 22832,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with PP and Non-woven Fabric media, listed for Mitsubishi 1500a098, 1500a358, matched to OE 1500A098 (cross-reference: 1500A358). Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/329941c163af5e5d.webp",
+      "gallery": [
+        "/images/congben/329941c163af5e5d.webp",
+        "/images/congben/4769a0070b1aa447.webp",
+        "/images/congben/6e43d39da60554da.webp",
+        "/images/congben/3aebc7085fc302ca.webp",
+        "/images/congben/e1cce5c77db9ec3d.webp",
+        "/images/congben/0076770db80a6d12.webp",
+        "/images/congben/153b7970de2eb2ba.webp",
+        "/images/congben/8e129de414d2e465.webp",
+        "/images/congben/56a9c6c558c0d0c3.webp",
+        "/images/congben/8287c1f171e37ff8.webp",
+        "/images/congben/5ca41da9be6ab932.webp",
+        "/images/congben/19dc04d61a24607b.webp",
+        "/images/congben/04f3687398a4b996.webp",
+        "/images/congben/7fb020d6f72fc606.webp",
+        "/images/congben/626a056caad6b3d3.webp",
+        "/images/congben/15ea0121bb78d6b8.webp",
+        "/images/congben/98b89169e263e054.webp",
+        "/images/congben/b64bc59cfbab03e7.webp"
+      ],
+      "oeNumbers": [
+        "1500A098"
+      ],
+      "crossReference": "1500A358",
+      "material": "PP, Non-woven Fabric",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Mitsubishi",
+        "models": [
+          "1500a098",
+          "1500a358"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/1500a098-1500a358-engine-air-filter-for-mitsubishi-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-17220-5r0-008",
+      "name": "172205R0008 Air Filter Honda",
+      "category": "air-filter",
+      "model": "17220-5R0-008",
+      "sourceId": 22820,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with PP and Non-woven Fabric media, listed for Honda Quality, matched to OE 17220-5R0-008 (cross-reference: 17220-5RO-008). Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/7b7ccd839b52986b.webp",
+      "gallery": [
+        "/images/congben/7b7ccd839b52986b.webp",
+        "/images/congben/2de11c49cf68ea78.webp",
+        "/images/congben/7e563be242e49eab.webp",
+        "/images/congben/35159b3f93d5a826.webp",
+        "/images/congben/3d7fd361a7f53f56.webp",
+        "/images/congben/ccfedca4e2fb33aa.webp",
+        "/images/congben/8287c1f171e37ff8.webp",
+        "/images/congben/5ca41da9be6ab932.webp",
+        "/images/congben/19dc04d61a24607b.webp",
+        "/images/congben/04f3687398a4b996.webp",
+        "/images/congben/7fb020d6f72fc606.webp",
+        "/images/congben/626a056caad6b3d3.webp",
+        "/images/congben/15ea0121bb78d6b8.webp",
+        "/images/congben/98b89169e263e054.webp",
+        "/images/congben/b64bc59cfbab03e7.webp"
+      ],
+      "oeNumbers": [
+        "17220-5R0-008"
+      ],
+      "crossReference": "17220-5RO-008",
+      "material": "PP, Non-woven Fabric",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Honda",
+        "models": [
+          "Quality"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/172205r0008-air-filter-for-honda-high-quality-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-28113-2s000",
+      "name": "281132S000 Engine Air Filter KIA HYUNDAI",
+      "category": "air-filter",
+      "model": "28113-2S000",
+      "sourceId": 22813,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with PP and Non-woven fabric and Cellulose media, listed for Kia HYUNDAI, matched to OE 28113-2S000. Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/f9cb3725d4a4f3aa.webp",
+      "gallery": [
+        "/images/congben/f9cb3725d4a4f3aa.webp",
+        "/images/congben/e73712d39b8260ae.webp",
+        "/images/congben/601bcecf7e0d1567.webp",
+        "/images/congben/05020a9fdb161c82.webp",
+        "/images/congben/8287c1f171e37ff8.webp",
+        "/images/congben/5ca41da9be6ab932.webp",
+        "/images/congben/19dc04d61a24607b.webp",
+        "/images/congben/04f3687398a4b996.webp",
+        "/images/congben/7fb020d6f72fc606.webp",
+        "/images/congben/626a056caad6b3d3.webp",
+        "/images/congben/15ea0121bb78d6b8.webp",
+        "/images/congben/98b89169e263e054.webp",
+        "/images/congben/b64bc59cfbab03e7.webp"
+      ],
+      "oeNumbers": [
+        "28113-2S000"
+      ],
+      "crossReference": null,
+      "material": "PP, Non-woven fabric, Cellulose",
+      "dimensions": "259 × 164 × 54.5 mm",
+      "fitment": {
+        "brand": "Kia",
+        "models": [
+          "HYUNDAI"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/281132s000-engine-air-filter-for-kia-hyundai-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-a2700940004",
+      "name": "A2700940004 Auto Air Filter Mercedes Benz",
+      "category": "air-filter",
+      "model": "A2700940004",
+      "sourceId": 22803,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with PU and Filter paper media, listed for Mercedes-Benz A, B, CLA, GLA Class, matched to OE A2700940004 (cross-reference: MANN C27004 / BOSCH F026400380). Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/f62cd59cf6015e20.webp",
+      "gallery": [
+        "/images/congben/f62cd59cf6015e20.webp",
+        "/images/congben/9e1606bcdd069eb3.webp",
+        "/images/congben/78ba3c2bba87601b.webp",
+        "/images/congben/6f7186a5351e00f2.webp",
+        "/images/congben/f8aa8aea4d5da096.webp",
+        "/images/congben/5010308257fbd50f.webp",
+        "/images/congben/8287c1f171e37ff8.webp",
+        "/images/congben/5ca41da9be6ab932.webp",
+        "/images/congben/19dc04d61a24607b.webp",
+        "/images/congben/04f3687398a4b996.webp",
+        "/images/congben/7fb020d6f72fc606.webp",
+        "/images/congben/626a056caad6b3d3.webp",
+        "/images/congben/15ea0121bb78d6b8.webp",
+        "/images/congben/98b89169e263e054.webp",
+        "/images/congben/b64bc59cfbab03e7.webp"
+      ],
+      "oeNumbers": [
+        "A2700940004"
+      ],
+      "crossReference": "MANN C27004 / BOSCH F026400380",
+      "material": "PU, Filter paper",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Mercedes-Benz",
+        "models": [
+          "A",
+          "B",
+          "CLA",
+          "GLA Class"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/high-performance-a2700940004-auto-air-filter-china-factory-suppliers-for-mercedes-benz.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-13717811026",
+      "name": "Engine Air Filter 13717811026 BMW X3 X5 X6",
+      "category": "air-filter",
+      "model": "13717811026",
+      "sourceId": 22792,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with PP and Non-woven fabric media, listed for BMW X3, X5, X6, matched to OE 13717811026 (cross-reference: MANN C36014 / BOSCH F026400366). Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/6cafb902782b8199.webp",
+      "gallery": [
+        "/images/congben/6cafb902782b8199.webp",
+        "/images/congben/acd0a5b8dbd8b398.webp",
+        "/images/congben/8451e20b29697154.webp",
+        "/images/congben/c0cdc150c965efa8.webp",
+        "/images/congben/e8f056f4ec4b485c.webp",
+        "/images/congben/6e662938758758ce.webp",
+        "/images/congben/edca17a5f49dcf43.webp"
+      ],
+      "oeNumbers": [
+        "13717811026"
+      ],
+      "crossReference": "MANN C36014 / BOSCH F026400366",
+      "material": "PP, Non-woven fabric",
+      "dimensions": null,
+      "fitment": {
+        "brand": "BMW",
+        "models": [
+          "X3",
+          "X5",
+          "X6"
+        ],
+        "engine": "N55, N57, N20"
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/engine-air-filter-13717811026-for-bmw-x3-x5-x6-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-lr011593",
+      "name": "HighFlow Engine Air Filter LR011593 LR161843 Land Rover",
+      "category": "air-filter",
+      "model": "LR011593",
+      "sourceId": 22754,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, built with PU + Premium Filter Paper media, listed for Land Rover Discovery 4, RR Sport, RR, matched to OE LR011593 (cross-reference: LR161843). Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/f3fb75eda883e9f6.webp",
+      "gallery": [
+        "/images/congben/f3fb75eda883e9f6.webp",
+        "/images/congben/43a6f35cf33dc81e.webp",
+        "/images/congben/01713271b4cf7093.webp",
+        "/images/congben/1c32ae7233b5d815.webp",
+        "/images/congben/cd3a49d753beaa02.webp",
+        "/images/congben/6e662938758758ce.webp",
+        "/images/congben/edca17a5f49dcf43.webp"
+      ],
+      "oeNumbers": [
+        "LR011593"
+      ],
+      "crossReference": "LR161843",
+      "material": "PU + Premium Filter Paper",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Land Rover",
+        "models": [
+          "Discovery 4",
+          "RR Sport",
+          "RR"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/highflow-engine-air-filter-lr011593-lr161843-china-factory-suppliers-for-land-rover.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-90915-yzze2",
+      "name": "90915YZZE2 Oil Filter Toyota and Lexus",
+      "category": "oil-filter",
+      "model": "90915-YZZE2",
+      "sourceId": 22744,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, listed for Toyota Camry, Corolla, RAV4, Highlander, Yaris, Prius, Matrix, Lexus CT200h, ES240, ES350, matched to OE 90915-YZZE2, 90915-YZZJ2 (cross-reference: 90915-10002, 90915-10004, 90915-YZZF1, 90915-TA002). Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/87fdd176756d4087.webp",
+      "gallery": [
+        "/images/congben/87fdd176756d4087.webp",
+        "/images/congben/3b6cc3c9ea92b33a.webp",
+        "/images/congben/9645560b60727ba1.webp",
+        "/images/congben/b812f83d8f07d39e.webp",
+        "/images/congben/6e3a61f5640be003.webp",
+        "/images/congben/a022e8f90215b974.webp",
+        "/images/congben/0c7dd8158adc9e45.webp",
+        "/images/congben/92e1b447f0ad2b41.webp",
+        "/images/congben/39af2382b4bd2c97.webp",
+        "/images/congben/3adecd968536efb9.webp",
+        "/images/congben/8679c458f107877d.webp"
+      ],
+      "oeNumbers": [
+        "90915-YZZE2",
+        "90915-YZZJ2"
+      ],
+      "crossReference": "90915-10002, 90915-10004, 90915-YZZF1, 90915-TA002",
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [
+          "Camry",
+          "Corolla",
+          "RAV4",
+          "Highlander",
+          "Yaris",
+          "Prius",
+          "Matrix",
+          "Lexus CT200h",
+          "ES240",
+          "ES350"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/premium-90915yzze2-oil-filter-china-factory-suppliers-for-toyota-and-lexus.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-a0001802309",
+      "name": "Mercedes Benz Engine Oil Filter A0001802309 A0001802609",
+      "category": "oil-filter",
+      "model": "A0001802309",
+      "sourceId": 22723,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, built with Pressure-Resistant Heavy Duty media, listed for Mercedes-Benz, matched to OE A0001802309, A0001802609 (cross-reference: A1121800610, A1124840525). Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/eb9fc89f5acd4791.webp",
+      "gallery": [
+        "/images/congben/eb9fc89f5acd4791.webp",
+        "/images/congben/18842fc5fa5f2343.webp",
+        "/images/congben/aa46b03bb7dcd846.webp",
+        "/images/congben/352900d38b65b251.webp",
+        "/images/congben/92e1b447f0ad2b41.webp",
+        "/images/congben/8679c458f107877d.webp"
+      ],
+      "oeNumbers": [
+        "A0001802309",
+        "A0001802609"
+      ],
+      "crossReference": "A1121800610, A1124840525",
+      "material": "Pressure-Resistant Heavy Duty",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Mercedes-Benz",
+        "models": [],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/mercedes-benz-engine-oil-filter-a0001802309-a0001802609-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-a2701800009",
+      "name": "Mercedes Benz Oil Filter A2701800009 A2701800109",
+      "category": "oil-filter",
+      "model": "A2701800009",
+      "sourceId": 22717,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, built with Pressure-Resistant Heavy-Duty Steel media, listed for Mercedes-Benz M270 & M274, matched to OE A2701800009, A2701800109, A2701840025, A2701840125 (cross-reference: Mann W 712/95, Bosch F 026 407 015). Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/811bcfe485a2f33e.webp",
+      "gallery": [
+        "/images/congben/811bcfe485a2f33e.webp",
+        "/images/congben/bc5407cdbf93ad99.webp",
+        "/images/congben/02aa70bcdce00b63.webp",
+        "/images/congben/99f8efeb02ba0de0.webp"
+      ],
+      "oeNumbers": [
+        "A2701800009",
+        "A2701800109",
+        "A2701840025",
+        "A2701840125"
+      ],
+      "crossReference": "Mann W 712/95, Bosch F 026 407 015",
+      "material": "Pressure-Resistant Heavy-Duty Steel",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Mercedes-Benz",
+        "models": [
+          "M270 & M274"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/mercedes-benz-oil-filter-a2701800009-a2701800109-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-04152-37010",
+      "name": "Oil Filter 0415237010 04152YZZA6 Toyota Corolla",
+      "category": "oil-filter",
+      "model": "04152-37010",
+      "sourceId": 22692,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, listed for Toyota Corolla, matched to OE 04152-37010, 04152-YZZA6. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/93370ed389422f9f.webp",
+      "gallery": [
+        "/images/congben/93370ed389422f9f.webp",
+        "/images/congben/d8e09d43e46369ea.webp",
+        "/images/congben/dfddf761d87c7113.webp",
+        "/images/congben/1d19be4c2815adf4.webp",
+        "/images/congben/c38464bd0d0d57af.webp",
+        "/images/congben/9cc051224a8b4490.webp",
+        "/images/congben/b1967b5840de7034.webp"
+      ],
+      "oeNumbers": [
+        "04152-37010",
+        "04152-YZZA6"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [
+          "Corolla"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/oil-filter-0415237010-04152yzza6-for-toyota-corolla-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-04152-31080",
+      "name": "Oil Filter 0415231080 04152YZZA5",
+      "category": "oil-filter",
+      "model": "04152-31080",
+      "sourceId": 22679,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, built with High-density premium filter paper media, listed for Toyota & Lexus, matched to OE 04152-31080 (cross-reference: 04152-38010, 04152-31060, 04152-0P010). Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/f3cb0661c98a5a20.webp",
+      "gallery": [
+        "/images/congben/f3cb0661c98a5a20.webp",
+        "/images/congben/29110349b780b410.webp",
+        "/images/congben/0a5d2a18ecf6f123.webp",
+        "/images/congben/5f42cd24673b4962.webp",
+        "/images/congben/8757eead5661c6b4.webp"
+      ],
+      "oeNumbers": [
+        "04152-31080"
+      ],
+      "crossReference": "04152-38010, 04152-31060, 04152-0P010",
+      "material": "High-density premium filter paper",
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [
+          "& Lexus"
+        ],
+        "engine": "Toyota & Lexus (2.5L–3.5L engines)"
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/high-performance-oil-filter-0415231080-04152yzza5-china-factory-suppliers.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "brake-pads-04465-0k020",
+      "name": "Ceramic Front Brake Pads 04465-0K020 04465-04030 04465-",
+      "category": "brake-pads",
+      "model": "04465-0K020",
+      "sourceId": 17763,
+      "desc": "Ceramic front brake pads, listed for Toyota 04465, 0k020, 04030, 0k070, matched to OE 04465-0K020, 04465-04030, 04465-0K070. Friction formulation, backing-plate fit and the completeness of the noise/hardware kit determine pedal feel, disc life and return rate, so the full set contents are confirmed per application.",
+      "image": "/images/congben/e69a383eeb894ae8.webp",
+      "gallery": [
+        "/images/congben/e69a383eeb894ae8.webp",
+        "/images/congben/58364e5f51252ded.webp",
+        "/images/congben/3adbb542f519cd04.webp",
+        "/images/congben/830f6b2404620b3b.webp",
+        "/images/congben/69790a0d807e868a.webp"
+      ],
+      "oeNumbers": [
+        "04465-0K020",
+        "04465-04030",
+        "04465-0K070"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [
+          "04465",
+          "0k020",
+          "04030",
+          "0k070"
+        ],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/ceramic-front-brake-pads-04465-0k020-04465-04030-04465-0k070-for-toyota.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "air-filter-p320510",
+      "name": "Truck Engine Air Filter P320510 03-42776-010 91559 0342",
+      "category": "air-filter",
+      "model": "P320510",
+      "sourceId": 17707,
+      "desc": "Engine air filter that removes dust, sand and suspended particulate from intake air before it reaches the combustion chamber, protecting cylinders, pistons and piston rings from abrasive wear, matched to OE P320510. Pleat spacing and media area are matched to the air-cleaner housing for the designed airflow, which is what keeps dust-holding capacity consistent across a batch and the return rate low.",
+      "image": "/images/congben/b9661854cbadd9f6.webp",
+      "gallery": [
+        "/images/congben/b9661854cbadd9f6.webp",
+        "/images/congben/1066e0ae49e65314.webp",
+        "/images/congben/c9dca6e61e69384e.webp",
+        "/images/congben/0948586b0b399e49.webp",
+        "/images/congben/1f3ae2fbb28c284e.webp",
+        "/images/congben/3c2631672ce1d780.webp",
+        "/images/congben/2ecbb44760b320b1.webp",
+        "/images/congben/36d6db66be407d89.webp",
+        "/images/congben/afe4fab0ee51c34c.webp",
+        "/images/congben/3d797dd796a7f9f9.webp"
+      ],
+      "oeNumbers": [
+        "P320510"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/custom-truck-engine-air-filter-p320510-03-42776-010-91559-0342776010-997879.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-15400-plc",
+      "name": "Auto Engine Oil Filters 15400-PLC-004 15400-PLC-003 HON",
+      "category": "oil-filter",
+      "model": "15400-PLC",
+      "sourceId": 17687,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, listed for Honda, matched to OE 15400-PLC. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/a40ba1d3a620cb30.webp",
+      "gallery": [
+        "/images/congben/a40ba1d3a620cb30.webp",
+        "/images/congben/b15093e6ba637121.webp",
+        "/images/congben/5c044c48b484fce2.webp",
+        "/images/congben/78e69dff077c2488.webp",
+        "/images/congben/2ff26fac19b2bcef.webp",
+        "/images/congben/f88396757058c556.webp",
+        "/images/congben/88bf41def9b399e3.webp",
+        "/images/congben/92e1b447f0ad2b41.webp",
+        "/images/congben/8679c458f107877d.webp"
+      ],
+      "oeNumbers": [
+        "15400-PLC"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Honda",
+        "models": [],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/suppliers-wholesale-auto-engine-oil-filters-15400-plc-004-15400-plc-003-for-honda.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-04152-31090",
+      "name": "Auto Engine Oil Filter 04152-31090 04152-YZZA1 Oil Filt",
+      "category": "oil-filter",
+      "model": "04152-31090",
+      "sourceId": 17654,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, matched to OE 04152-31090, 04152-YZZA1. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/ee52d97b2dd72fd2.webp",
+      "gallery": [
+        "/images/congben/ee52d97b2dd72fd2.webp",
+        "/images/congben/7011a95127b71d46.webp",
+        "/images/congben/dc72ec4e7e6d704e.webp",
+        "/images/congben/b1967b5840de7034.webp",
+        "/images/congben/d8e09d43e46369ea.webp",
+        "/images/congben/dfddf761d87c7113.webp",
+        "/images/congben/2e1a4ad102181fd1.webp",
+        "/images/congben/1d19be4c2815adf4.webp",
+        "/images/congben/92e1b447f0ad2b41.webp"
+      ],
+      "oeNumbers": [
+        "04152-31090",
+        "04152-YZZA1"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/auto-engine-oil-filter-04152-31090-china-oil-filter-manufacturer.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "fuel-filter-900fg",
+      "name": "Oil Water Separator Assembly 900FG/900FH Fuel Water Sep",
+      "category": "fuel-filter",
+      "model": "900FG",
+      "sourceId": 17584,
+      "desc": "Fuel filter that removes particulate and free water before fuel reaches the injectors and high-pressure pump, matched to OE 900FG, 900FH. On common-rail diesel the filtration rating and any water-separation capability are the procurement checks that protect injectors from premature wear.",
+      "image": "/images/congben/eaa47151d3fcad29.webp",
+      "gallery": [
+        "/images/congben/eaa47151d3fcad29.webp"
+      ],
+      "oeNumbers": [
+        "900FG",
+        "900FH"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/oil-water-separator-assembly-900fg-900fh-fuel-water-separator-filter.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "fuel-filter-1000fh",
+      "name": "High Efficiency Diesel Fuel Filter Water Separator 1000",
+      "category": "fuel-filter",
+      "model": "1000FH",
+      "sourceId": 17578,
+      "desc": "Fuel filter that removes particulate and free water before fuel reaches the injectors and high-pressure pump, matched to OE 1000FH, 1000FG. On common-rail diesel the filtration rating and any water-separation capability are the procurement checks that protect injectors from premature wear.",
+      "image": "/images/congben/14658b767a9bfc01.webp",
+      "gallery": [
+        "/images/congben/14658b767a9bfc01.webp",
+        "/images/congben/4455c89012bcacfe.webp",
+        "/images/congben/6e085afafbb998c6.webp",
+        "/images/congben/020017fd942983e9.webp",
+        "/images/congben/2dbe0f14b62f71b3.webp",
+        "/images/congben/3c0abf06fbe5d3ff.webp"
+      ],
+      "oeNumbers": [
+        "1000FH",
+        "1000FG"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/diesel-fuel-filter-water-separator-1000fh-1000fg.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-15208-65f00",
+      "name": "Auto Engine Oil Filters 15208-65F00 15208-65f0a cars au",
+      "category": "oil-filter",
+      "model": "15208-65F00",
+      "sourceId": 17574,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, matched to OE 15208-65F00. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/a27f73e38facab40.webp",
+      "gallery": [
+        "/images/congben/a27f73e38facab40.webp",
+        "/images/congben/f18799b5e0b5e8d8.webp",
+        "/images/congben/e7b531ea2557c1e6.webp",
+        "/images/congben/e870f113df4e7443.webp",
+        "/images/congben/3670f292d96f7a32.webp",
+        "/images/congben/92e1b447f0ad2b41.webp",
+        "/images/congben/8679c458f107877d.webp"
+      ],
+      "oeNumbers": [
+        "15208-65F00"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/auto-engine-oil-filters-15208-65f00-15208-65f0a-for-cars-auto.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "fuel-filter-23390-0l070",
+      "name": "Fuel filter 23390-0L070 23390-0L090 Toyota",
+      "category": "fuel-filter",
+      "model": "23390-0L070",
+      "sourceId": 17372,
+      "desc": "Fuel filter that removes particulate before fuel reaches the injectors and high-pressure pump, listed for Toyota, matched to OE 23390-0L070, 23390-0L090. On common-rail diesel the filtration rating and any water-separation capability are the procurement checks that protect injectors from premature wear.",
+      "image": "/images/congben/01d506263e13c4c6.webp",
+      "gallery": [
+        "/images/congben/01d506263e13c4c6.webp",
+        "/images/congben/498a5a15030d5fae.webp",
+        "/images/congben/f3ac86cad7830dcf.webp",
+        "/images/congben/d25134442c5db5c8.webp",
+        "/images/congben/0aee9718c0ff501e.webp",
+        "/images/congben/acdafeaab68effa3.webp"
+      ],
+      "oeNumbers": [
+        "23390-0L070",
+        "23390-0L090"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/fuel-filter-23390-0l070-23390-0l090-suitable-for-toyota.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "cabin-filter-87139-0n010",
+      "name": "Car Cabin Filter AC Air Conditioning Filter 87139-0N010",
+      "category": "cabin-filter",
+      "model": "87139-0N010",
+      "sourceId": 17364,
+      "desc": "Cabin air filter that traps dust, pollen and particulate before outside air reaches the passenger cabin, keeping occupants breathing cleaner air and protecting the HVAC blower, listed for Toyota, matched to OE 87139-0N010, 87139-30040. Edge-seal fit is the deciding quality point — a filter that rattles or leaks at the frame lets unfiltered air bypass the media, so frame type is confirmed per application.",
+      "image": "/images/congben/5821e9cf69d7cdba.webp",
+      "gallery": [
+        "/images/congben/5821e9cf69d7cdba.webp",
+        "/images/congben/e53adc6c467b8373.webp",
+        "/images/congben/a54920c12e58ddcf.webp",
+        "/images/congben/917d6886b590d9d1.webp",
+        "/images/congben/4b8618a75dd31f58.webp",
+        "/images/congben/d4f9a0bfee070305.webp",
+        "/images/congben/05fa95ff0962249c.webp",
+        "/images/congben/9b1464869b8af8ce.webp",
+        "/images/congben/2d1ff03ca281c1ac.webp"
+      ],
+      "oeNumbers": [
+        "87139-0N010",
+        "87139-30040"
+      ],
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [],
+        "engine": null
+      },
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/air-conditioning-filter-suitable-for-toyota.html",
+        "status": "verified-by-source",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-premium-motorcycle-fuel-and-oil-filters-china-fact",
+      "name": "Motorcycle Fuel and Oil Filters",
+      "category": "oil-filter",
+      "model": "HY-OF-637",
+      "sourceId": 23091,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces, built with High-Grade Filter Paper and PP media. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/147b3d791039ea3b.webp",
+      "gallery": [
+        "/images/congben/147b3d791039ea3b.webp",
+        "/images/congben/6cde300fb09fd8db.webp",
+        "/images/congben/80902fdedac0e39d.webp",
+        "/images/congben/f102be951f6ca5ef.webp",
+        "/images/congben/f307c303f373f0b9.webp",
+        "/images/congben/abf9876b403f779c.webp",
+        "/images/congben/549ac1b5766a71b5.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": "High-Grade Filter Paper, PP",
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/premium-motorcycle-fuel-and-oil-filters-china-factory-suppliers.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-custom-reinforced-silicone-turbo-heater-hose-china",
+      "name": "Reinforced Silicone Turbo Heater Hose",
+      "category": "rubber-hoses",
+      "model": "HY-RH-638",
+      "sourceId": 23077,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits, supplied in Premium Silicone. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/c641459196daffc6.webp",
+      "gallery": [
+        "/images/congben/c641459196daffc6.webp",
+        "/images/congben/aa854da1bdc6a579.webp",
+        "/images/congben/fd2d8fe0ef6b24ab.webp",
+        "/images/congben/6f830f65eccfdf75.webp",
+        "/images/congben/07a54fc039bab459.webp",
+        "/images/congben/161474f726bcc435.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": "Premium Silicone",
+      "dimensions": "Straight, Reducer, 45°/90°/135°/180° Elbow",
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/custom-reinforced-silicone-turbo-heater-hose-china-factory-suppliers.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-high-performance-braided-silicone-heater-vacuum-ho",
+      "name": "Braided Silicone Heater Vacuum Hose",
+      "category": "rubber-hoses",
+      "model": "HY-RH-639",
+      "sourceId": 23065,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits, supplied in Silicone, EPDM, NBR. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/ea3b151fd5bc3dfa.webp",
+      "gallery": [
+        "/images/congben/ea3b151fd5bc3dfa.webp",
+        "/images/congben/ec4effd411d0587f.webp",
+        "/images/congben/b8d478b084481c8a.webp",
+        "/images/congben/c7a4a2f8f72fb6c0.webp",
+        "/images/congben/dd1979b4ee1008b0.webp",
+        "/images/congben/dcc69dcab785feb9.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": "Silicone, EPDM, NBR",
+      "dimensions": "Straight, Reducer, 45/90/135/180° Elbow",
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/high-performance-braided-silicone-heater-vacuum-hose-china-suppliers-factory.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-custom-epdm-rubber-elbow-hose-china-factory-and-le",
+      "name": "EPDM Rubber Elbow Hose and",
+      "category": "rubber-hoses",
+      "model": "HY-RH-640",
+      "sourceId": 23053,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits, supplied in Premium EPDM (Ethylene Propylene Diene Monomer). Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/e26c1473ef3b656f.webp",
+      "gallery": [
+        "/images/congben/e26c1473ef3b656f.webp",
+        "/images/congben/842146d274a12c83.webp",
+        "/images/congben/2592d36a8302a273.webp",
+        "/images/congben/cfde3242d4a09250.webp",
+        "/images/congben/c864b7afe4414805.webp",
+        "/images/congben/58803e59d083b482.webp",
+        "/images/congben/92d83413f161f5dd.webp",
+        "/images/congben/c52443406c8f14e2.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": "Premium EPDM (Ethylene Propylene Diene Monomer)",
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/custom-epdm-rubber-elbow-hose-china-factory-and-leading-suppliers.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-oil-resistant-nbr-automotive-fuel-hose-china-facto",
+      "name": "Oil Resistant NBR Automotive Fuel Hose and",
+      "category": "rubber-hoses",
+      "model": "HY-RH-641",
+      "sourceId": 23041,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits, supplied in NBR / Silicone / EPDM. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/3fce8b6daa5f1882.webp",
+      "gallery": [
+        "/images/congben/3fce8b6daa5f1882.webp",
+        "/images/congben/5d67ad4cdbb93f7e.webp",
+        "/images/congben/248db3d5d2fc8239.webp",
+        "/images/congben/c221ff4ffc6f5a33.webp",
+        "/images/congben/971c8e3e4ee0fb0c.webp",
+        "/images/congben/e30a913996a2e0cd.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": "NBR / Silicone / EPDM",
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/oil-resistant-nbr-automotive-fuel-hose-china-factory-and-wholesale-suppliers.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-custom-high-temperature-radiator-silicone-hose-fac",
+      "name": "High Temperature Radiator Silicone Hose in",
+      "category": "rubber-hoses",
+      "model": "HY-RH-642",
+      "sourceId": 22998,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits, supplied in Premium Silicone Rubber. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/fef33ba44add7a17.webp",
+      "gallery": [
+        "/images/congben/fef33ba44add7a17.webp",
+        "/images/congben/909d1cac51661d94.webp",
+        "/images/congben/6f830f65eccfdf75.webp",
+        "/images/congben/aa854da1bdc6a579.webp",
+        "/images/congben/07a54fc039bab459.webp",
+        "/images/congben/5be74bb91adcb0cd.webp",
+        "/images/congben/7eca60c1fded1595.webp",
+        "/images/congben/3a68286433706c97.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": "Premium Silicone Rubber",
+      "dimensions": "Straight, 45°/90° Elbow, 180° U-Bend",
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/custom-high-temperature-radiator-silicone-hose-factory-suppliers-in-china.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-black-hydraulic-oil-fuel-hose-high-pressure-fuel-l",
+      "name": "Black Hydraulic Oil Fuel Hose High Pressure Fuel Line N",
+      "category": "rubber-hoses",
+      "model": "HY-RH-643",
+      "sourceId": 17614,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/c221ff4ffc6f5a33.webp",
+      "gallery": [
+        "/images/congben/c221ff4ffc6f5a33.webp",
+        "/images/congben/c52443406c8f14e2.webp",
+        "/images/congben/cfde3242d4a09250.webp",
+        "/images/congben/7bc88a945e887dc4.webp",
+        "/images/congben/7935a2fd59b1df9a.webp",
+        "/images/congben/94b4fe2cb4c2b5e6.webp",
+        "/images/congben/95876433c8552a42.webp",
+        "/images/congben/971c8e3e4ee0fb0c.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/black-hydraulic-oil-fuel-hose-high-pressure-fuel-line-nbr-rubber-hose-for-automotive.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-custom-high-temp-radiator-hose-auto-elbow-silicone",
+      "name": "High Temp Radiator Hose Auto Elbow Silicone Hose Pipe c",
+      "category": "rubber-hoses",
+      "model": "HY-RH-644",
+      "sourceId": 17604,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/fef33ba44add7a17.webp",
+      "gallery": [
+        "/images/congben/fef33ba44add7a17.webp",
+        "/images/congben/909d1cac51661d94.webp",
+        "/images/congben/6f830f65eccfdf75.webp",
+        "/images/congben/aa854da1bdc6a579.webp",
+        "/images/congben/07a54fc039bab459.webp",
+        "/images/congben/5be74bb91adcb0cd.webp",
+        "/images/congben/7eca60c1fded1595.webp",
+        "/images/congben/3a68286433706c97.webp",
+        "/images/congben/3a3ae6549c50b438.webp",
+        "/images/congben/6e095804d87ed38e.webp",
+        "/images/congben/0ba2c724bae88499.webp",
+        "/images/congben/2991d75f6bea215c.webp",
+        "/images/congben/4d25f3fc2c084ba3.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/custom-high-temp-radiator-hose-auto-elbow-silicone-hose-pipe-for-car.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-oil-resistant-nbr-automotive-fuel-hose",
+      "name": "Oil Resistant NBR Automotive Fuel Hose",
+      "category": "rubber-hoses",
+      "model": "HY-RH-645",
+      "sourceId": 17461,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/3fce8b6daa5f1882.webp",
+      "gallery": [
+        "/images/congben/3fce8b6daa5f1882.webp",
+        "/images/congben/5d67ad4cdbb93f7e.webp",
+        "/images/congben/248db3d5d2fc8239.webp",
+        "/images/congben/c221ff4ffc6f5a33.webp",
+        "/images/congben/971c8e3e4ee0fb0c.webp",
+        "/images/congben/e30a913996a2e0cd.webp",
+        "/images/congben/c365fae756a014f2.webp",
+        "/images/congben/7643f5a9bb53b2b2.webp",
+        "/images/congben/d8efcebf5441d8eb.webp",
+        "/images/congben/544b6cbae6ba8f21.webp",
+        "/images/congben/287675e5cc695848.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/oil-resistant-nbr-automotive-fuel-hose.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-custom-auto-black-elbow-epdm-rubber-hose-pipe-cool",
+      "name": "Auto Black Elbow EPDM Rubber Hose Pipe Coolant Elbow Ra",
+      "category": "rubber-hoses",
+      "model": "HY-RH-646",
+      "sourceId": 17450,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/e26c1473ef3b656f.webp",
+      "gallery": [
+        "/images/congben/e26c1473ef3b656f.webp",
+        "/images/congben/842146d274a12c83.webp",
+        "/images/congben/2592d36a8302a273.webp",
+        "/images/congben/cfde3242d4a09250.webp",
+        "/images/congben/c864b7afe4414805.webp",
+        "/images/congben/58803e59d083b482.webp",
+        "/images/congben/92d83413f161f5dd.webp",
+        "/images/congben/c52443406c8f14e2.webp",
+        "/images/congben/94b4fe2cb4c2b5e6.webp",
+        "/images/congben/1cc70d4e5fc9b7a6.webp",
+        "/images/congben/aae5588f55253dad.webp",
+        "/images/congben/4d25f3fc2c084ba3.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/custom-auto-black-elbow-epdm-rubber-hose-pipe-coolant-elbow-radiator-hose.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-heat-resistant-braided-silicone-heater-vacuum-hose",
+      "name": "Heat Resistant Braided Silicone Heater & Vacuum Hose",
+      "category": "rubber-hoses",
+      "model": "HY-RH-647",
+      "sourceId": 17439,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/ea3b151fd5bc3dfa.webp",
+      "gallery": [
+        "/images/congben/ea3b151fd5bc3dfa.webp",
+        "/images/congben/ec4effd411d0587f.webp",
+        "/images/congben/b8d478b084481c8a.webp",
+        "/images/congben/c7a4a2f8f72fb6c0.webp",
+        "/images/congben/dd1979b4ee1008b0.webp",
+        "/images/congben/dcc69dcab785feb9.webp",
+        "/images/congben/270a1ee1f3de91a7.webp",
+        "/images/congben/4d25f3fc2c084ba3.webp",
+        "/images/congben/f64c2828bf5436f4.webp",
+        "/images/congben/544b6cbae6ba8f21.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/heat-resistant-braided-silicone-heater-vacuum-hose.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "rubber-hoses-custom-reinforced-silicone-turbo-heater-hose-90-de",
+      "name": "Reinforced Silicone Turbo & Heater Hose (90 Degree)",
+      "category": "rubber-hoses",
+      "model": "HY-RH-648",
+      "sourceId": 17432,
+      "desc": "Rubber hose for cooling, fuel or air-transfer circuits. Compound (EPDM/NBR/silicone), reinforcement and inner diameter are confirmed per application — a hose that hardens, swells or collapses under heat or oil is a premature-failure risk, so the material is the first procurement check.",
+      "image": "/images/congben/c641459196daffc6.webp",
+      "gallery": [
+        "/images/congben/c641459196daffc6.webp",
+        "/images/congben/aa854da1bdc6a579.webp",
+        "/images/congben/fd2d8fe0ef6b24ab.webp",
+        "/images/congben/6f830f65eccfdf75.webp",
+        "/images/congben/07a54fc039bab459.webp",
+        "/images/congben/161474f726bcc435.webp",
+        "/images/congben/270a1ee1f3de91a7.webp",
+        "/images/congben/4d25f3fc2c084ba3.webp",
+        "/images/congben/f64c2828bf5436f4.webp",
+        "/images/congben/544b6cbae6ba8f21.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/custom-reinforced-silicone-turbo-heater-hose-90-degree.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-motorcycle-oil-gasoline-filter-fuel-filters",
+      "name": "Motorcycle Oil Gasoline Filter Fuel Filters",
+      "category": "oil-filter",
+      "model": "HY-OF-649",
+      "sourceId": 17421,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/147b3d791039ea3b.webp",
+      "gallery": [
+        "/images/congben/147b3d791039ea3b.webp",
+        "/images/congben/6cde300fb09fd8db.webp",
+        "/images/congben/80902fdedac0e39d.webp",
+        "/images/congben/f102be951f6ca5ef.webp",
+        "/images/congben/f307c303f373f0b9.webp",
+        "/images/congben/abf9876b403f779c.webp",
+        "/images/congben/549ac1b5766a71b5.webp",
+        "/images/congben/7a824308427f55aa.webp",
+        "/images/congben/0b5d61ced440f567.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/motorcycle-oil-gasoline-filter-fuel-filters.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "spark-plugs-auto-original-genuine-engine-spark-plug",
+      "name": "Auto Engine Spark Plug",
+      "category": "spark-plugs",
+      "model": "HY-SP-650",
+      "sourceId": 17411,
+      "desc": "Spark plug for gasoline ignition. Heat range, thread reach and electrode gap are the details that must match the engine, so the exact application is confirmed per model before ordering.",
+      "image": "/images/congben/2ef777a7484fa06f.webp",
+      "gallery": [
+        "/images/congben/2ef777a7484fa06f.webp",
+        "/images/congben/69e8e33aa5127afc.webp",
+        "/images/congben/342cb89a447c0288.webp",
+        "/images/congben/58867e729f746852.webp",
+        "/images/congben/fe5a3eae4f749af7.webp",
+        "/images/congben/e01e9e6e9a6ad61c.webp",
+        "/images/congben/a0e6efc8e0ce24a9.webp",
+        "/images/congben/eadd503f57c7648a.webp",
+        "/images/congben/f9bd3a50abdfa870.webp",
+        "/images/congben/56c0759914994658.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/auto-original-genuine-engine-spark-plug.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "fuel-filter-diesel-fuel-filter-water-separator",
+      "name": "Diesel Fuel Filter Water Separator",
+      "category": "fuel-filter",
+      "model": "HY-FF-651",
+      "sourceId": 17401,
+      "desc": "Fuel filter that removes particulate and free water before fuel reaches the injectors and high-pressure pump. On common-rail diesel the filtration rating and any water-separation capability are the procurement checks that protect injectors from premature wear.",
+      "image": "/images/congben/3c0abf06fbe5d3ff.webp",
+      "gallery": [
+        "/images/congben/3c0abf06fbe5d3ff.webp",
+        "/images/congben/da1ebd0158dc3b79.webp",
+        "/images/congben/020017fd942983e9.webp",
+        "/images/congben/d2812a459c5ab4f5.webp",
+        "/images/congben/6e0335702110fddc.webp",
+        "/images/congben/2dbe0f14b62f71b3.webp",
+        "/images/congben/eadd503f57c7648a.webp",
+        "/images/congben/d937587b09700f5d.webp",
+        "/images/congben/9303eab5797412e1.webp",
+        "/images/congben/3984245b5998448e.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/diesel-fuel-filter-water-separator.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
+    },
+    {
+      "slug": "oil-filter-heavy-duty-trucks-oil-filters",
+      "name": "Heavy Duty Trucks Oil Filters",
+      "category": "oil-filter",
+      "model": "HY-OF-652",
+      "sourceId": 17379,
+      "desc": "Engine oil filter that traps metal wear particles and carbon sludge from circulating oil, protecting the oil pump, bearings and bearing surfaces. Thread, seal diameter and bypass-valve setting are what separate a service-grade filter from a look-alike, and they are confirmed against the OE application before quoting.",
+      "image": "/images/congben/35a9dbc039ca5458.webp",
+      "gallery": [
+        "/images/congben/35a9dbc039ca5458.webp",
+        "/images/congben/31c71bda6105c672.webp",
+        "/images/congben/0e18f2784986b381.webp",
+        "/images/congben/487cbd493ed9d928.webp",
+        "/images/congben/f7ffe08323a55264.webp",
+        "/images/congben/0c0151770148e977.webp",
+        "/images/congben/9bb40c0b97107985.webp",
+        "/images/congben/ea0c839e6b5a6b67.webp",
+        "/images/congben/1f378583ad618d60.webp",
+        "/images/congben/034ef6a314bba3bd.webp",
+        "/images/congben/04c2aa58836b06c1.webp",
+        "/images/congben/aaa817c2d25d85b6.webp",
+        "/images/congben/94cef9b566b8d10b.webp",
+        "/images/congben/eadd503f57c7648a.webp",
+        "/images/congben/49212c51dc5c654a.webp",
+        "/images/congben/e8fac26a2b0f8908.webp",
+        "/images/congben/cae590d3cb4b7f44.webp"
+      ],
+      "oeNumbers": null,
+      "crossReference": null,
+      "material": null,
+      "dimensions": null,
+      "fitment": null,
+      "source": {
+        "name": "congbenfilter.com",
+        "url": "https://www.congbenfilter.com/product/heavy-duty-trucks-oil-filters.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     }
   ]
 }

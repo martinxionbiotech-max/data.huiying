@@ -59,8 +59,21 @@ nav:
       - Oil Filter: products/oil-filter.md
       - Fuel Filter: products/fuel-filter.md
       - Wiper: products/wiper.md
+      - Brake Pads: products/brake-pads.md
+      - Spark Plugs: products/spark-plugs.md
+      - Rubber Hoses: products/rubber-hoses.md
   - SKU Details:
       - Air Filter:
+          - 03-42776-010: products/03-42776-010.md
+          - 04E129620: products/04E129620.md
+          - 1500A098: products/1500A098.md
+          - 16546-ED000: products/16546-ED000.md
+          - 17220-5R0-008: products/17220-5R0-008.md
+          - 17801-21050: products/17801-21050.md
+          - 17801-30070: products/17801-30070.md
+          - 28113-2S000: products/28113-2S000.md
+          - 13717811026: products/13717811026.md
+          - A2700940004: products/A2700940004.md
           - HY-AF-692: products/HY-AF-692.md
           - HY-AF-693: products/HY-AF-693.md
           - HY-AF-698: products/HY-AF-698.md
@@ -69,10 +82,55 @@ nav:
           - HY-AF-701: products/HY-AF-701.md
           - HY-AF-702: products/HY-AF-702.md
           - HY-AF-703: products/HY-AF-703.md
+          - LR011593: products/LR011593.md
+          - P320510: products/P320510.md
+          - RE596317: products/RE596317.md
       - Cabin Filter:
+          - 87139-0N010: products/87139-0N010.md
           - HY-CF-691: products/HY-CF-691.md
       - Oil Filter:
+          - 04152-31080: products/04152-31080.md
+          - 04152-31090: products/04152-31090.md
+          - 04152-37010: products/04152-37010.md
+          - 15208-65F00: products/15208-65F00.md
+          - 15400-PLC: products/15400-PLC.md
+          - 15400-PLC-004: products/15400-PLC-004.md
+          - 35330-08010: products/35330-08010.md
+          - 90915-YZZE1: products/90915-YZZE1.md
+          - 90915-YZZE2: products/90915-YZZE2.md
+          - A0001802309: products/A0001802309.md
+          - A2701800009: products/A2701800009.md
+          - HY-OF-637: products/HY-OF-637.md
+          - HY-OF-649: products/HY-OF-649.md
+          - HY-OF-652: products/HY-OF-652.md
           - HY-OF-690: products/HY-OF-690.md
+          - LF14000NN: products/LF14000NN.md
+      - Fuel Filter:
+          - 500FH: products/500FH.md
+          - 900FG: products/900FG.md
+          - 1000FH: products/1000FH.md
+          - 23390-0L070: products/23390-0L070.md
+          - FF5507: products/FF5507.md
+          - HY-FF-651: products/HY-FF-651.md
+      - Brake Pads:
+          - 04465-0K020: products/04465-0K020.md
+          - 04465-04030: products/04465-04030.md
+      - Spark Plugs:
+          - HY-SP-650: products/HY-SP-650.md
+      - Rubber Hoses:
+          - 17127525023: products/17127525023.md
+          - HY-RH-603: products/HY-RH-603.md
+          - HY-RH-638: products/HY-RH-638.md
+          - HY-RH-639: products/HY-RH-639.md
+          - HY-RH-640: products/HY-RH-640.md
+          - HY-RH-641: products/HY-RH-641.md
+          - HY-RH-642: products/HY-RH-642.md
+          - HY-RH-643: products/HY-RH-643.md
+          - HY-RH-644: products/HY-RH-644.md
+          - HY-RH-645: products/HY-RH-645.md
+          - HY-RH-646: products/HY-RH-646.md
+          - HY-RH-647: products/HY-RH-647.md
+          - HY-RH-648: products/HY-RH-648.md
   - Fitment Reference:
       - Fitment Index: fitment/index.md
       - Engine Air Filter: fitment/air-filter.md
@@ -80,6 +138,9 @@ nav:
       - Cabin Air Filter: fitment/cabin-filter.md
       - Fuel Filter: fitment/fuel-filter.md
       - Wiper: fitment/wiper.md
+      - Brake Pads: fitment/brake-pads.md
+      - Spark Plugs: fitment/spark-plugs.md
+      - Rubber Hoses: fitment/rubber-hoses.md
   - Filter Media: materials/media-comparison.md
   - Reference Data:
       - OE Prefix Patterns: reference/oe-patterns.md

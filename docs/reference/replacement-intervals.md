@@ -2,7 +2,7 @@
 
 Industry-common replacement intervals for the five filter categories. Reference guidance only — always follow the vehicle/engine manufacturer's schedule first.
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.1.0 (2026-10-26). Do not edit values by hand — edit the dataset, then rebuild. Intervals dataset `data/replacement-intervals.json` v0.2.0 — `reference-only`.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild. Intervals dataset `data/replacement-intervals.json` v0.2.0 — `reference-only`.
 
 > ⚠️ **reference-only** — Intervals are industry-common REFERENCE values (kilometres / months), not Huiying product specifications and not a substitute for the OEM service schedule. Adjust for local conditions and confirm per application.
 
@@ -27,9 +27,9 @@ Industry-common replacement intervals for the five filter categories. Reference 
 | Oil quality | Lower-grade oil loads the oil filter faster |
 | OEM service schedule | Always the primary authority — this table is a secondary reference |
 
-## Localised suggestions ` ✍️`
+## Localised suggestions `小筑 ✍️`
 
-- ** / :**  5,000–10,000 km ；。 _(signed:  ✍️)_
-- **:** ，；。 _(signed:  ✍️)_
-- **:**  20,000 km ，。 _(signed:  ✍️)_
+- **中国华北 / 西北沙尘地区:** 空气滤清器建议缩短至 5,000–10,000 km 或按需更换；沙尘较大时推荐同时检查空调滤。 _(signed: 小筑 ✍️)_
+- **中国南方潮湿地区:** 空调滤建议每年雨季前更换，避免霉味与出风減弱；优先选择活性炭层款。 _(signed: 小筑 ✍️)_
+- **柴油商用车队:** 燃油滤建议按 20,000 km 或压差指示更换，对油水系统的保护价值高于件价本身。 _(signed: 小筑 ✍️)_
 
