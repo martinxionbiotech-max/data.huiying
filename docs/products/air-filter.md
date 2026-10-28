@@ -1,14 +1,14 @@
 # Air Filter
 
-Category code `af` · slug `air-filter` · 21 SKU(s).
+Category code `af` · slug `air-filter` · 20 SKU(s).
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild.
 
 Engine air filters that remove dust and suspended particles from intake air before it reaches the combustion chamber, reducing cylinder, piston and piston-ring wear.
 
 > **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/air-filter/)
 
-## SKUs (21)
+## SKUs (20)
 
 | Model | Name | Source ID | Spec status |
 |---|---|---|---|
@@ -32,7 +32,6 @@ Engine air filters that remove dust and suspended particles from intake air befo
 | [`A2700940004`](A2700940004.md) | A2700940004 Auto Air Filter Mercedes Benz | `22803` | `verified-by-source` |
 | [`13717811026`](13717811026.md) | Engine Air Filter 13717811026 BMW X3 X5 X6 | `22792` | `verified-by-source` |
 | [`LR011593`](LR011593.md) | HighFlow Engine Air Filter LR011593 LR161843 Land Rover | `22754` | `verified-by-source` |
-| [`P320510`](P320510.md) | Truck Engine Air Filter P320510 03-42776-010 91559 0342 | `17707` | `verified-by-source` |
 
 ## Data status
 

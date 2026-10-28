@@ -2,7 +2,7 @@
 
 Category code `cf` · slug `cabin-filter` · 2 SKU(s).
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild.
 
 Cabin air filters that capture dust, pollen and particulate from outside air before it enters the passenger cabin.
 

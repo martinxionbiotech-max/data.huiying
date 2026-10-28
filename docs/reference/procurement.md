@@ -2,7 +2,7 @@
 
 HS-code reference and MOQ / packing framework for huiying filters. Public common-knowledge HS codes for estimation; MOQ/packing described at framework level.
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild. Procurement dataset `data/procurement.json` v0.2.0 — `reference-only`.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. Procurement dataset `data/procurement.json` v0.2.0 — `reference-only`.
 
 > ⚠️ **reference-only** — HS codes are common-knowledge REFERENCE classifications — confirm with your customs broker / freight forwarder before shipping. MOQ and packing vary by SKU and program — confirm with Huiying sales.
 

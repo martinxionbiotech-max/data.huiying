@@ -6,7 +6,7 @@ title: Engine Air Filter — Fitment Reference
 
 Engine air filters are among the most widely replaced service parts. The brands and models below are common-application references for passenger-car engine air filters across global and domestic Chinese brands.
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild. Fitment framework `data/fitment.json` v0.3.0 — `reference-only`.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. Fitment framework `data/fitment.json` v0.3.0 — `reference-only`.
 
 > ⚠️ **Data status: `reference`.** Every entry is a common-application reference. No exact OE number, exact dimension, or precise year range is asserted. Always confirm the exact part against the buyer's OE number, cross-reference number, or Huiying's fitment table before ordering.
 

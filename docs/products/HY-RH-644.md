@@ -2,7 +2,7 @@
 
 `HY-RH-644`
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild.
 
 > Category: **Rubber Hoses** — [category page](rubber-hoses.md) · [SKU index](index.md)
 > **Commercial listing** — [View product &amp; request quote on carfilterspro.com →](https://carfilterspro.com/products/rubber-hoses/)

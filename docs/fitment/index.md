@@ -2,7 +2,7 @@
 
 Reference-level vehicle-fitment framework for the core filter types. These are **common-application references**, not precise OE cross-references.
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild. Fitment framework `data/fitment.json` v0.3.0 (2026-10-27) — `reference-only`.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. Fitment framework `data/fitment.json` v0.3.0 (2026-10-27) — `reference-only`.
 
 **28 brands · 74 vehicle models · 592 fitment rows (8 filter types).**
 

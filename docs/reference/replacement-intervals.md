@@ -2,7 +2,7 @@
 
 Industry-common replacement intervals for the five filter categories. Reference guidance only — always follow the vehicle/engine manufacturer's schedule first.
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild. Intervals dataset `data/replacement-intervals.json` v0.2.0 — `reference-only`.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. Intervals dataset `data/replacement-intervals.json` v0.2.0 — `reference-only`.
 
 > ⚠️ **reference-only** — Intervals are industry-common REFERENCE values (kilometres / months), not Huiying product specifications and not a substitute for the OEM service schedule. Adjust for local conditions and confirm per application.
 

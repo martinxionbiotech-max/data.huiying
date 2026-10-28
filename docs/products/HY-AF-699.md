@@ -2,7 +2,7 @@
 
 `HY-AF-699`
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild.
 
 > Category: **Air Filter** — [category page](air-filter.md) · [SKU index](index.md)
 > **Commercial listing** — [View product &amp; request quote on carfilterspro.com →](https://carfilterspro.com/products/air-filter/)
@@ -35,6 +35,12 @@ OE numbers, cross-references, material, dimensions and fitment are `verified-by-
 | Filtration efficiency | `—` | `NEEDS_VERIFICATION` |
 | Packing / carton qty | `—` | `NEEDS_VERIFICATION` |
 | HS Code | `—` | `NEEDS_VERIFICATION` |
+
+## Source
+
+| Field | Value | Status |
+|---|---|---|
+| Source | tianruifilters.cn · status `reference` | `reference` |
 
 ## Reference fitment
 

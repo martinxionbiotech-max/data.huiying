@@ -1,8 +1,8 @@
 {
   "_meta": {
     "title": "huiying Canonical Product Dataset",
-    "version": "0.2.0",
-    "generated": "2026-10-27",
+    "version": "0.3.0",
+    "generated": "2026-10-28",
     "brand": "huiying",
     "source": "huiying + congbenfilter.com (merged)",
     "purpose": "Single source of truth for the huiying main site product pages (huiying brand + congben catalog)."
@@ -76,7 +76,13 @@
       "image": "/images/6a2fe246-680d-466b-8ec1-301773bc3506.jpg",
       "gallery": [
         "/images/6a2fe246-680d-466b-8ec1-301773bc3506.jpg"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/690.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "cf-691",
@@ -88,7 +94,13 @@
       "image": "/images/b10a3bb2-030f-4546-ad8e-345129cba1ee.webp",
       "gallery": [
         "/images/b10a3bb2-030f-4546-ad8e-345129cba1ee.webp"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/691.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "af-692",
@@ -100,7 +112,13 @@
       "image": "/images/44f1165c-0b5b-4af2-9b3f-fce56e89ff63.webp",
       "gallery": [
         "/images/44f1165c-0b5b-4af2-9b3f-fce56e89ff63.webp"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/692.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "af-693",
@@ -112,7 +130,13 @@
       "image": "/images/5549999c-f7bf-479f-952c-9b57973a8af3.webp",
       "gallery": [
         "/images/5549999c-f7bf-479f-952c-9b57973a8af3.webp"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/693.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "af-698",
@@ -124,7 +148,13 @@
       "image": "/images/f5fb9a94-ba63-4c1e-bfc3-f649ef04fab2.jpg",
       "gallery": [
         "/images/f5fb9a94-ba63-4c1e-bfc3-f649ef04fab2.jpg"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/698.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "af-699",
@@ -136,7 +166,13 @@
       "image": "/images/5e60e81c-72b8-4b7a-a41b-41b595c20329.jpg",
       "gallery": [
         "/images/5e60e81c-72b8-4b7a-a41b-41b595c20329.jpg"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/699.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "af-700",
@@ -148,7 +184,13 @@
       "image": "/images/eebd9d62-1f5b-4c05-9574-9d8ce7604cbb.jpg",
       "gallery": [
         "/images/eebd9d62-1f5b-4c05-9574-9d8ce7604cbb.jpg"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/700.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "af-701",
@@ -160,7 +202,13 @@
       "image": "/images/658c68a8-ef1e-4ace-bd56-7e74f5b7583e.jpg",
       "gallery": [
         "/images/658c68a8-ef1e-4ace-bd56-7e74f5b7583e.jpg"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/701.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "af-702",
@@ -172,7 +220,13 @@
       "image": "/images/7ae94ce9-09fa-42eb-bfc2-d76335c09b7c.jpg",
       "gallery": [
         "/images/7ae94ce9-09fa-42eb-bfc2-d76335c09b7c.jpg"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/702.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "af-703",
@@ -184,7 +238,13 @@
       "image": "/images/af7c5e9c-3e08-474f-acfc-290640d53816.jpg",
       "gallery": [
         "/images/af7c5e9c-3e08-474f-acfc-290640d53816.jpg"
-      ]
+      ],
+      "source": {
+        "name": "tianruifilters.cn",
+        "url": "https://www.tianruifilters.cn/product/703.html",
+        "status": "reference",
+        "retrieved": "2026-10-27"
+      }
     },
     {
       "slug": "oil-filter-90915-yzze1",
@@ -1240,40 +1300,6 @@
       "source": {
         "name": "congbenfilter.com",
         "url": "https://www.congbenfilter.com/product/ceramic-front-brake-pads-04465-0k020-04465-04030-04465-0k070-for-toyota.html",
-        "status": "verified-by-source",
-        "retrieved": "2026-10-27"
-      }
-    },
-    {
-      "slug": "air-filter-p320510",
-      "name": "Truck Engine Air Filter P320510 03-42776-010 91559 0342",
-      "category": "air-filter",
-      "model": "P320510",
-      "sourceId": 17707,
-      "desc": "Truck engine air filter matched to OE P320510 (cross-reference 03-42776-010 / 91559 / 0342776010 / 997879). On a commercial intake, dust-holding capacity and pleat consistency are the deciding quality points, confirmed per application.",
-      "image": "/images/congben/b9661854cbadd9f6.webp",
-      "gallery": [
-        "/images/congben/b9661854cbadd9f6.webp",
-        "/images/congben/1066e0ae49e65314.webp",
-        "/images/congben/c9dca6e61e69384e.webp",
-        "/images/congben/0948586b0b399e49.webp",
-        "/images/congben/1f3ae2fbb28c284e.webp",
-        "/images/congben/3c2631672ce1d780.webp",
-        "/images/congben/2ecbb44760b320b1.webp",
-        "/images/congben/36d6db66be407d89.webp",
-        "/images/congben/afe4fab0ee51c34c.webp",
-        "/images/congben/3d797dd796a7f9f9.webp"
-      ],
-      "oeNumbers": [
-        "P320510"
-      ],
-      "crossReference": null,
-      "material": null,
-      "dimensions": null,
-      "fitment": null,
-      "source": {
-        "name": "congbenfilter.com",
-        "url": "https://www.congbenfilter.com/product/custom-truck-engine-air-filter-p320510-03-42776-010-91559-0342776010-997879.html",
         "status": "verified-by-source",
         "retrieved": "2026-10-27"
       }

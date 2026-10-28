@@ -2,9 +2,9 @@
 
 Full index of every SKU in the canonical dataset. Identification fields are `verified` (from `data/products.json`). Per-SKU specification fields (OE, material, fitment, cross-reference) are `verified-by-source` where the congbenfilter.com catalog publishes them, and `NEEDS_VERIFICATION` otherwise.
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild.
 
-**61 SKUs across 8 categories.**
+**60 SKUs across 8 categories.**
 
 > **Commercial catalog** — [View all products &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/)
 
@@ -47,7 +47,6 @@ Full index of every SKU in the canonical dataset. Identification fields are `ver
 | [`04152-37010`](04152-37010.md) | Oil Filter (`of`) | Oil Filter 0415237010 04152YZZA6 Toyota Corolla | `22692` | `verified-by-source` |
 | [`04152-31080`](04152-31080.md) | Oil Filter (`of`) | Oil Filter 0415231080 04152YZZA5 | `22679` | `verified-by-source` |
 | [`04465-0K020`](04465-0K020.md) | Brake Pads (`bp`) | Ceramic Front Brake Pads 04465-0K020 04465-04030 04465- | `17763` | `verified-by-source` |
-| [`P320510`](P320510.md) | Air Filter (`af`) | Truck Engine Air Filter P320510 03-42776-010 91559 0342 | `17707` | `verified-by-source` |
 | [`15400-PLC`](15400-PLC.md) | Oil Filter (`of`) | Auto Engine Oil Filters 15400-PLC-004 15400-PLC-003 HON | `17687` | `verified-by-source` |
 | [`04152-31090`](04152-31090.md) | Oil Filter (`of`) | Auto Engine Oil Filter 04152-31090 04152-YZZA1 Oil Filt | `17654` | `verified-by-source` |
 | [`900FG`](900FG.md) | Fuel Filter (`ff`) | Oil Water Separator Assembly 900FG/900FH Fuel Water Sep | `17584` | `verified-by-source` |

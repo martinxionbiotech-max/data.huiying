@@ -3,12 +3,12 @@
 > Canonical product database for the huiying filter manufacturer — structured SKU records,
 > reference-level vehicle-fitment framework and filter reference data (media, OE prefix
 > patterns, size ranges, replacement intervals, procurement). Machine-readable, zero
-> marketing. 61 SKUs across 8 categories. Operator: Qinghe County Huiying Automotive Parts Co.,
+> marketing. 60 SKUs across 8 categories. Operator: Qinghe County Huiying Automotive Parts Co.,
 > Ltd. — commercial catalog and inquiries at carfilterspro.com.
 
 - [Home](https://data.carfilterspro.com/): data-site overview, section index and honest data posture.
-- [SKU Index](https://data.carfilterspro.com/products/): all 61 SKUs (identity verified; specs NEEDS_VERIFICATION).
-- [Air Filter category](https://data.carfilterspro.com/products/air-filter/): 21 SKUs.
+- [SKU Index](https://data.carfilterspro.com/products/): all 60 SKUs (identity verified; specs NEEDS_VERIFICATION).
+- [Air Filter category](https://data.carfilterspro.com/products/air-filter/): 20 SKUs.
 - [Cabin Filter category](https://data.carfilterspro.com/products/cabin-filter/): 2 SKUs.
 - [Oil Filter category](https://data.carfilterspro.com/products/oil-filter/): 16 SKUs.
 - [Fuel Filter category](https://data.carfilterspro.com/products/fuel-filter/): 6 SKUs.
@@ -56,7 +56,6 @@
 - [SKU 04152-37010](https://data.carfilterspro.com/products/04152-37010/): Oil Filter parameter page.
 - [SKU 04152-31080](https://data.carfilterspro.com/products/04152-31080/): Oil Filter parameter page.
 - [SKU 04465-0K020](https://data.carfilterspro.com/products/04465-0K020/): Brake Pads parameter page.
-- [SKU P320510](https://data.carfilterspro.com/products/P320510/): Air Filter parameter page.
 - [SKU 15400-PLC](https://data.carfilterspro.com/products/15400-PLC/): Oil Filter parameter page.
 - [SKU 04152-31090](https://data.carfilterspro.com/products/04152-31090/): Oil Filter parameter page.
 - [SKU 900FG](https://data.carfilterspro.com/products/900FG/): Fuel Filter parameter page.

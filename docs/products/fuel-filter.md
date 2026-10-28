@@ -2,7 +2,7 @@
 
 Category code `ff` · slug `fuel-filter` · 6 SKU(s).
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild.
 
 Fuel filters that remove iron oxide, dust and other impurities from fuel to prevent fuel-system blockage and reduce mechanical wear.
 

@@ -2,7 +2,7 @@
 
 Directional OE-number prefix patterns for mainstream vehicle brands. Prefixes are **public common knowledge** and are shown at pattern level only — a prefix alone is never a valid part match.
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild. OE-pattern dataset `data/oe-patterns.json` v0.2.0 — `prefix-pattern-reference`.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. OE-pattern dataset `data/oe-patterns.json` v0.2.0 — `prefix-pattern-reference`.
 
 > ⚠️ **prefix-pattern-reference** — These are prefix PATTERNS, not complete OE numbers. A prefix alone is never a valid part match. Always obtain the buyer's FULL OE number and confirm the exact part against it before ordering.
 

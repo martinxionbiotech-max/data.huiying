@@ -2,7 +2,7 @@
 
 Typical dimensional ranges by vehicle class, plus common oil-filter thread specifications. Public common-knowledge ranges for estimation only.
 
-> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild. Size dataset `data/size-ranges.json` v0.2.0 — `reference-only`.
+> **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. Size dataset `data/size-ranges.json` v0.2.0 — `reference-only`.
 
 > ⚠️ **reference-only** — These are typical REFERENCE ranges, not measurements of any specific SKU. They are for planning and estimation only; never use them to confirm a part. Always match the exact part by OE / cross-reference number.
 
