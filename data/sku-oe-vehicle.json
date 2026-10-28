@@ -1,0 +1,670 @@
+{
+  "_meta": {
+    "title": "SKU–OE–Vehicle Association",
+    "version": "0.1.0",
+    "generated": "2026-10-28",
+    "brand": "huiying",
+    "nature": "source-verified OE↔brand + reference vehicle application",
+    "purpose": "Associates each congben-sourced SKU to the OE number(s) published by the source catalog. The OE number's brand attribution is a fact (source-verified); specific vehicle model/year fitment remains reference-level and is never asserted as a precise fitment.",
+    "disclaimer": "OE numbers and their brand attribution are drawn from the source catalog (congbenfilter.com). Vehicle model/year application is reference-only — always confirm against the buyer's OE / cross-reference table before ordering.",
+    "status_schema": {
+      "reference": "framework / common-application guidance; not a verified match",
+      "source-verified": "value published by the source catalog; OE↔brand is a fact",
+      "fitment-verified": "complete SKU-OE-vehicle-source-verification-date record"
+    },
+    "counts": {
+      "oe_skus": 33,
+      "source_verified_oe_brand": 25,
+      "oe_without_stated_brand": 8,
+      "fitment_verified": 0
+    }
+  },
+  "entries": [
+    {
+      "model": "03-42776-010",
+      "slug": "air-filter-03-42776-010",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "03-42776-010",
+        "0342776010"
+      ],
+      "cross_reference": "P320510 / 91559 / 997879",
+      "brand": "Freightliner",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "Cascadia",
+        "Detroit Diesel"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/truck-engine-air-filter-p320510-0342776010-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "04E129620",
+      "slug": "air-filter-04e129620",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "04E129620",
+        "L04E129620D"
+      ],
+      "cross_reference": null,
+      "brand": "Volkswagen",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "VW"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/04e129620-air-intake-filter-for-vw-china-factory-suppliers-of-premium-car-filters.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "13717811026",
+      "slug": "air-filter-13717811026",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "13717811026"
+      ],
+      "cross_reference": "MANN C36014 / BOSCH F026400366",
+      "brand": "BMW",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "X3",
+        "X5",
+        "X6"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/engine-air-filter-13717811026-for-bmw-x3-x5-x6-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "1500A098",
+      "slug": "air-filter-1500a098",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "1500A098"
+      ],
+      "cross_reference": "1500A358",
+      "brand": "Mitsubishi",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "1500a098",
+        "1500a358"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/1500a098-1500a358-engine-air-filter-for-mitsubishi-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "16546-ED000",
+      "slug": "air-filter-16546-ed000",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "16546-ED000"
+      ],
+      "cross_reference": "16546-ED500",
+      "brand": "Nissan",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "Tiida",
+        "NV200",
+        "March"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/premium-car-air-filter-16546ed000-16546ed500-china-factory-suppliers-for-nissan-tiida-nv200-march.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "17220-5R0-008",
+      "slug": "air-filter-17220-5r0-008",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "17220-5R0-008"
+      ],
+      "cross_reference": "17220-5RO-008",
+      "brand": "Honda",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "Quality"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/172205r0008-air-filter-for-honda-high-quality-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "17801-21050",
+      "slug": "air-filter-17801-21050",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "17801-21050"
+      ],
+      "cross_reference": "17801-0M020, 17801-0T020, 17801-0T030",
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "Corolla",
+        "Avensis",
+        "Auris"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/car-engine-air-filter-1780121050-for-toyota-corolla-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "17801-30070",
+      "slug": "air-filter-17801-30070",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "17801-30070"
+      ],
+      "cross_reference": "1780130070",
+      "brand": null,
+      "oe_brand_status": "reference",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/1780130070-car-air-intake-filter-china-factory-and-reliable-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "28113-2S000",
+      "slug": "air-filter-28113-2s000",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "28113-2S000"
+      ],
+      "cross_reference": null,
+      "brand": "Kia",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "HYUNDAI"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/281132s000-engine-air-filter-for-kia-hyundai-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "A2700940004",
+      "slug": "air-filter-a2700940004",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "A2700940004"
+      ],
+      "cross_reference": "MANN C27004 / BOSCH F026400380",
+      "brand": "Mercedes-Benz",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "A",
+        "B",
+        "CLA",
+        "GLA Class"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/high-performance-a2700940004-auto-air-filter-china-factory-suppliers-for-mercedes-benz.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "LR011593",
+      "slug": "air-filter-lr011593",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "LR011593"
+      ],
+      "cross_reference": "LR161843",
+      "brand": "Land Rover",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "Discovery 4",
+        "RR Sport",
+        "RR"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/highflow-engine-air-filter-lr011593-lr161843-china-factory-suppliers-for-land-rover.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "RE596317",
+      "slug": "air-filter-re596317",
+      "category": "air-filter",
+      "category_name": "Air Filter",
+      "oe_numbers": [
+        "RE596317",
+        "RE596318"
+      ],
+      "cross_reference": null,
+      "brand": "John Deere",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "E-"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/re596317-air-filter-for-john-deere-eseries-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "04465-04030",
+      "slug": "brake-pads-04465-04030",
+      "category": "brake-pads",
+      "category_name": "Brake Pads",
+      "oe_numbers": [
+        "04465-04030",
+        "04465-0K020"
+      ],
+      "cross_reference": "04465-04030, 04465-0K020",
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/premium-ceramic-front-brake-pads-044650k070-for-toyota-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "04465-0K020",
+      "slug": "brake-pads-04465-0k020",
+      "category": "brake-pads",
+      "category_name": "Brake Pads",
+      "oe_numbers": [
+        "04465-0K020",
+        "04465-04030",
+        "04465-0K070"
+      ],
+      "cross_reference": null,
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "04465",
+        "0k020",
+        "04030",
+        "0k070"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/ceramic-front-brake-pads-04465-0k020-04465-04030-04465-0k070-for-toyota.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "87139-0N010",
+      "slug": "cabin-filter-87139-0n010",
+      "category": "cabin-filter",
+      "category_name": "Cabin Filter",
+      "oe_numbers": [
+        "87139-0N010",
+        "87139-30040"
+      ],
+      "cross_reference": null,
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/air-conditioning-filter-suitable-for-toyota.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "1000FH",
+      "slug": "fuel-filter-1000fh",
+      "category": "fuel-filter",
+      "category_name": "Fuel Filter",
+      "oe_numbers": [
+        "1000FH",
+        "1000FG"
+      ],
+      "cross_reference": null,
+      "brand": null,
+      "oe_brand_status": "reference",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/diesel-fuel-filter-water-separator-1000fh-1000fg.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "23390-0L070",
+      "slug": "fuel-filter-23390-0l070",
+      "category": "fuel-filter",
+      "category_name": "Fuel Filter",
+      "oe_numbers": [
+        "23390-0L070",
+        "23390-0L090"
+      ],
+      "cross_reference": null,
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/fuel-filter-23390-0l070-23390-0l090-suitable-for-toyota.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "500FH",
+      "slug": "fuel-filter-500fh",
+      "category": "fuel-filter",
+      "category_name": "Fuel Filter",
+      "oe_numbers": [
+        "500FH",
+        "500FG"
+      ],
+      "cross_reference": null,
+      "brand": null,
+      "oe_brand_status": "reference",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/500fgfh-diesel-fuel-water-separator-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "900FG",
+      "slug": "fuel-filter-900fg",
+      "category": "fuel-filter",
+      "category_name": "Fuel Filter",
+      "oe_numbers": [
+        "900FG",
+        "900FH"
+      ],
+      "cross_reference": null,
+      "brand": null,
+      "oe_brand_status": "reference",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/oil-water-separator-assembly-900fg-900fh-fuel-water-separator-filter.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "FF5507",
+      "slug": "fuel-filter-ff5507",
+      "category": "fuel-filter",
+      "category_name": "Fuel Filter",
+      "oe_numbers": [
+        "FF5507"
+      ],
+      "cross_reference": null,
+      "brand": null,
+      "oe_brand_status": "reference",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/high-performance-diesel-fuel-filter-ff5507-from-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "04152-31080",
+      "slug": "oil-filter-04152-31080",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "04152-31080"
+      ],
+      "cross_reference": "04152-38010, 04152-31060, 04152-0P010",
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "& Lexus"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/high-performance-oil-filter-0415231080-04152yzza5-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "04152-31090",
+      "slug": "oil-filter-04152-31090",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "04152-31090",
+        "04152-YZZA1"
+      ],
+      "cross_reference": null,
+      "brand": null,
+      "oe_brand_status": "reference",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/auto-engine-oil-filter-04152-31090-china-oil-filter-manufacturer.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "04152-37010",
+      "slug": "oil-filter-04152-37010",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "04152-37010",
+        "04152-YZZA6"
+      ],
+      "cross_reference": null,
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "Corolla"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/oil-filter-0415237010-04152yzza6-for-toyota-corolla-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "15208-65F00",
+      "slug": "oil-filter-15208-65f00",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "15208-65F00"
+      ],
+      "cross_reference": null,
+      "brand": null,
+      "oe_brand_status": "reference",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/auto-engine-oil-filters-15208-65f00-15208-65f0a-for-cars-auto.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "15400-PLC",
+      "slug": "oil-filter-15400-plc",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "15400-PLC"
+      ],
+      "cross_reference": null,
+      "brand": "Honda",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/suppliers-wholesale-auto-engine-oil-filters-15400-plc-004-15400-plc-003-for-honda.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "15400-PLC-004",
+      "slug": "oil-filter-15400-plc-004",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "15400-PLC-004",
+        "15400-PLC-003"
+      ],
+      "cross_reference": "15400-PLM-A02, 15400-RTA-003, 15400-PH1-003, etc.",
+      "brand": "Honda",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/china-factory-suppliers-of-honda-engine-oil-filter-15400plc004-15400plc003.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "35330-08010",
+      "slug": "oil-filter-35330-08010",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "35330-08010",
+        "58010"
+      ],
+      "cross_reference": null,
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "Lexus"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/china-factory-suppliers-of-3533008010-automatic-transmission-oil-filter-for-toyota-lexus.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "90915-YZZE1",
+      "slug": "oil-filter-90915-yzze1",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "90915-YZZE1",
+        "90915-YZZJ1"
+      ],
+      "cross_reference": "90915-10003, 90915-10001, 90915-YZZF2",
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "RAV4",
+        "Camry",
+        "Corolla",
+        "Prius"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/premium-toyota-oil-filter-90915yzze1-factory-suppliers-from-china.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "90915-YZZE2",
+      "slug": "oil-filter-90915-yzze2",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "90915-YZZE2",
+        "90915-YZZJ2"
+      ],
+      "cross_reference": "90915-10002, 90915-10004, 90915-YZZF1, 90915-TA002",
+      "brand": "Toyota",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "Camry",
+        "Corolla",
+        "RAV4",
+        "Highlander",
+        "Yaris",
+        "Prius",
+        "Matrix",
+        "Lexus CT200h",
+        "ES240",
+        "ES350"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/premium-90915yzze2-oil-filter-china-factory-suppliers-for-toyota-and-lexus.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "A0001802309",
+      "slug": "oil-filter-a0001802309",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "A0001802309",
+        "A0001802609"
+      ],
+      "cross_reference": "A1121800610, A1124840525",
+      "brand": "Mercedes-Benz",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/mercedes-benz-engine-oil-filter-a0001802309-a0001802609-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "A2701800009",
+      "slug": "oil-filter-a2701800009",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "A2701800009",
+        "A2701800109",
+        "A2701840025",
+        "A2701840125"
+      ],
+      "cross_reference": "Mann W 712/95, Bosch F 026 407 015",
+      "brand": "Mercedes-Benz",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [
+        "M270 & M274"
+      ],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/mercedes-benz-oil-filter-a2701800009-a2701800109-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "LF14000NN",
+      "slug": "oil-filter-lf14000nn",
+      "category": "oil-filter",
+      "category_name": "Oil Filter",
+      "oe_numbers": [
+        "LF14000NN"
+      ],
+      "cross_reference": null,
+      "brand": null,
+      "oe_brand_status": "reference",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/lf14000nn-heavy-duty-truck-engine-oil-filter-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    },
+    {
+      "model": "17127525023",
+      "slug": "rubber-hoses-17127525023",
+      "category": "rubber-hoses",
+      "category_name": "Rubber Hoses",
+      "oe_numbers": [
+        "17127525023"
+      ],
+      "cross_reference": null,
+      "brand": "BMW",
+      "oe_brand_status": "source-verified",
+      "vehicle_models": [],
+      "vehicle_status": "reference",
+      "source": "congbenfilter.com",
+      "source_url": "https://www.congbenfilter.com/product/premium-epdm-upper-radiator-hose-17127525023-bmw-parts-china-factory-suppliers.html",
+      "source_retrieved": "2026-10-27"
+    }
+  ]
+}

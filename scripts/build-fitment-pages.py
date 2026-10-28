@@ -79,10 +79,10 @@ CAT_BY_CODE = {c["code"]: c for c in CATS}
 
 
 def spec_status(p):
-    """Per-SKU spec status: verified-by-source when the source catalog carries
+    """Per-SKU spec status: source-verified when the source catalog carries
     OE/material/fitment data, otherwise NEEDS_VERIFICATION."""
     if p.get("oeNumbers") or p.get("material") or p.get("crossReference") or p.get("fitment"):
-        return "`verified-by-source`"
+        return "`source-verified`"
     return "`NEEDS_VERIFICATION`"
 
 
@@ -139,7 +139,7 @@ def gen_index():
     text += (
         "Full index of every SKU in the canonical dataset. Identification fields "
         "are `verified` (from `data/products.json`). Per-SKU specification fields "
-        "(OE, material, fitment, cross-reference) are `verified-by-source` where the "
+        "(OE, material, fitment, cross-reference) are `source-verified` where the "
         "congbenfilter.com catalog publishes them, and `NEEDS_VERIFICATION` otherwise.\n\n"
     )
     text += autogen_note()
@@ -210,8 +210,8 @@ def gen_sku(p):
     fitment = p.get("fitment") or {}
     src = p.get("source") or {}
 
-    def cell(value, status="verified-by-source"):
-        return f"`{value}`" if value else "`—`", ("`verified-by-source`" if value else "`NEEDS_VERIFICATION`")
+    def cell(value, status="source-verified"):
+        return f"`{value}`" if value else "`—`", ("`source-verified`" if value else "`NEEDS_VERIFICATION`")
 
     oe_v, oe_s = cell(" / ".join(oe) if oe else None)
     cr_v, cr_s = cell(crossref)
@@ -282,9 +282,9 @@ def gen_sku(p):
     text += "## Parameters\n\n"
     text += (
         "OE numbers, cross-references, material, dimensions and fitment are "
-        "`verified-by-source` where the source catalog (congbenfilter.com) publishes "
-        "them, and `NEEDS_VERIFICATION` otherwise — request the value from Huiying "
-        "before quoting.\n\n"
+        "`source-verified` where the source catalog (congbenfilter.com) publishes "
+        "them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value "
+        "from Huiying before quoting.\n\n"
     )
     text += spec + "\n"
     # source attribution
@@ -317,6 +317,11 @@ def gen_fitment_index():
 
     text = "# Fitment Reference Index\n\n"
     text += (
+        "> ⚠️ **Reference material — not an exact-fitment tool.** This is a common-application "
+        "reference framework, **not** a precise OE cross-reference table. Always confirm the "
+        "exact part against your OE / cross-reference number before ordering.\n\n"
+    )
+    text += (
         "Reference-level vehicle-fitment framework for the core filter types. "
         "These are **common-application references**, not precise OE cross-references.\n\n"
     )
@@ -333,7 +338,15 @@ def gen_fitment_index():
     text += f"| Regions | {', '.join(regions)} |\n"
     text += f"| Filter types | {', '.join(f['label'] for f in FILTERS)} |\n"
     text += f"| Matrix rows | {total_rows} |\n"
-    text += f"| Data status | `reference` (all entries) |\n\n"
+    text += f"| Data status | `reference` (all matrix rows) |\n\n"
+    text += (
+        "### Three-state data status\n\n"
+        "| State | Meaning | Count here |\n"
+        "|---|---|---|\n"
+        f"| `reference` | common-application guidance, not a verified match | {total_rows} matrix rows |\n"
+        "| `source-verified` | OE↔brand attribution is a fact (source catalog) | see [SKU–OE–Vehicle association](../reference/sku-oe-vehicle.md) |\n"
+        "| `fitment-verified` | complete SKU-OE-vehicle-source-date record | 0 |\n\n"
+    )
     text += table + "\n\n"
     text += f"> ⚠️ **{FIT_META.get('nature','reference-only')}** — {FIT_META.get('disclaimer','')}\n"
     write("fitment/index.md", text)
@@ -369,6 +382,12 @@ def gen_fitment(flt):
     ] + rows)
 
     text = f"---\ntitle: {label} — Fitment Reference\n---\n\n# {label} — Fitment Reference\n\n"
+    text += (
+        "> ⚠️ **Reference material — not an exact-fitment tool.** The table below lists "
+        "common-application vehicles only. It is **not** a precise OE cross-reference, and "
+        "no exact OE number or year range is asserted. Always confirm the exact part against "
+        "your OE / cross-reference number before ordering.\n\n"
+    )
     text += flt["intro"] + "\n\n"
     text += autogen_note(
         f"Fitment framework `data/fitment.json` v{FIT_META.get('version','0.1.0')} — "
