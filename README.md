@@ -2,7 +2,7 @@
 
 **huiying canonical product database** — MkDocs 子站，产品数据唯一事实源（machine-readable）。
 
-定位：被检索、被机器读、被引用的基础数据支撑。纯结构化数据 / 规格 / 交叉引用，**内容零营销**，与主站 `huiyingfilter.com` 营销文案零重复。
+定位：被检索、被机器读、被引用的基础数据支撑。纯结构化数据 / 规格 / 交叉引用，**内容零营销**，与主站 `carfilterspro.com` 营销文案零重复。
 
 ## 目录结构
 
@@ -13,12 +13,14 @@ data.huiying/
 ├── data/
 │   ├── products.json           # ★ 权威数据集（canonical，与主站 src/data/products.json 字节一致）
 │   ├── fitment.json            # ★ 车型适配参考框架（reference-only，非 OE 精确对照）
+│   ├── sku-oe-vehicle.json     # ★ SKU–OE–车型关联（source-verified OE↔brand + reference 车型）
 │   ├── oe-patterns.json        # OE 号前缀模式框架（prefix-pattern reference）
 │   ├── size-ranges.json        # 尺寸参考区间库（按车辆级别 / 机滤螺纹）
 │   ├── replacement-intervals.json # 替换周期参考数据（五类滤芯）
 │   └── procurement.json        # HS 编码 + MOQ/包装参考框架
 ├── scripts/
-│   └── build-fitment-pages.py  # ★ 从两个 JSON 生成全部数据页（零手工抄写）
+│   ├── build-fitment-pages.py  # ★ 从 JSON 生成全部数据页（零手工抄写）
+│   └── build-sku-oe-vehicle.py # ★ 生成 SKU–OE–车型关联数据集 + 页面
 ├── overrides/
 │   └── main.html               # announce 回链主站 + Organization JSON-LD
 └── docs/

@@ -7,7 +7,7 @@
 > Ltd. — commercial catalog and inquiries at carfilterspro.com.
 
 - [Home](https://data.carfilterspro.com/): data-site overview, section index and honest data posture.
-- [SKU Index](https://data.carfilterspro.com/products/): all 60 SKUs (identity verified; specs NEEDS_VERIFICATION).
+- [SKU Index](https://data.carfilterspro.com/products/): all 60 SKUs (identity verified; specs `source-verified` / blank).
 - [Air Filter category](https://data.carfilterspro.com/products/air-filter/): 20 SKUs.
 - [Cabin Filter category](https://data.carfilterspro.com/products/cabin-filter/): 2 SKUs.
 - [Oil Filter category](https://data.carfilterspro.com/products/oil-filter/): 16 SKUs.
@@ -95,6 +95,7 @@
 - [Size Ranges](https://data.carfilterspro.com/reference/size-ranges/)
 - [Replacement Intervals](https://data.carfilterspro.com/reference/replacement-intervals/)
 - [Procurement](https://data.carfilterspro.com/reference/procurement/)
+- [SKU–OE–Vehicle Association](https://data.carfilterspro.com/reference/sku-oe-vehicle/)
 - [Filter Media comparison](https://data.carfilterspro.com/materials/media-comparison/)
 - [Field Schema](https://data.carfilterspro.com/specification/field-schema/)
 - [Data Status Labels](https://data.carfilterspro.com/specification/data-status/)
@@ -103,8 +104,12 @@
 
 ## Notes
 
-- Per-SKU dimensions, material, efficiency, OE numbers and packing are NOT published by the
-  source catalogue; they are marked `NEEDS_VERIFICATION` here, never invented.
-- Vehicle fitment is `reference` only — common applications, not verified OE cross-references.
+- Three-state data status: `reference` (framework / common-application), `source-verified`
+  (value published by the source catalog; OE↔brand is a fact), `fitment-verified`
+  (complete SKU-OE-vehicle-source-date record — 0 rows today).
+- OE numbers, cross-references, material and fitment are `source-verified` where the
+  congbenfilter.com catalog publishes them; fields the source does not supply are blank
+  (`NEEDS_VERIFICATION`), never invented.
+- Vehicle fitment is `reference` only — "reference material — not an exact-fitment tool".
 - Commercial catalog and quotations: carfilterspro.com (this data site is reference-only).
 

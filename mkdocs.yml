@@ -146,6 +146,7 @@ nav:
       - Size Ranges: reference/size-ranges.md
       - Replacement Intervals: reference/replacement-intervals.md
       - Procurement: reference/procurement.md
+      - SKU–OE–Vehicle Association: reference/sku-oe-vehicle.md
   - Data Specification:
       - Field Schema: specification/field-schema.md
       - Data Status Labels: specification/data-status.md

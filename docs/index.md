@@ -12,7 +12,7 @@ canonical dataset or explicitly marked `NEEDS_VERIFICATION` / `reference`.
 
 | Section | What it contains | Data status |
 |---|---|---|
-| [SKU Index](products/index.md) | All 61 SKUs in the canonical dataset | `verified` (identity) + `NEEDS_VERIFICATION` (specs) |
+| [SKU Index](products/index.md) | All 60 SKUs in the canonical dataset | `verified` (identity) + `source-verified` / `NEEDS_VERIFICATION` (specs) |
 | [Categories](products/air-filter.md) | 8 product categories (air / cabin / oil / fuel / wiper / brake-pads / spark-plugs / rubber-hoses) | `verified` |
 | [SKU Details](products/HY-AF-692.md) | Per-SKU parameter tables | `verified` (identity) + `NEEDS_VERIFICATION` (specs) |
 | [Fitment Reference](fitment/index.md) | Vehicle-fitment framework for 8 filter types | `reference` |
@@ -25,7 +25,7 @@ canonical dataset or explicitly marked `NEEDS_VERIFICATION` / `reference`.
 
 ## Quick facts
 
-- **61 SKUs** across **8 categories** (air filter: 21 · cabin filter: 2 · oil filter: 16 · fuel filter: 6 · wiper: 0 · brake-pads: 2 · spark-plugs: 1 · rubber-hoses: 13).
+- **60 SKUs** across **8 categories** (air filter: 20 · cabin filter: 2 · oil filter: 16 · fuel filter: 6 · wiper: 0 · brake-pads: 2 · spark-plugs: 1 · rubber-hoses: 13).
 - **74 vehicle models** across **28 brands** in the fitment reference framework (8 filter types × 74 vehicles = 592 rows), prioritising **overseas-market models** (56 overseas + 18 Chinese domestic).
 - **OE prefix-pattern framework** across 4 filter types (prefix patterns only — full OE numbers are never asserted).
 - Canonical dataset version: `0.1.0` (generated 2026-10-26); fitment framework `0.2.0`.
@@ -33,10 +33,11 @@ canonical dataset or explicitly marked `NEEDS_VERIFICATION` / `reference`.
 ## Honest data posture
 
 The source product catalogue does **not** publish per-SKU dimensions, filter media,
-efficiency, OE numbers or packing data. Rather than invent those values, this site marks
-them `NEEDS_VERIFICATION` and directs buyers to confirm them with Huiying before quoting.
-The fitment framework and all reference datasets are **reference-only** — no exact OE
-number or exact dimension is asserted.
+efficiency or packing data. OE numbers, cross-references, material and fitment are
+`source-verified` where the congbenfilter.com catalog publishes them, and
+`NEEDS_VERIFICATION` (blank) otherwise. The fitment framework and all reference datasets
+are **reference-only** — no exact OE number or exact dimension is asserted, and fitment
+pages are explicitly "reference material — not an exact-fitment tool".
 
 Start with the [SKU Index](products/index.md), or go to the
 [commercial catalog](https://carfilterspro.com/products/) to request a quote.
