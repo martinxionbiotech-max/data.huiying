@@ -25,7 +25,7 @@
 ## Contact
 
 For verified specifications, OE cross-references or quotes, contact the manufacturer
-through [huiyingfilter.com](https://huiyingfilter.com/) — do not rely on this reference
+through [carfilterspro.com](https://carfilterspro.com/) — do not rely on this reference
 site as a purchasing specification.
 
 See also [Data status labels](data-status.md) and [Field schema](field-schema.md).

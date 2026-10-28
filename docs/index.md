@@ -1,7 +1,7 @@
 # Huiying Filter Data
 
 Canonical product database for **huiying** — the structured, machine-readable layer that
-backs the commercial site [huiyingfilter.com](https://huiyingfilter.com/).
+backs the commercial site [carfilterspro.com](https://carfilterspro.com/).
 
 This is a **data sub-site, not a marketing site**: it holds SKU records, a reference-level
 vehicle-fitment framework and filter reference data (media, OE prefix patterns, size
@@ -39,4 +39,4 @@ The fitment framework and all reference datasets are **reference-only** — no e
 number or exact dimension is asserted.
 
 Start with the [SKU Index](products/index.md), or go to the
-[commercial catalog](https://huiyingfilter.com/products/) to request a quote.
+[commercial catalog](https://carfilterspro.com/products/) to request a quote.

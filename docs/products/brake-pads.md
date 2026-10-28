@@ -6,7 +6,7 @@ Category code `bp` · slug `brake-pads` · 2 SKU(s).
 
 Ceramic and semi-metallic brake pads for passenger cars, matched by OE number.
 
-> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →](https://huiyingfilter.com/products/brake-pads/)
+> **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/brake-pads/)
 
 ## SKUs (2)
 

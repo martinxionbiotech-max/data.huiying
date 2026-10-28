@@ -6,7 +6,7 @@ Category code `rh` · slug `rubber-hoses` · 13 SKU(s).
 
 EPDM, NBR and silicone hoses for cooling, fuel and air-transfer circuits, custom and OE-matched.
 
-> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →](https://huiyingfilter.com/products/rubber-hoses/)
+> **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/rubber-hoses/)
 
 ## SKUs (13)
 

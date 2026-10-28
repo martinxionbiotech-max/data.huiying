@@ -6,7 +6,7 @@ Category code `af` · slug `air-filter` · 21 SKU(s).
 
 Engine air filters that remove dust and suspended particles from intake air before it reaches the combustion chamber, reducing cylinder, piston and piston-ring wear.
 
-> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →](https://huiyingfilter.com/products/air-filter/)
+> **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/air-filter/)
 
 ## SKUs (21)
 

@@ -6,7 +6,7 @@ Category code `cf` · slug `cabin-filter` · 2 SKU(s).
 
 Cabin air filters that capture dust, pollen and particulate from outside air before it enters the passenger cabin.
 
-> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →](https://huiyingfilter.com/products/cabin-filter/)
+> **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/cabin-filter/)
 
 ## SKUs (2)
 

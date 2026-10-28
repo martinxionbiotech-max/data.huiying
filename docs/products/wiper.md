@@ -6,7 +6,7 @@ Category code `wb` · slug `wiper` · 0 SKU(s).
 
 Wiper blades and related wiper products for clear visibility.
 
-> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →](https://huiyingfilter.com/products/wiper/)
+> **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/wiper/)
 
 ## SKUs (0)
 

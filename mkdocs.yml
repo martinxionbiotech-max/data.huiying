@@ -2,10 +2,10 @@ site_name: Huiying Filter Data
 site_description: >-
   Canonical product database for huiying — structured SKU records, reference-level
   vehicle fitment framework and filter-media comparison. Machine-readable, zero marketing.
-site_url: https://data.huiying.com
+site_url: https://data.carfilterspro.com
 repo_url: https://github.com/martinxionbiotech-max/data.huiying
 repo_name: data.huiying
-copyright: 'Qinghe County Huiying Automotive Parts Co., Ltd. · huiyingfilter.com'
+copyright: 'Qinghe County Huiying Automotive Parts Co., Ltd. · carfilterspro.com'
 
 theme:
   name: material
@@ -48,7 +48,7 @@ exclude_docs: |
 
 extra:
   version: 0.1.0
-  main_site: https://huiyingfilter.com
+  main_site: https://carfilterspro.com
 
 nav:
   - Home: index.md

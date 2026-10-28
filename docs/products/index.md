@@ -6,7 +6,7 @@ Full index of every SKU in the canonical dataset. Identification fields are `ver
 
 **61 SKUs across 8 categories.**
 
-> **Commercial catalog** — [View all products &amp; request a quote on huiyingfilter.com →](https://huiyingfilter.com/products/)
+> **Commercial catalog** — [View all products &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/)
 
 | Model | Category | Name | Source ID | Spec status |
 |---|---|---|---|---|

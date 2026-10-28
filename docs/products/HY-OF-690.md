@@ -5,7 +5,7 @@
 > **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.2.0 (2026-10-27). Do not edit values by hand — edit the dataset, then rebuild.
 
 > Category: **Oil Filter** — [category page](oil-filter.md) · [SKU index](index.md)
-> **Commercial listing** — [View product &amp; request quote on huiyingfilter.com →](https://huiyingfilter.com/products/oil-filter/)
+> **Commercial listing** — [View product &amp; request quote on carfilterspro.com →](https://carfilterspro.com/products/oil-filter/)
 
 ## Description (source site)
 

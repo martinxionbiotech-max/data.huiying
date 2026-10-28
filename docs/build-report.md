@@ -1,7 +1,7 @@
 # data.huiying — Build Report
 
 **Date:** 2026-10-26 · **Repo:** `data.huiying` (empty-repo scaffold) · **Brand:** huiying ·
-**Main site:** huiyingfilter.com · **Deploy domain:** data.huiying.com
+**Main site:** carfilterspro.com · **Deploy domain:** data.carfilterspro.com
 
 ## 1. Scope
 
@@ -59,16 +59,16 @@ field is `NEEDS_VERIFICATION` — none were invented. Fitment is reference-only.
 
 ## 6. Main-site integration
 
-- Added **"Product Data ↗"** footer link (`data.huiying.com`, dofollow, `target=_blank`)
+- Added **"Product Data ↗"** footer link (`data.carfilterspro.com`, dofollow, `target=_blank`)
   in the main site `src/components/Footer.astro` Products column.
 - Main site `npm run build` → 38 pages, clean; link rendered in `dist/index.html`.
-- Main site committed + pushed (`data: link footer to data.huiying.com`).
+- Main site committed + pushed (`data: link footer to data.carfilterspro.com`).
 
 ## 7. Verification checklist
 
 - [x] `diff data/products.json ../Huiying/src/data/products.json` = IDENTICAL (0 bytes diff)
 - [x] `mkdocs build` 0 warnings; 27 HTML pages
-- [x] announce bar renders backlink to huiyingfilter.com
+- [x] announce bar renders backlink to carfilterspro.com
 - [x] Organization JSON-LD present in `site/index.html`
 - [x] `sitemap.xml` (26 URLs) + `llms.txt` + `robots.txt` emitted to `site/`
 - [x] Generator idempotent (re-run produces identical output)

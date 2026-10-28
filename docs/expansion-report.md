@@ -1,7 +1,7 @@
 # data.huiying — Expansion Report (v0.2.0)
 
 **Date:** 2026-10-26 · **Repo:** `data.huiying` · **Brand:** huiying
-**Main site:** huiyingfilter.com · **Deploy domain:** data.huiying.com
+**Main site:** carfilterspro.com · **Deploy domain:** data.carfilterspro.com
 
 Data-content expansion for the huiying bottom-layer data sub-site. Builds on the v0.1.0
 scaffold and grows the reference layer while keeping the canonical `data/products.json`

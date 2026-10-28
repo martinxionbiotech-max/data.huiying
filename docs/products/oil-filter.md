@@ -6,7 +6,7 @@ Category code `of` · slug `oil-filter` · 16 SKU(s).
 
 Engine oil filters that remove contaminants and carbon sludge from circulating engine oil, protecting lubrication components and extending oil life.
 
-> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →](https://huiyingfilter.com/products/oil-filter/)
+> **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/oil-filter/)
 
 ## SKUs (16)
 

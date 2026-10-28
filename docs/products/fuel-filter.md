@@ -6,7 +6,7 @@ Category code `ff` · slug `fuel-filter` · 6 SKU(s).
 
 Fuel filters that remove iron oxide, dust and other impurities from fuel to prevent fuel-system blockage and reduce mechanical wear.
 
-> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →](https://huiyingfilter.com/products/fuel-filter/)
+> **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/fuel-filter/)
 
 ## SKUs (6)
 

@@ -6,7 +6,7 @@ Category code `sp` · slug `spark-plugs` · 1 SKU(s).
 
 Ignition spark plugs for gasoline engines, matched by OE and engine application.
 
-> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →](https://huiyingfilter.com/products/spark-plugs/)
+> **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →](https://carfilterspro.com/products/spark-plugs/)
 
 ## SKUs (1)
 

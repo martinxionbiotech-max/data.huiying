@@ -27,4 +27,4 @@ HS-code reference and MOQ / packing framework for huiying filters. Public common
 
 **Export markets:** Asia, Middle East, Africa, South America and Europe (consistent with the main site).
 
-For verified HS classification, MOQ and packing per SKU, contact Huiying through huiyingfilter.com.
+For verified HS classification, MOQ and packing per SKU, contact Huiying through carfilterspro.com.
