@@ -23,13 +23,13 @@ Motorcycle oil and fuel filter line built with High-Grade Filter Paper and PP, p
 | Source ID | `23091` | `verified` |
 ## Parameters
 
-OE numbers, cross-references, material, dimensions and fitment are `verified-by-source` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — request the value from Huiying before quoting.
+OE numbers, cross-references, material, dimensions and fitment are `source-verified` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value from Huiying before quoting.
 
 | Field | Value | Status |
 |---|---|---|
 | OE number(s) | `—` | `NEEDS_VERIFICATION` |
 | Cross-reference (competitor) | `—` | `NEEDS_VERIFICATION` |
-| Material | `High-Grade Filter Paper, PP` | `verified-by-source` |
+| Material | `High-Grade Filter Paper, PP` | `source-verified` |
 | Dimensions (L×W×H / OD×ID×H) | `—` | `NEEDS_VERIFICATION` |
 | Fitment | `—` | `NEEDS_VERIFICATION` |
 | Filtration efficiency | `—` | `NEEDS_VERIFICATION` |

@@ -1,5 +1,7 @@
 # Fitment Reference Index
 
+> ⚠️ **Reference material — not an exact-fitment tool.** This is a common-application reference framework, **not** a precise OE cross-reference table. Always confirm the exact part against your OE / cross-reference number before ordering.
+
 Reference-level vehicle-fitment framework for the core filter types. These are **common-application references**, not precise OE cross-references.
 
 > **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. Fitment framework `data/fitment.json` v0.3.0 (2026-10-27) — `reference-only`.
@@ -12,7 +14,15 @@ Reference-level vehicle-fitment framework for the core filter types. These are *
 | Regions | China, Czech Republic, France, Germany, Japan, South Korea, Sweden, USA, United Kingdom |
 | Filter types | Engine Air Filter, Engine Oil Filter, Cabin Air Filter, Fuel Filter, Wiper, Brake Pads, Spark Plugs, Rubber Hoses |
 | Matrix rows | 592 |
-| Data status | `reference` (all entries) |
+| Data status | `reference` (all matrix rows) |
+
+### Three-state data status
+
+| State | Meaning | Count here |
+|---|---|---|
+| `reference` | common-application guidance, not a verified match | 592 matrix rows |
+| `source-verified` | OE↔brand attribution is a fact (source catalog) | see [SKU–OE–Vehicle association](../reference/sku-oe-vehicle.md) |
+| `fitment-verified` | complete SKU-OE-vehicle-source-date record | 0 |
 
 | Page | Type | Matrix size | Data status |
 |---|---|---|---|

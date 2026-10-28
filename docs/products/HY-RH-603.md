@@ -23,13 +23,13 @@ Nitrile butadiene (NBR/Buna-N) rubber hose for oil and fuel transfer circuits. T
 | Source ID | `22986` | `verified` |
 ## Parameters
 
-OE numbers, cross-references, material, dimensions and fitment are `verified-by-source` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — request the value from Huiying before quoting.
+OE numbers, cross-references, material, dimensions and fitment are `source-verified` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value from Huiying before quoting.
 
 | Field | Value | Status |
 |---|---|---|
 | OE number(s) | `—` | `NEEDS_VERIFICATION` |
 | Cross-reference (competitor) | `—` | `NEEDS_VERIFICATION` |
-| Material | `Nitrile Butadiene Rubber (Buna-N)` | `verified-by-source` |
+| Material | `Nitrile Butadiene Rubber (Buna-N)` | `source-verified` |
 | Dimensions (L×W×H / OD×ID×H) | `—` | `NEEDS_VERIFICATION` |
 | Fitment | `—` | `NEEDS_VERIFICATION` |
 | Filtration efficiency | `—` | `NEEDS_VERIFICATION` |

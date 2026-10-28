@@ -23,13 +23,13 @@ Oil-resistant NBR automotive fuel hose, available in NBR, Silicone and EPDM. NBR
 | Source ID | `23041` | `verified` |
 ## Parameters
 
-OE numbers, cross-references, material, dimensions and fitment are `verified-by-source` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — request the value from Huiying before quoting.
+OE numbers, cross-references, material, dimensions and fitment are `source-verified` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value from Huiying before quoting.
 
 | Field | Value | Status |
 |---|---|---|
 | OE number(s) | `—` | `NEEDS_VERIFICATION` |
 | Cross-reference (competitor) | `—` | `NEEDS_VERIFICATION` |
-| Material | `NBR / Silicone / EPDM` | `verified-by-source` |
+| Material | `NBR / Silicone / EPDM` | `source-verified` |
 | Dimensions (L×W×H / OD×ID×H) | `—` | `NEEDS_VERIFICATION` |
 | Fitment | `—` | `NEEDS_VERIFICATION` |
 | Filtration efficiency | `—` | `NEEDS_VERIFICATION` |

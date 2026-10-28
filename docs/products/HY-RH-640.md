@@ -23,13 +23,13 @@ EPDM rubber elbow hose in premium EPDM for coolant and air circuits. EPDM resist
 | Source ID | `23053` | `verified` |
 ## Parameters
 
-OE numbers, cross-references, material, dimensions and fitment are `verified-by-source` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — request the value from Huiying before quoting.
+OE numbers, cross-references, material, dimensions and fitment are `source-verified` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value from Huiying before quoting.
 
 | Field | Value | Status |
 |---|---|---|
 | OE number(s) | `—` | `NEEDS_VERIFICATION` |
 | Cross-reference (competitor) | `—` | `NEEDS_VERIFICATION` |
-| Material | `Premium EPDM (Ethylene Propylene Diene Monomer)` | `verified-by-source` |
+| Material | `Premium EPDM (Ethylene Propylene Diene Monomer)` | `source-verified` |
 | Dimensions (L×W×H / OD×ID×H) | `—` | `NEEDS_VERIFICATION` |
 | Fitment | `—` | `NEEDS_VERIFICATION` |
 | Filtration efficiency | `—` | `NEEDS_VERIFICATION` |

@@ -23,7 +23,7 @@ Engine air filter for passenger and commercial intake systems, keeping dust and 
 | Source ID | `702` | `verified` |
 ## Parameters
 
-OE numbers, cross-references, material, dimensions and fitment are `verified-by-source` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — request the value from Huiying before quoting.
+OE numbers, cross-references, material, dimensions and fitment are `source-verified` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value from Huiying before quoting.
 
 | Field | Value | Status |
 |---|---|---|

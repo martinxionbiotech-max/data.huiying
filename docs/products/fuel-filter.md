@@ -12,11 +12,11 @@ Fuel filters that remove iron oxide, dust and other impurities from fuel to prev
 
 | Model | Name | Source ID | Spec status |
 |---|---|---|---|
-| [`500FH`](500FH.md) | 500FGFH Diesel Fuel Water Separator | `23004` | `verified-by-source` |
-| [`FF5507`](FF5507.md) | Diesel Fuel Filter FF5507 | `22911` | `verified-by-source` |
-| [`900FG`](900FG.md) | Oil Water Separator Assembly 900FG/900FH Fuel Water Sep | `17584` | `verified-by-source` |
-| [`1000FH`](1000FH.md) | High Efficiency Diesel Fuel Filter Water Separator 1000 | `17578` | `verified-by-source` |
-| [`23390-0L070`](23390-0L070.md) | Fuel filter 23390-0L070 23390-0L090 Toyota | `17372` | `verified-by-source` |
+| [`500FH`](500FH.md) | 500FGFH Diesel Fuel Water Separator | `23004` | `source-verified` |
+| [`FF5507`](FF5507.md) | Diesel Fuel Filter FF5507 | `22911` | `source-verified` |
+| [`900FG`](900FG.md) | Oil Water Separator Assembly 900FG/900FH Fuel Water Sep | `17584` | `source-verified` |
+| [`1000FH`](1000FH.md) | High Efficiency Diesel Fuel Filter Water Separator 1000 | `17578` | `source-verified` |
+| [`23390-0L070`](23390-0L070.md) | Fuel filter 23390-0L070 23390-0L090 Toyota | `17372` | `source-verified` |
 | [`HY-FF-651`](HY-FF-651.md) | Diesel Fuel Filter Water Separator | `17401` | `NEEDS_VERIFICATION` |
 
 ## Data status

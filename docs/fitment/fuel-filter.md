@@ -4,6 +4,8 @@ title: Fuel Filter — Fitment Reference
 
 # Fuel Filter — Fitment Reference
 
+> ⚠️ **Reference material — not an exact-fitment tool.** The table below lists common-application vehicles only. It is **not** a precise OE cross-reference, and no exact OE number or year range is asserted. Always confirm the exact part against your OE / cross-reference number before ordering.
+
 Fuel filters protect injectors and fuel pumps; diesel and commercial applications rely on them most heavily. The references below are common-application examples across global and domestic Chinese brands.
 
 > **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. Fitment framework `data/fitment.json` v0.3.0 — `reference-only`.

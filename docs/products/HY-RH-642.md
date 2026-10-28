@@ -23,14 +23,14 @@ High-temperature radiator silicone hose in Premium Silicone Rubber. Silicone tol
 | Source ID | `22998` | `verified` |
 ## Parameters
 
-OE numbers, cross-references, material, dimensions and fitment are `verified-by-source` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — request the value from Huiying before quoting.
+OE numbers, cross-references, material, dimensions and fitment are `source-verified` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value from Huiying before quoting.
 
 | Field | Value | Status |
 |---|---|---|
 | OE number(s) | `—` | `NEEDS_VERIFICATION` |
 | Cross-reference (competitor) | `—` | `NEEDS_VERIFICATION` |
-| Material | `Premium Silicone Rubber` | `verified-by-source` |
-| Dimensions (L×W×H / OD×ID×H) | `Straight, 45°/90° Elbow, 180° U-Bend` | `verified-by-source` |
+| Material | `Premium Silicone Rubber` | `source-verified` |
+| Dimensions (L×W×H / OD×ID×H) | `Straight, 45°/90° Elbow, 180° U-Bend` | `source-verified` |
 | Fitment | `—` | `NEEDS_VERIFICATION` |
 | Filtration efficiency | `—` | `NEEDS_VERIFICATION` |
 | Packing / carton qty | `—` | `NEEDS_VERIFICATION` |

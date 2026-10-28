@@ -4,6 +4,8 @@ title: Spark Plugs — Fitment Reference
 
 # Spark Plugs — Fitment Reference
 
+> ⚠️ **Reference material — not an exact-fitment tool.** The table below lists common-application vehicles only. It is **not** a precise OE cross-reference, and no exact OE number or year range is asserted. Always confirm the exact part against your OE / cross-reference number before ordering.
+
 Spark plugs are matched by engine code, heat range and thread reach. The references below are common-application examples; the exact plug is confirmed per engine.
 
 > **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. Fitment framework `data/fitment.json` v0.3.0 — `reference-only`.

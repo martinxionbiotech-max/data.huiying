@@ -23,14 +23,14 @@ Braided silicone heater and vacuum hose, available in Silicone, EPDM and NBR. Th
 | Source ID | `23065` | `verified` |
 ## Parameters
 
-OE numbers, cross-references, material, dimensions and fitment are `verified-by-source` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — request the value from Huiying before quoting.
+OE numbers, cross-references, material, dimensions and fitment are `source-verified` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value from Huiying before quoting.
 
 | Field | Value | Status |
 |---|---|---|
 | OE number(s) | `—` | `NEEDS_VERIFICATION` |
 | Cross-reference (competitor) | `—` | `NEEDS_VERIFICATION` |
-| Material | `Silicone, EPDM, NBR` | `verified-by-source` |
-| Dimensions (L×W×H / OD×ID×H) | `Straight, Reducer, 45/90/135/180° Elbow` | `verified-by-source` |
+| Material | `Silicone, EPDM, NBR` | `source-verified` |
+| Dimensions (L×W×H / OD×ID×H) | `Straight, Reducer, 45/90/135/180° Elbow` | `source-verified` |
 | Fitment | `—` | `NEEDS_VERIFICATION` |
 | Filtration efficiency | `—` | `NEEDS_VERIFICATION` |
 | Packing / carton qty | `—` | `NEEDS_VERIFICATION` |

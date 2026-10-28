@@ -12,13 +12,13 @@ EPDM, NBR and silicone hoses for cooling, fuel and air-transfer circuits, custom
 
 | Model | Name | Source ID | Spec status |
 |---|---|---|---|
-| [`HY-RH-603`](HY-RH-603.md) | NBR Nitrile Rubber Hose and | `22986` | `verified-by-source` |
-| [`17127525023`](17127525023.md) | EPDM Upper Radiator Hose 17127525023 BMW Parts | `22889` | `verified-by-source` |
-| [`HY-RH-638`](HY-RH-638.md) | Reinforced Silicone Turbo Heater Hose | `23077` | `verified-by-source` |
-| [`HY-RH-639`](HY-RH-639.md) | Braided Silicone Heater Vacuum Hose | `23065` | `verified-by-source` |
-| [`HY-RH-640`](HY-RH-640.md) | EPDM Rubber Elbow Hose and | `23053` | `verified-by-source` |
-| [`HY-RH-641`](HY-RH-641.md) | Oil Resistant NBR Automotive Fuel Hose and | `23041` | `verified-by-source` |
-| [`HY-RH-642`](HY-RH-642.md) | High Temperature Radiator Silicone Hose in | `22998` | `verified-by-source` |
+| [`HY-RH-603`](HY-RH-603.md) | NBR Nitrile Rubber Hose and | `22986` | `source-verified` |
+| [`17127525023`](17127525023.md) | EPDM Upper Radiator Hose 17127525023 BMW Parts | `22889` | `source-verified` |
+| [`HY-RH-638`](HY-RH-638.md) | Reinforced Silicone Turbo Heater Hose | `23077` | `source-verified` |
+| [`HY-RH-639`](HY-RH-639.md) | Braided Silicone Heater Vacuum Hose | `23065` | `source-verified` |
+| [`HY-RH-640`](HY-RH-640.md) | EPDM Rubber Elbow Hose and | `23053` | `source-verified` |
+| [`HY-RH-641`](HY-RH-641.md) | Oil Resistant NBR Automotive Fuel Hose and | `23041` | `source-verified` |
+| [`HY-RH-642`](HY-RH-642.md) | High Temperature Radiator Silicone Hose in | `22998` | `source-verified` |
 | [`HY-RH-643`](HY-RH-643.md) | Black Hydraulic Oil Fuel Hose High Pressure Fuel Line N | `17614` | `NEEDS_VERIFICATION` |
 | [`HY-RH-644`](HY-RH-644.md) | High Temp Radiator Hose Auto Elbow Silicone Hose Pipe c | `17604` | `NEEDS_VERIFICATION` |
 | [`HY-RH-645`](HY-RH-645.md) | Oil Resistant NBR Automotive Fuel Hose | `17461` | `NEEDS_VERIFICATION` |

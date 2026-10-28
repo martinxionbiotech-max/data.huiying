@@ -4,6 +4,8 @@ title: Brake Pads — Fitment Reference
 
 # Brake Pads — Fitment Reference
 
+> ⚠️ **Reference material — not an exact-fitment tool.** The table below lists common-application vehicles only. It is **not** a precise OE cross-reference, and no exact OE number or year range is asserted. Always confirm the exact part against your OE / cross-reference number before ordering.
+
 Brake pads are matched by OE number to the caliper and platform. The references below are common-application examples; the exact pad set is confirmed per OE.
 
 > **Auto-generated** by `scripts/build-fitment-pages.py`. Canonical dataset `data/products.json` v0.3.0 (2026-10-28). Do not edit values by hand — edit the dataset, then rebuild. Fitment framework `data/fitment.json` v0.3.0 — `reference-only`.

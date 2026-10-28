@@ -12,8 +12,8 @@ Ceramic and semi-metallic brake pads for passenger cars, matched by OE number.
 
 | Model | Name | Source ID | Spec status |
 |---|---|---|---|
-| [`04465-04030`](04465-04030.md) | Ceramic Front Brake Pads 044650K070 Toyota | `22874` | `verified-by-source` |
-| [`04465-0K020`](04465-0K020.md) | Ceramic Front Brake Pads 04465-0K020 04465-04030 04465- | `17763` | `verified-by-source` |
+| [`04465-04030`](04465-04030.md) | Ceramic Front Brake Pads 044650K070 Toyota | `22874` | `source-verified` |
+| [`04465-0K020`](04465-0K020.md) | Ceramic Front Brake Pads 04465-0K020 04465-04030 04465- | `17763` | `source-verified` |
 
 ## Data status
 
