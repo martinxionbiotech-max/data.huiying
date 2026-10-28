@@ -41,8 +41,8 @@ INTERVALS_PATH = os.path.join(ROOT, "data", "replacement-intervals.json")
 PROCUREMENT_PATH = os.path.join(ROOT, "data", "procurement.json")
 DOCS = os.path.join(ROOT, "docs")
 
-SITE_URL = "https://data.huiying.com"
-MAIN_URL = "https://huiyingfilter.com"
+SITE_URL = "https://data.carfilterspro.com"
+MAIN_URL = "https://carfilterspro.com"
 
 with open(PRODUCTS_PATH, "r", encoding="utf-8") as f:
     DS = json.load(f)
@@ -144,7 +144,7 @@ def gen_index():
     )
     text += autogen_note()
     text += f"\n**{len(PRODUCTS)} SKUs across {len(CATS)} categories.**\n\n"
-    text += f"> **Commercial catalog** — [View all products &amp; request a quote on huiyingfilter.com →]({MAIN_URL}/products/)\n\n"
+    text += f"> **Commercial catalog** — [View all products &amp; request a quote on carfilterspro.com →]({MAIN_URL}/products/)\n\n"
     text += table + "\n"
     write("products/index.md", text)
 
@@ -186,7 +186,7 @@ def gen_category(slug):
     text += f"{len(skus)} SKU(s).\n\n"
     text += autogen_note()
     text += "\n" + c["desc"] + "\n\n"
-    text += f"> **Commercial listing** — [View this category &amp; request a quote on huiyingfilter.com →]({MAIN_URL}/products/{c['slug']}/)\n\n"
+    text += f"> **Commercial listing** — [View this category &amp; request a quote on carfilterspro.com →]({MAIN_URL}/products/{c['slug']}/)\n\n"
     text += sku_block
     text += "## Data status\n\n"
     text += (
@@ -275,7 +275,7 @@ def gen_sku(p):
     text += f"`{p['model']}`\n\n"
     text += autogen_note()
     text += f"\n> Category: **{c['name']}** — [category page]({c['slug']}.md) · [SKU index](index.md)\n"
-    text += f"> **Commercial listing** — [View product &amp; request quote on huiyingfilter.com →]({MAIN_URL}/products/{p['category']}/)\n\n"
+    text += f"> **Commercial listing** — [View product &amp; request quote on carfilterspro.com →]({MAIN_URL}/products/{p['category']}/)\n\n"
     text += "## Description (source site)\n\n"
     text += (desc if desc else "`—`") + "\n\n"
     text += "## Identification\n\n" + ident + "\n"
