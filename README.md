@@ -13,7 +13,7 @@ data.huiying/
 ├── data/
 │   ├── products.json           # ★ 权威数据集（canonical，与主站 src/data/products.json 字节一致）
 │   ├── fitment.json            # ★ 车型适配参考框架（reference-only，非 OE 精确对照）
-│   ├── sku-oe-vehicle.json     # ★ SKU–OE–车型关联（source-verified OE↔brand + reference 车型）
+│   ├── sku-oe-vehicle.json     # ★ SKU–OE–车型关联（catalog-confirmed OE↔brand + reference 车型）
 │   ├── oe-patterns.json        # OE 号前缀模式框架（prefix-pattern reference）
 │   ├── size-ranges.json        # 尺寸参考区间库（按车辆级别 / 机滤螺纹）
 │   ├── replacement-intervals.json # 替换周期参考数据（五类滤芯）
@@ -27,11 +27,11 @@ data.huiying/
     ├── index.md                # 首页：定位 / 覆盖范围 / 诚实口径
     ├── products/
     │   ├── index.md            # SKU 全量索引（生成）
-    │   ├── {slug}.md           # 5 品类页（生成）
-    │   └── {model}.md          # 10 SKU 参数页（生成）
+    │   ├── {slug}.md           # 8 品类页（生成）
+    │   └── {model}.md          # 60 SKU 参数页（生成）
     ├── fitment/                # 车型适配参考框架（生成）
     │   ├── index.md
-    │   └── {type}.md           # air / oil / cabin / fuel / wiper 各一
+    │   └── {type}.md           # air / oil / cabin / fuel / wiper / brake-pads / spark-plugs / rubber-hoses 各一
     ├── materials/
     │   └── media-comparison.md # 滤材对比（手写：纤维素/混纺/合成/纳米 + 活性炭/玻纤/驻极）
     ├── reference/              # 参考数据页（生成）
@@ -53,7 +53,7 @@ data.huiying/
 1. **唯一事实源**：主站 `src/data/products.json` 是 SKU 身份字段的唯一真值表。
 2. **权威副本同值**：本仓 `data/products.json` 与主站 `src/data/products.json` **字节一致**。
 3. **零手工抄写**：数据页全部由 `scripts/build-fitment-pages.py` 渲染生成，不手工转录任何数值。
-4. **零编造**：源数据缺失的规格字段（尺寸/材质/效率/OE/装箱/HS）一律标 `NEEDS_VERIFICATION`，适配框架标 `reference`，绝不杜撰精确 OE 号或尺寸。
+4. **零编造**：源数据缺失的规格字段（尺寸/材质/效率/OE/装箱/HS/螺纹/旁通）一律标 `pending`，适配框架标 `reference`，绝不杜撰精确 OE 号或尺寸。OE/交叉参考/材质与 OE↔品牌归属标 `catalog-confirmed`（源目录事实）。
 
 ## 同步流程（主站改数据 → 本仓重建）
 

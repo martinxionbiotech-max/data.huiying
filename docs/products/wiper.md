@@ -14,4 +14,4 @@ Wiper blades and related wiper products for clear visibility.
 
 ## Data status
 
-Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. See [Data status labels](../specification/data-status.md) for the label definitions.
+Identification fields are `verified`; specification fields are `catalog-confirmed` where the source catalog publishes them and `pending` otherwise. See [Data status labels](../specification/data-status.md) for the label definitions.

@@ -4,19 +4,19 @@
     "version": "0.1.0",
     "generated": "2026-10-28",
     "brand": "huiying",
-    "nature": "source-verified OE↔brand + reference vehicle application",
-    "purpose": "Associates each congben-sourced SKU to the OE number(s) published by the source catalog. The OE number's brand attribution is a fact (source-verified); specific vehicle model/year fitment remains reference-level and is never asserted as a precise fitment.",
+    "nature": "catalog-confirmed OE↔brand + reference vehicle application",
+    "purpose": "Associates each congben-sourced SKU to the OE number(s) published by the source catalog. The OE number's brand attribution is a fact (catalog-confirmed); specific vehicle model/year fitment remains reference-level and is never asserted as a precise fitment.",
     "disclaimer": "OE numbers and their brand attribution are drawn from the source catalog (congbenfilter.com). Vehicle model/year application is reference-only — always confirm against the buyer's OE / cross-reference table before ordering.",
     "status_schema": {
       "reference": "framework / common-application guidance; not a verified match",
-      "source-verified": "value published by the source catalog; OE↔brand is a fact",
-      "fitment-verified": "complete SKU-OE-vehicle-source-verification-date record"
+      "catalog-confirmed": "source-catalog field; OE↔brand is a fact",
+      "factory-verified": "factory drawings / measurements (complete record)"
     },
     "counts": {
       "oe_skus": 33,
-      "source_verified_oe_brand": 25,
-      "oe_without_stated_brand": 8,
-      "fitment_verified": 0
+      "catalog_confirmed_oe_brand": 26,
+      "oe_without_stated_brand": 7,
+      "factory_verified": 0
     }
   },
   "entries": [
@@ -31,7 +31,7 @@
       ],
       "cross_reference": "P320510 / 91559 / 997879",
       "brand": "Freightliner",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "Cascadia",
         "Detroit Diesel"
@@ -52,7 +52,7 @@
       ],
       "cross_reference": null,
       "brand": "Volkswagen",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "VW"
       ],
@@ -71,7 +71,7 @@
       ],
       "cross_reference": "MANN C36014 / BOSCH F026400366",
       "brand": "BMW",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "X3",
         "X5",
@@ -92,7 +92,7 @@
       ],
       "cross_reference": "1500A358",
       "brand": "Mitsubishi",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "1500a098",
         "1500a358"
@@ -112,7 +112,7 @@
       ],
       "cross_reference": "16546-ED500",
       "brand": "Nissan",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "Tiida",
         "NV200",
@@ -133,7 +133,7 @@
       ],
       "cross_reference": "17220-5RO-008",
       "brand": "Honda",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "Quality"
       ],
@@ -152,7 +152,7 @@
       ],
       "cross_reference": "17801-0M020, 17801-0T020, 17801-0T030",
       "brand": "Toyota",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "Corolla",
         "Avensis",
@@ -172,8 +172,8 @@
         "17801-30070"
       ],
       "cross_reference": "1780130070",
-      "brand": null,
-      "oe_brand_status": "reference",
+      "brand": "Toyota",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [],
       "vehicle_status": "reference",
       "source": "congbenfilter.com",
@@ -190,7 +190,7 @@
       ],
       "cross_reference": null,
       "brand": "Kia",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "HYUNDAI"
       ],
@@ -209,7 +209,7 @@
       ],
       "cross_reference": "MANN C27004 / BOSCH F026400380",
       "brand": "Mercedes-Benz",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "A",
         "B",
@@ -231,7 +231,7 @@
       ],
       "cross_reference": "LR161843",
       "brand": "Land Rover",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "Discovery 4",
         "RR Sport",
@@ -253,7 +253,7 @@
       ],
       "cross_reference": null,
       "brand": "John Deere",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "E-"
       ],
@@ -273,7 +273,7 @@
       ],
       "cross_reference": "04465-04030, 04465-0K020",
       "brand": "Toyota",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [],
       "vehicle_status": "reference",
       "source": "congbenfilter.com",
@@ -292,7 +292,7 @@
       ],
       "cross_reference": null,
       "brand": "Toyota",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "04465",
         "0k020",
@@ -315,7 +315,7 @@
       ],
       "cross_reference": null,
       "brand": "Toyota",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [],
       "vehicle_status": "reference",
       "source": "congbenfilter.com",
@@ -351,7 +351,7 @@
       ],
       "cross_reference": null,
       "brand": "Toyota",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [],
       "vehicle_status": "reference",
       "source": "congbenfilter.com",
@@ -420,11 +420,9 @@
         "04152-31080"
       ],
       "cross_reference": "04152-38010, 04152-31060, 04152-0P010",
-      "brand": "Toyota",
-      "oe_brand_status": "source-verified",
-      "vehicle_models": [
-        "& Lexus"
-      ],
+      "brand": "Toyota / Lexus",
+      "oe_brand_status": "catalog-confirmed",
+      "vehicle_models": [],
       "vehicle_status": "reference",
       "source": "congbenfilter.com",
       "source_url": "https://www.congbenfilter.com/product/high-performance-oil-filter-0415231080-04152yzza5-china-factory-suppliers.html",
@@ -459,7 +457,7 @@
       ],
       "cross_reference": null,
       "brand": "Toyota",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "Corolla"
       ],
@@ -495,7 +493,7 @@
       ],
       "cross_reference": null,
       "brand": "Honda",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [],
       "vehicle_status": "reference",
       "source": "congbenfilter.com",
@@ -513,7 +511,7 @@
       ],
       "cross_reference": "15400-PLM-A02, 15400-RTA-003, 15400-PH1-003, etc.",
       "brand": "Honda",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [],
       "vehicle_status": "reference",
       "source": "congbenfilter.com",
@@ -531,7 +529,7 @@
       ],
       "cross_reference": null,
       "brand": "Toyota",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "Lexus"
       ],
@@ -551,7 +549,7 @@
       ],
       "cross_reference": "90915-10003, 90915-10001, 90915-YZZF2",
       "brand": "Toyota",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "RAV4",
         "Camry",
@@ -574,7 +572,7 @@
       ],
       "cross_reference": "90915-10002, 90915-10004, 90915-YZZF1, 90915-TA002",
       "brand": "Toyota",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "Camry",
         "Corolla",
@@ -603,7 +601,7 @@
       ],
       "cross_reference": "A1121800610, A1124840525",
       "brand": "Mercedes-Benz",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [],
       "vehicle_status": "reference",
       "source": "congbenfilter.com",
@@ -623,7 +621,7 @@
       ],
       "cross_reference": "Mann W 712/95, Bosch F 026 407 015",
       "brand": "Mercedes-Benz",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [
         "M270 & M274"
       ],
@@ -659,7 +657,7 @@
       ],
       "cross_reference": null,
       "brand": "BMW",
-      "oe_brand_status": "source-verified",
+      "oe_brand_status": "catalog-confirmed",
       "vehicle_models": [],
       "vehicle_status": "reference",
       "source": "congbenfilter.com",

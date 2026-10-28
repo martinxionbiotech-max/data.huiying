@@ -23,24 +23,35 @@ EPDM rubber elbow hose in premium EPDM for coolant and air circuits. EPDM resist
 | Source ID | `23053` | `verified` |
 ## Parameters
 
-OE numbers, cross-references, material, dimensions and fitment are `source-verified` where the source catalog (congbenfilter.com) publishes them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value from Huiying before quoting.
+OE numbers, cross-references, material and the OE↔brand relationship are `catalog-confirmed` where the source catalog (congbenfilter.com) publishes them. Vehicle model, engine, dimensions, thread, seal and bypass are `reference` or `pending` — never a verified fitment. Request the missing values from Huiying before quoting.
 
 | Field | Value | Status |
 |---|---|---|
-| OE number(s) | `—` | `NEEDS_VERIFICATION` |
-| Cross-reference (competitor) | `—` | `NEEDS_VERIFICATION` |
-| Material | `Premium EPDM (Ethylene Propylene Diene Monomer)` | `source-verified` |
-| Dimensions (L×W×H / OD×ID×H) | `—` | `NEEDS_VERIFICATION` |
-| Fitment | `—` | `NEEDS_VERIFICATION` |
-| Filtration efficiency | `—` | `NEEDS_VERIFICATION` |
-| Packing / carton qty | `—` | `NEEDS_VERIFICATION` |
-| HS Code | `—` | `NEEDS_VERIFICATION` |
+| OE number(s) | `—` | `pending` |
+| Cross-reference (competitor) | `—` | `pending` |
+| Material | `Premium EPDM (Ethylene Propylene Diene Monomer)` | `catalog-confirmed` |
+| Brand fitment (OE↔brand) | `—` | `pending` |
+| Vehicle models | `—` | `pending` |
+| Engine | `—` | `pending` |
+| Dimensions (L×W×H / OD×ID×H) | `—` | `pending` |
+| Thread / seal / bypass | `—` | `pending` |
+| Filtration efficiency | `—` | `pending` |
+| Packing / carton qty | `—` | `pending` |
+| HS Code | `—` | `pending` |
 
 ## Source
 
 | Field | Value | Status |
 |---|---|---|
-| Source | congbenfilter.com · status `reference` | `reference` |
+| Source | congbenfilter.com | `reference` |
+## Quality verification & documents
+
+> No published test data for this SKU — request inspection/test documents from sales before quoting.
+
+| Field | Value | Status |
+|---|---|---|
+| Inspection / test report | `—` | `pending` |
+| Verification date | `—` | `pending` |
 
 ## Reference fitment
 

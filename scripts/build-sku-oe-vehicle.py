@@ -3,17 +3,17 @@
 build-sku-oe-vehicle.py — emit the SKU-OE-vehicle association dataset and its
 rendered page from the canonical products.json.
 
-Three-state data status (audit3 / P0-2):
-  reference        — framework / common-application guidance; NOT a verified match
-  source-verified  — the value is published by the source catalog (congbenfilter.com);
-                     for the OE↔brand relationship this means the OE number's brand
-                     attribution is a fact (e.g. 17220-5R0-008 → Honda)
-  fitment-verified — only for a complete SKU-OE-vehicle-source-verification-date
-                     record; NONE exist today, so this bucket is empty (0 rows)
+Three-state data status (audit4 / P0):
+
+  catalog-confirmed — source-catalog field (OE / cross-reference / material); for
+                      the OE↔brand relationship this means the OE number's brand
+                      attribution is a fact from the source (e.g. 17220-5R0-008 → Honda)
+  factory-verified   — factory drawings / measurements; NONE exist today (0 rows)
+  reference          — framework / common-application guidance; NOT a verified match
 
 The association only records REAL relationships present in products.json:
-  - OE number(s)               → `source-verified` (published by source)
-  - OE ↔ brand (fitment.brand) → `source-verified` where the source states a brand;
+  - OE number(s)               → `catalog-confirmed` (published by source)
+  - OE ↔ brand (fitment.brand) → `catalog-confirmed` where the source states a brand;
                                   `reference` where the source gives an OE number but
                                   no brand (we do NOT invent a brand)
   - vehicle model / year        → always `reference` (never a precise fitment claim)
@@ -53,8 +53,8 @@ for p in PRODUCTS:
         "oe_numbers": oe,
         "cross_reference": p.get("crossReference"),
         "brand": brand,
-        # OE↔brand: source-verified when the source catalog states the brand; otherwise reference.
-        "oe_brand_status": "source-verified" if brand else "reference",
+        # OE↔brand: catalog-confirmed when the source catalog states the brand; otherwise reference.
+        "oe_brand_status": "catalog-confirmed" if brand else "reference",
         "vehicle_models": models,
         "vehicle_status": "reference",
         "source": src.get("name"),
@@ -66,7 +66,7 @@ for p in PRODUCTS:
 entries.sort(key=lambda e: (e["category"], e["model"]))
 
 n_oe = len(entries)
-n_brand = sum(1 for e in entries if e["oe_brand_status"] == "source-verified")
+n_brand = sum(1 for e in entries if e["oe_brand_status"] == "catalog-confirmed")
 n_brand_ref = n_oe - n_brand
 
 out = {
@@ -75,10 +75,10 @@ out = {
         "version": "0.1.0",
         "generated": "2026-10-28",
         "brand": META.get("brand", "huiying"),
-        "nature": "source-verified OE↔brand + reference vehicle application",
+        "nature": "catalog-confirmed OE↔brand + reference vehicle application",
         "purpose": (
             "Associates each congben-sourced SKU to the OE number(s) published by the "
-            "source catalog. The OE number's brand attribution is a fact (source-verified); "
+            "source catalog. The OE number's brand attribution is a fact (catalog-confirmed); "
             "specific vehicle model/year fitment remains reference-level and is never "
             "asserted as a precise fitment."
         ),
@@ -89,14 +89,14 @@ out = {
         ),
         "status_schema": {
             "reference": "framework / common-application guidance; not a verified match",
-            "source-verified": "value published by the source catalog; OE↔brand is a fact",
-            "fitment-verified": "complete SKU-OE-vehicle-source-verification-date record",
+            "catalog-confirmed": "source-catalog field; OE↔brand is a fact",
+            "factory-verified": "factory drawings / measurements (complete record)",
         },
         "counts": {
             "oe_skus": n_oe,
-            "source_verified_oe_brand": n_brand,
+            "catalog_confirmed_oe_brand": n_brand,
             "oe_without_stated_brand": n_brand_ref,
-            "fitment_verified": 0,
+            "factory_verified": 0,
         },
     },
     "entries": entries,
@@ -117,9 +117,14 @@ lines = []
 lines.append("# SKU–OE–Vehicle Association\n")
 lines.append(
     "Every **congben-sourced SKU** with an OE number, mapped to the OE number(s) "
-    "published by the source catalog. The **OE↔brand** relationship is `source-verified` "
+    "published by the source catalog. The **OE↔brand** relationship is `catalog-confirmed` "
     "where the source states a brand (the OE number's brand attribution is a fact); "
     "specific **vehicle model/year** application is `reference`-only.\n"
+)
+lines.append(
+    "> ⚠️ **This is a separate partition from the [fitment reference matrix](../fitment/index.md).** "
+    "The 74-vehicle reference matrix is a common-application framework; this page records "
+    "only the *real* SKU↔OE relationships present in the canonical dataset.\n"
 )
 lines.append(
     "> **Auto-generated** by `scripts/build-sku-oe-vehicle.py` from `data/products.json` "
@@ -127,8 +132,8 @@ lines.append(
     "Do not edit values by hand — edit the dataset, then rebuild.\n"
 )
 lines.append(
-    f"\n**{n_oe} OE-bearing SKUs · {n_brand} with source-verified OE↔brand · "
-    f"{n_brand_ref} OE-only (brand not stated) · {0} fitment-verified.**\n"
+    f"\n**{n_oe} OE-bearing SKUs · {n_brand} with catalog-confirmed OE↔brand · "
+    f"{n_brand_ref} OE-only (brand not stated) · {0} factory-verified.**\n"
 )
 lines.append("| SKU | Category | OE number(s) | Brand | OE↔brand status | Vehicle (reference) |\n")
 lines.append("|---|---|---|---|---|---|")
@@ -145,7 +150,7 @@ lines.append("## Status labels\n")
 for k, v in out["_meta"]["status_schema"].items():
     lines.append(f"- **`{k}`** — {v}")
 lines.append("")
-lines.append(f"> ⚠️ **reference / source-verified, not exact-fitment** — {out['_meta']['disclaimer']}\n")
+lines.append(f"> ⚠️ **catalog-confirmed / reference, not exact-fitment** — {out['_meta']['disclaimer']}\n")
 
 os.makedirs(os.path.dirname(OUT_MD), exist_ok=True)
 with open(OUT_MD, "w", encoding="utf-8") as f:
@@ -153,6 +158,6 @@ with open(OUT_MD, "w", encoding="utf-8") as f:
 
 print(f"wrote {os.path.relpath(OUT_JSON, ROOT)} ({n_oe} SKUs)")
 print(f"wrote {os.path.relpath(OUT_MD, ROOT)}")
-print(f"  source-verified OE↔brand: {n_brand}")
+print(f"  catalog-confirmed OE↔brand: {n_brand}")
 print(f"  OE-only (brand not stated): {n_brand_ref}")
-print(f"  fitment-verified: 0")
+print(f"  factory-verified: 0")

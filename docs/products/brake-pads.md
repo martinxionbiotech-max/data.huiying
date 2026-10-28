@@ -12,9 +12,9 @@ Ceramic and semi-metallic brake pads for passenger cars, matched by OE number.
 
 | Model | Name | Source ID | Spec status |
 |---|---|---|---|
-| [`04465-04030`](04465-04030.md) | Ceramic Front Brake Pads 044650K070 Toyota | `22874` | `source-verified` |
-| [`04465-0K020`](04465-0K020.md) | Ceramic Front Brake Pads 04465-0K020 04465-04030 04465- | `17763` | `source-verified` |
+| [`04465-04030`](04465-04030.md) | Ceramic Front Brake Pads 044650K070 Toyota | `22874` | `catalog-confirmed` |
+| [`04465-0K020`](04465-0K020.md) | Ceramic Front Brake Pads 04465-0K020 04465-04030 04465- | `17763` | `catalog-confirmed` |
 
 ## Data status
 
-Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. See [Data status labels](../specification/data-status.md) for the label definitions.
+Identification fields are `verified`; specification fields are `catalog-confirmed` where the source catalog publishes them and `pending` otherwise. See [Data status labels](../specification/data-status.md) for the label definitions.

@@ -361,7 +361,7 @@
       "category": "air-filter",
       "model": "17801-30070",
       "sourceId": 22975,
-      "desc": "Toyota-pattern engine air filter matched to OE 17801-30070 (cross-reference 1780130070), built with PP and non-woven fabric. The element removes dust and sand from intake air, with pleat spacing and media area matched to the air-cleaner housing for the designed airflow.",
+      "desc": "Toyota OE-pattern engine air filter (catalog-confirmed) matched to OE 17801-30070 (cross-reference 1780130070), built with PP and non-woven fabric. The element removes dust and sand from intake air, with pleat spacing and media area matched to the air-cleaner housing for the designed airflow.",
       "image": "/images/congben/64c3903b43abb874.webp",
       "gallery": [
         "/images/congben/64c3903b43abb874.webp",
@@ -385,7 +385,11 @@
       "crossReference": "1780130070",
       "material": "PP, Non-woven fabric",
       "dimensions": null,
-      "fitment": null,
+      "fitment": {
+        "brand": "Toyota",
+        "models": [],
+        "engine": null
+      },
       "source": {
         "name": "congbenfilter.com",
         "url": "https://www.congbenfilter.com/product/1780130070-car-air-intake-filter-china-factory-and-reliable-suppliers.html",
@@ -1235,7 +1239,7 @@
       "category": "oil-filter",
       "model": "04152-31080",
       "sourceId": 22679,
-      "desc": "Toyota/Lexus oil filter matched to OE 04152-31080 (cross-reference 04152-38010, 04152-31060, 04152-0P010), built with High-density premium filter paper and listed for the 2.5L–3.5L engine band. Thread, seal and bypass are confirmed per engine.",
+      "desc": "Toyota / Lexus oil filter matched to OE 04152-31080 (cross-reference 04152-38010, 04152-31060, 04152-0P010 — source catalog), built with High-density premium filter paper. The 2.5L–3.5L engine band is a catalog reference, not a verified fitment.",
       "image": "/images/congben/f3cb0661c98a5a20.webp",
       "gallery": [
         "/images/congben/f3cb0661c98a5a20.webp",
@@ -1251,11 +1255,9 @@
       "material": "High-density premium filter paper",
       "dimensions": null,
       "fitment": {
-        "brand": "Toyota",
-        "models": [
-          "& Lexus"
-        ],
-        "engine": "Toyota & Lexus (2.5L–3.5L engines)"
+        "brand": "Toyota / Lexus",
+        "models": [],
+        "engine": "2.5L–3.5L engine band (catalog reference)"
       },
       "source": {
         "name": "congbenfilter.com",

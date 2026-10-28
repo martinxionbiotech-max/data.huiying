@@ -12,9 +12,9 @@ Cabin air filters that capture dust, pollen and particulate from outside air bef
 
 | Model | Name | Source ID | Spec status |
 |---|---|---|---|
-| [`HY-CF-691`](HY-CF-691.md) | Cabin Filter | `691` | `NEEDS_VERIFICATION` |
-| [`87139-0N010`](87139-0N010.md) | Car Cabin Filter AC Air Conditioning Filter 87139-0N010 | `17364` | `source-verified` |
+| [`HY-CF-691`](HY-CF-691.md) | Cabin Filter | `691` | `pending` |
+| [`87139-0N010`](87139-0N010.md) | Car Cabin Filter AC Air Conditioning Filter 87139-0N010 | `17364` | `catalog-confirmed` |
 
 ## Data status
 
-Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. See [Data status labels](../specification/data-status.md) for the label definitions.
+Identification fields are `verified`; specification fields are `catalog-confirmed` where the source catalog publishes them and `pending` otherwise. See [Data status labels](../specification/data-status.md) for the label definitions.

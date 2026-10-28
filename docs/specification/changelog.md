@@ -1,5 +1,29 @@
 # Changelog
 
+## v0.3.0 — 2026-10-28 (audit4 remediation)
+
+- **Three-state data status model unified** across the main site and this data site:
+  `catalog-confirmed` (source-catalog field; OE↔brand is a fact) · `factory-verified`
+  (factory drawing / measurement; 0 rows today) · `pending` (year / engine / thread /
+  seal / bypass parameters not yet verified). Previous labels renamed: `source-verified`
+  → `catalog-confirmed`, `fitment-verified` → `factory-verified`, `NEEDS_VERIFICATION` → `pending`.
+- **Case-A fix** (`17801-30070`): brand field set to `Toyota` (OE-number brand attribution
+  is a source-catalog fact = `catalog-confirmed`); description wording downgraded to
+  "Toyota OE-pattern (catalog-confirmed)".
+- **Case-B fix** (`04152-31080`): 2.5L–3.5L displacement band downgraded to a catalog
+  reference annotation (not a verified fitment); cross-reference numbers annotated as
+  source catalog; false "thread/seal/bypass confirmed per engine" removed.
+- **Fitment matrix redesign**: 592 rows frozen; each row now carries `Fitment status`
+  (three-state, all `reference`) + `Evidence source` (blank) + `Verification date`
+  (blank) + `Model year / engine (evidence)` (blank). No evidence source or verification
+  date is ever auto-generated.
+- **Fitment index** now states plainly that the 74 vehicle models are a *reference model
+  list* (≠ every model has a SKU / verified fitment), and that the SKU–OE association is
+  a separate partition from the reference matrix.
+- **SKU parameter pages** now distinguish brand fitment (OE↔brand = `catalog-confirmed`)
+  from vehicle models / engine (`reference` / `pending`), and add a "Quality verification
+  & documents" section ("No published test data for this SKU").
+
 ## v0.2.0 — 2026-10-26 (data expansion)
 
 - **Fitment matrix expansion**: 10 → **28 brands**, 13 → **74 vehicle models**, 3 → **5 filter types** (added fuel filter + wiper), 39 → **370 fitment rows**.

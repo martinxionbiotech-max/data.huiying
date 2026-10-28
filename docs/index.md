@@ -6,15 +6,15 @@ backs the commercial site [carfilterspro.com](https://carfilterspro.com/).
 This is a **data sub-site, not a marketing site**: it holds SKU records, a reference-level
 vehicle-fitment framework and filter reference data (media, OE prefix patterns, size
 ranges, replacement intervals, procurement). Every value here is either drawn from the
-canonical dataset or explicitly marked `NEEDS_VERIFICATION` / `reference`.
+canonical dataset or explicitly marked `catalog-confirmed` / `pending` / `reference`.
 
 ## What's here
 
 | Section | What it contains | Data status |
 |---|---|---|
-| [SKU Index](products/index.md) | All 60 SKUs in the canonical dataset | `verified` (identity) + `source-verified` / `NEEDS_VERIFICATION` (specs) |
+| [SKU Index](products/index.md) | All 60 SKUs in the canonical dataset | `verified` (identity) + `catalog-confirmed` / `pending` (specs) |
 | [Categories](products/air-filter.md) | 8 product categories (air / cabin / oil / fuel / wiper / brake-pads / spark-plugs / rubber-hoses) | `verified` |
-| [SKU Details](products/HY-AF-692.md) | Per-SKU parameter tables | `verified` (identity) + `NEEDS_VERIFICATION` (specs) |
+| [SKU Details](products/HY-AF-692.md) | Per-SKU parameter tables | `verified` (identity) + `catalog-confirmed` / `pending` (specs) |
 | [Fitment Reference](fitment/index.md) | Vehicle-fitment framework for 8 filter types | `reference` |
 | [OE Prefix Patterns](reference/oe-patterns.md) | OE-number prefix-pattern framework | `prefix pattern reference` |
 | [Size Ranges](reference/size-ranges.md) | Typical dimensions by vehicle class + oil-filter threads | `reference` |
@@ -33,11 +33,13 @@ canonical dataset or explicitly marked `NEEDS_VERIFICATION` / `reference`.
 ## Honest data posture
 
 The source product catalogue does **not** publish per-SKU dimensions, filter media,
-efficiency or packing data. OE numbers, cross-references, material and fitment are
-`source-verified` where the congbenfilter.com catalog publishes them, and
-`NEEDS_VERIFICATION` (blank) otherwise. The fitment framework and all reference datasets
-are **reference-only** — no exact OE number or exact dimension is asserted, and fitment
-pages are explicitly "reference material — not an exact-fitment tool".
+efficiency, thread, seal, bypass or packing data. OE numbers, cross-references, material
+and the OE↔brand relationship are `catalog-confirmed` where the congbenfilter.com catalog
+publishes them, and `pending` (blank) otherwise. The 74-vehicle fitment framework is a
+**reference model list** (≠ every model has a SKU, ≠ a verified fitment) and all reference
+datasets are **reference-only** — no exact OE number or exact dimension is asserted, and
+fitment pages are explicitly "reference material — not an exact-fitment tool". `factory-verified`
+is empty (0 rows).
 
 Start with the [SKU Index](products/index.md), or go to the
 [commercial catalog](https://carfilterspro.com/products/) to request a quote.

@@ -12,19 +12,30 @@ Reads two datasets and renders every data-derived MkDocs page under `docs/`:
 Generated pages (zero manual transcription of values):
 
   - docs/products/index.md               SKU full index
-  - docs/products/{slug}.md              x5 category pages (incl. empty ones)
-  - docs/products/{model}.md             x10 SKU parameter pages
+  - docs/products/{category}.md          x8 category pages (incl. empty ones)
+  - docs/products/{model}.md             x60 SKU parameter pages
   - docs/fitment/index.md                fitment reference index + stats
-  - docs/fitment/{type}.md               x5 vehicle-fitment reference tables
+  - docs/fitment/{type}.md               x8 vehicle-fitment reference tables
   - docs/reference/oe-patterns.md        OE prefix-pattern reference framework
   - docs/reference/size-ranges.md        filter size reference ranges
   - docs/reference/replacement-intervals.md  replacement-interval reference
   - docs/reference/procurement.md        HS-code + MOQ/packing reference
 
+Three-state data status model (audit4 / P0):
+
+  catalog-confirmed — source-catalog fields (OE / cross-reference / material);
+                      the OE-number's brand attribution is a fact from the source
+  factory-verified   — factory drawings / measurements; NONE exist today (0 rows)
+  pending            — year / engine code / thread / seal / bypass parameters
+                      not yet verified (rendered blank, never guessed)
+
+Supporting labels: `verified` (SKU identity fields), `reference` (fitment matrix
+framework rows and vehicle model/year attached to any SKU).
+
 Honesty discipline: the source product pages contain no per-SKU dimensions,
-material, efficiency, OE or packing data. Every such field is rendered as
-`NEEDS_VERIFICATION` — never invented. Only identification fields present in
-`products.json` carry `verified` status.
+efficiency, bypass or packing data. Every such field is rendered as `pending` —
+never invented. Only identification fields present in `products.json` carry
+`verified` status.
 
 Run from repo root:  python3 scripts/build-fitment-pages.py
 """
@@ -79,11 +90,11 @@ CAT_BY_CODE = {c["code"]: c for c in CATS}
 
 
 def spec_status(p):
-    """Per-SKU spec status: source-verified when the source catalog carries
-    OE/material/fitment data, otherwise NEEDS_VERIFICATION."""
+    """Per-SKU spec status: catalog-confirmed when the source catalog carries
+    OE/material/fitment data, otherwise pending."""
     if p.get("oeNumbers") or p.get("material") or p.get("crossReference") or p.get("fitment"):
-        return "`source-verified`"
-    return "`NEEDS_VERIFICATION`"
+        return "`catalog-confirmed`"
+    return "`pending`"
 
 
 def write(path, text):
@@ -139,8 +150,8 @@ def gen_index():
     text += (
         "Full index of every SKU in the canonical dataset. Identification fields "
         "are `verified` (from `data/products.json`). Per-SKU specification fields "
-        "(OE, material, fitment, cross-reference) are `source-verified` where the "
-        "congbenfilter.com catalog publishes them, and `NEEDS_VERIFICATION` otherwise.\n\n"
+        "(OE, material, fitment, cross-reference) are `catalog-confirmed` where the "
+        "congbenfilter.com catalog publishes them, and `pending` otherwise.\n\n"
     )
     text += autogen_note()
     text += f"\n**{len(PRODUCTS)} SKUs across {len(CATS)} categories.**\n\n"
@@ -190,7 +201,8 @@ def gen_category(slug):
     text += sku_block
     text += "## Data status\n\n"
     text += (
-        "Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. "
+        "Identification fields are `verified`; specification fields are `catalog-confirmed` "
+        "where the source catalog publishes them and `pending` otherwise. "
         "See [Data status labels](../specification/data-status.md) for the label definitions.\n"
     )
     write(f"products/{slug}.md", text)
@@ -210,19 +222,25 @@ def gen_sku(p):
     fitment = p.get("fitment") or {}
     src = p.get("source") or {}
 
-    def cell(value, status="source-verified"):
-        return f"`{value}`" if value else "`—`", ("`source-verified`" if value else "`NEEDS_VERIFICATION`")
+    def cell(value):
+        return (f"`{value}`" if value else "`—`"), ("`catalog-confirmed`" if value else "`pending`")
 
     oe_v, oe_s = cell(" / ".join(oe) if oe else None)
     cr_v, cr_s = cell(crossref)
     mat_v, mat_s = cell(material)
     dim_v, dim_s = cell(dimensions)
-    fit_val = None
-    if fitment.get("brand"):
-        fit_val = fitment["brand"] + (" " + ", ".join(fitment.get("models") or []) if fitment.get("models") else "")
-        if fitment.get("engine"):
-            fit_val += f" (engine: {fitment['engine']})"
-    fit_v, fit_s = cell(fit_val, status="reference")
+
+    # Fitment: OE↔brand attribution is catalog-confirmed (a source-catalog fact);
+    # vehicle model / engine is reference-only (never a precise fitment claim).
+    fit_brand = fitment.get("brand")
+    fit_models = (fitment.get("models") or []) if isinstance(fitment, dict) else []
+    fit_engine = fitment.get("engine")
+    brand_v = f"`{fit_brand}`" if fit_brand else "`—`"
+    brand_s = "`catalog-confirmed`" if fit_brand else "`pending`"
+    models_v = "`" + ", ".join(fit_models) + "`" if fit_models else "`—`"
+    models_s = "`reference`" if fit_models else "`pending`"
+    engine_v = f"`{fit_engine}`" if fit_engine else "`—`"
+    engine_s = "`reference`" if fit_engine else "`pending`"
 
     ident = "\n".join([
         "| Field | Value | Status |",
@@ -241,12 +259,26 @@ def gen_sku(p):
         f"| OE number(s) | {oe_v} | {oe_s} |",
         f"| Cross-reference (competitor) | {cr_v} | {cr_s} |",
         f"| Material | {mat_v} | {mat_s} |",
+        f"| Brand fitment (OE↔brand) | {brand_v} | {brand_s} |",
+        f"| Vehicle models | {models_v} | {models_s} |",
+        f"| Engine | {engine_v} | {engine_s} |",
         f"| Dimensions (L×W×H / OD×ID×H) | {dim_v} | {dim_s} |",
-        f"| Fitment | {fit_v} | {fit_s} |",
-        "| Filtration efficiency | `—` | `NEEDS_VERIFICATION` |",
-        "| Packing / carton qty | `—` | `NEEDS_VERIFICATION` |",
-        "| HS Code | `—` | `NEEDS_VERIFICATION` |",
+        "| Thread / seal / bypass | `—` | `pending` |",
+        "| Filtration efficiency | `—` | `pending` |",
+        "| Packing / carton qty | `—` | `pending` |",
+        "| HS Code | `—` | `pending` |",
     ])
+
+    # Quality verification / documents — only real items exist; none today.
+    quality = (
+        "## Quality verification & documents\n\n"
+        "> No published test data for this SKU — request inspection/test "
+        "documents from sales before quoting.\n\n"
+        "| Field | Value | Status |\n"
+        "|---|---|---|\n"
+        "| Inspection / test report | `—` | `pending` |\n"
+        "| Verification date | `—` | `pending` |\n"
+    )
 
     # Reference fitment link resolved to the fitment page for this category
     fit_type = {
@@ -281,16 +313,19 @@ def gen_sku(p):
     text += "## Identification\n\n" + ident + "\n"
     text += "## Parameters\n\n"
     text += (
-        "OE numbers, cross-references, material, dimensions and fitment are "
-        "`source-verified` where the source catalog (congbenfilter.com) publishes "
-        "them, and `NEEDS_VERIFICATION` otherwise — leave blank and request the value "
-        "from Huiying before quoting.\n\n"
+        "OE numbers, cross-references, material and the OE↔brand relationship are "
+        "`catalog-confirmed` where the source catalog (congbenfilter.com) publishes "
+        "them. Vehicle model, engine, dimensions, thread, seal and bypass are "
+        "`reference` or `pending` — never a verified fitment. Request the missing "
+        "values from Huiying before quoting.\n\n"
     )
     text += spec + "\n"
     # source attribution
     if src.get("name") or src.get("status"):
-        src_line = f"| Source | {src.get('name', '—')} · status `{src.get('status', '—')}` | `{src.get('status', 'reference')}` |"
+        src_status_label = "catalog-confirmed" if src.get("status") == "source-verified" else "reference"
+        src_line = f"| Source | {src.get('name', '—')} | `{src_status_label}` |"
         text += "\n## Source\n\n| Field | Value | Status |\n|---|---|---|\n" + src_line + "\n"
+    text += quality
     text += fit_block
     write(f"products/{p['model']}.md", text)
 
@@ -333,6 +368,22 @@ def gen_fitment_index():
         f"\n**{len(brands)} brands · {len(VEHICLES)} vehicle models · "
         f"{total_rows} fitment rows ({len(FILTERS)} filter types).**\n\n"
     )
+    text += (
+        "## ⚠️ What this list is — and is not\n\n"
+        f"**The {len(VEHICLES)} vehicle models below are a *reference model list*, "
+        "not a claim that every model has a corresponding SKU, and not a verified "
+        "fitment.** No row asserts an exact OE number, an exact dimension, a precise "
+        "year range or a verified engine match. Every matrix row is `reference`-only "
+        "and carries no evidence source and no verification date.\n\n"
+    )
+    text += (
+        "Two separate partitions serve two different questions:\n\n"
+        "1. **Reference matrix (this page + the 8 type pages)** — 74 vehicle models "
+        "× 8 filter types = 592 `reference` rows. Common-application framework only.\n"
+        "2. **SKU–OE association** — the real, source-catalog OE↔brand relationships "
+        "present in the dataset. See [SKU–OE–Vehicle association](../reference/sku-oe-vehicle.md). "
+        "That is a separate partition from the reference matrix.\n\n"
+    )
     text += "| Attribute | Value |\n|---|---|\n"
     text += f"| Brands | {', '.join(brands)} |\n"
     text += f"| Regions | {', '.join(regions)} |\n"
@@ -344,8 +395,8 @@ def gen_fitment_index():
         "| State | Meaning | Count here |\n"
         "|---|---|---|\n"
         f"| `reference` | common-application guidance, not a verified match | {total_rows} matrix rows |\n"
-        "| `source-verified` | OE↔brand attribution is a fact (source catalog) | see [SKU–OE–Vehicle association](../reference/sku-oe-vehicle.md) |\n"
-        "| `fitment-verified` | complete SKU-OE-vehicle-source-date record | 0 |\n\n"
+        "| `catalog-confirmed` | source-catalog field; OE↔brand attribution is a fact | see [SKU–OE–Vehicle association](../reference/sku-oe-vehicle.md) |\n"
+        "| `factory-verified` | factory drawings / measurements | 0 |\n\n"
     )
     text += table + "\n\n"
     text += f"> ⚠️ **{FIT_META.get('nature','reference-only')}** — {FIT_META.get('disclaimer','')}\n"
@@ -365,28 +416,32 @@ def gen_fitment(flt):
         name = f"{v['model']}"
         if v.get("zh"):
             name += f" · {v['zh']}"
+        # Reference-only: no evidence source, no verification date, no specific
+        # model-year / engine code. Every row is `reference`.
         rows.append(
             "| " + " | ".join([
                 name,
                 f"{v['brand']} ({v['region']})",
-                v["era"],
+                "`reference`",
+                "`—`",
+                "`—`",
+                "`—`",
                 typical,
                 material,
                 interval,
-                "`reference`",
             ]) + " |"
         )
     table = "\n".join([
-        "| Vehicle model | Brand (region) | Era (reference) | Typical size range (reference) | Material suggestion (reference) | Replacement interval (reference) | Status |",
-        "|---|---|---|---|---|---|---|",
+        "| Vehicle model | Brand (region) | Fitment status | Evidence source | Verification date | Model year / engine (evidence) | Typical size range (reference) | Material suggestion (reference) | Replacement interval (reference) |",
+        "|---|---|---|---|---|---|---|---|---|",
     ] + rows)
 
     text = f"---\ntitle: {label} — Fitment Reference\n---\n\n# {label} — Fitment Reference\n\n"
     text += (
         "> ⚠️ **Reference material — not an exact-fitment tool.** The table below lists "
         "common-application vehicles only. It is **not** a precise OE cross-reference, and "
-        "no exact OE number or year range is asserted. Always confirm the exact part against "
-        "your OE / cross-reference number before ordering.\n\n"
+        "no exact OE number, year range or engine code is asserted. Always confirm the exact "
+        "part against your OE / cross-reference number before ordering.\n\n"
     )
     text += flt["intro"] + "\n\n"
     text += autogen_note(
@@ -400,14 +455,15 @@ def gen_fitment(flt):
     text += f"**Material suggestion (reference):** {material}\n\n"
     text += f"**Replacement interval (reference):** {interval}\n\n"
     text += f"**Matching path:** {path}\n\n"
-    text += f"**{len(VEHICLES)} vehicle references:**\n\n"
+    text += (
+        f"**{len(VEHICLES)} vehicle references:**\n\n"
+        "Each row is `reference`-only: no evidence source, no verification date, and "
+        "no specific model-year / engine code is asserted. The vehicle list is a common-application "
+        "framework, **not** a list of SKUs and **not** a verified fitment.\n\n"
+    )
     text += table + "\n"
     write(f"fitment/{flt['type']}.md", text)
 
-
-# ---------------------------------------------------------------------------
-# Main
-# ---------------------------------------------------------------------------
 
 # ---------------------------------------------------------------------------
 # 5. OE prefix-pattern reference

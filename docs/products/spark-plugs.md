@@ -12,8 +12,8 @@ Ignition spark plugs for gasoline engines, matched by OE and engine application.
 
 | Model | Name | Source ID | Spec status |
 |---|---|---|---|
-| [`HY-SP-650`](HY-SP-650.md) | Auto Engine Spark Plug | `17411` | `NEEDS_VERIFICATION` |
+| [`HY-SP-650`](HY-SP-650.md) | Auto Engine Spark Plug | `17411` | `pending` |
 
 ## Data status
 
-Identification fields are `verified`; specification fields are `NEEDS_VERIFICATION`. See [Data status labels](../specification/data-status.md) for the label definitions.
+Identification fields are `verified`; specification fields are `catalog-confirmed` where the source catalog publishes them and `pending` otherwise. See [Data status labels](../specification/data-status.md) for the label definitions.
