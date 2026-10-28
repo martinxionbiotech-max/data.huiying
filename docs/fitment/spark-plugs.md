@@ -1,3 +1,7 @@
+---
+title: Spark Plugs — Fitment Reference
+---
+
 # Spark Plugs — Fitment Reference
 
 Spark plugs are matched by engine code, heat range and thread reach. The references below are common-application examples; the exact plug is confirmed per engine.

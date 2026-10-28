@@ -1,3 +1,7 @@
+---
+title: Rubber Hoses — Fitment Reference
+---
+
 # Rubber Hoses — Fitment Reference
 
 Rubber hoses are matched by circuit (coolant, fuel, air), compound and inner diameter. The references below are common-application examples; the exact hose is confirmed per application.

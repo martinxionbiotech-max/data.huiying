@@ -1,3 +1,7 @@
+---
+title: Brake Pads — Fitment Reference
+---
+
 # Brake Pads — Fitment Reference
 
 Brake pads are matched by OE number to the caliper and platform. The references below are common-application examples; the exact pad set is confirmed per OE.

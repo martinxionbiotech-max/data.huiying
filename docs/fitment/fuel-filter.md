@@ -1,3 +1,7 @@
+---
+title: Fuel Filter — Fitment Reference
+---
+
 # Fuel Filter — Fitment Reference
 
 Fuel filters protect injectors and fuel pumps; diesel and commercial applications rely on them most heavily. The references below are common-application examples across global and domestic Chinese brands.

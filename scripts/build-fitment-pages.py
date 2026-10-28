@@ -317,7 +317,7 @@ def gen_fitment_index():
 
     text = "# Fitment Reference Index\n\n"
     text += (
-        "Reference-level vehicle-fitment framework for the five core filter types. "
+        "Reference-level vehicle-fitment framework for the core filter types. "
         "These are **common-application references**, not precise OE cross-references.\n\n"
     )
     text += autogen_note(
@@ -368,7 +368,7 @@ def gen_fitment(flt):
         "|---|---|---|---|---|---|---|",
     ] + rows)
 
-    text = f"# {label} — Fitment Reference\n\n"
+    text = f"---\ntitle: {label} — Fitment Reference\n---\n\n# {label} — Fitment Reference\n\n"
     text += flt["intro"] + "\n\n"
     text += autogen_note(
         f"Fitment framework `data/fitment.json` v{FIT_META.get('version','0.1.0')} — "

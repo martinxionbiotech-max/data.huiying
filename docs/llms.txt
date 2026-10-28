@@ -3,49 +3,109 @@
 > Canonical product database for the huiying filter manufacturer — structured SKU records,
 > reference-level vehicle-fitment framework and filter reference data (media, OE prefix
 > patterns, size ranges, replacement intervals, procurement). Machine-readable, zero
-> marketing. 10 SKUs across 5 categories; 74 vehicle models across 28 brands in the
-> fitment reference framework (56 overseas-market models + 18 Chinese domestic). Operator: Qinghe County Huiying Automotive Parts Co.,
+> marketing. 61 SKUs across 8 categories. Operator: Qinghe County Huiying Automotive Parts Co.,
 > Ltd. — commercial catalog and inquiries at huiyingfilter.com.
 
 - [Home](https://data.huiying.com/): data-site overview, section index and honest data posture.
-- [SKU Index](https://data.huiying.com/products/): all 10 SKUs (identity verified; specs NEEDS_VERIFICATION).
-- [Air Filter category](https://data.huiying.com/products/air-filter/): 8 SKUs.
-- [Cabin Filter category](https://data.huiying.com/products/cabin-filter/): 1 SKU.
-- [Oil Filter category](https://data.huiying.com/products/oil-filter/): 1 SKU.
-- [Fuel Filter category](https://data.huiying.com/products/fuel-filter/): 0 SKUs (placeholder).
-- [Wiper category](https://data.huiying.com/products/wiper/): 0 SKUs (placeholder).
-- [SKU HY-AF-692](https://data.huiying.com/products/HY-AF-692/): air filter parameter page.
-- [SKU HY-AF-693](https://data.huiying.com/products/HY-AF-693/): air filter parameter page.
-- [SKU HY-AF-698](https://data.huiying.com/products/HY-AF-698/): air filter parameter page.
-- [SKU HY-AF-699](https://data.huiying.com/products/HY-AF-699/): air filter parameter page.
-- [SKU HY-AF-700](https://data.huiying.com/products/HY-AF-700/): air filter parameter page.
-- [SKU HY-AF-701](https://data.huiying.com/products/HY-AF-701/): air filter parameter page.
-- [SKU HY-AF-702](https://data.huiying.com/products/HY-AF-702/): air filter parameter page.
-- [SKU HY-AF-703](https://data.huiying.com/products/HY-AF-703/): air filter parameter page.
-- [SKU HY-CF-691](https://data.huiying.com/products/HY-CF-691/): cabin filter parameter page.
-- [SKU HY-OF-690](https://data.huiying.com/products/HY-OF-690/): oil filter parameter page.
-- [Fitment Index](https://data.huiying.com/fitment/): reference framework overview + stats (28 brands · 74 models · 370 rows).
-- [Engine Air Filter fitment](https://data.huiying.com/fitment/air-filter/): 74 vehicle references.
-- [Engine Oil Filter fitment](https://data.huiying.com/fitment/oil-filter/): 74 vehicle references.
-- [Cabin Air Filter fitment](https://data.huiying.com/fitment/cabin-filter/): 74 vehicle references.
-- [Fuel Filter fitment](https://data.huiying.com/fitment/fuel-filter/): 74 vehicle references.
-- [Wiper fitment](https://data.huiying.com/fitment/wiper/): 74 vehicle references.
-- [OE Prefix Patterns](https://data.huiying.com/reference/oe-patterns/): OE-number prefix-pattern framework + cross-reference path.
-- [Size Ranges](https://data.huiying.com/reference/size-ranges/): air-filter L×W×H by class + oil-filter thread specs.
-- [Replacement Intervals](https://data.huiying.com/reference/replacement-intervals/): 5 filter types (km/months) + factors + localised suggestions.
-- [Procurement](https://data.huiying.com/reference/procurement/): HS-code reference + MOQ/packing framework.
-- [Filter Media comparison](https://data.huiying.com/materials/media-comparison/): 7 media types compared + material × vehicle-class pairing.
-- [Field Schema](https://data.huiying.com/specification/field-schema/): dataset field definitions.
-- [Data Status Labels](https://data.huiying.com/specification/data-status/): verified / reference / NEEDS_VERIFICATION.
-- [Sources & Disclaimer](https://data.huiying.com/specification/sources/): provenance and honest disclosures.
+- [SKU Index](https://data.huiying.com/products/): all 61 SKUs (identity verified; specs NEEDS_VERIFICATION).
+- [Air Filter category](https://data.huiying.com/products/air-filter/): 21 SKUs.
+- [Cabin Filter category](https://data.huiying.com/products/cabin-filter/): 2 SKUs.
+- [Oil Filter category](https://data.huiying.com/products/oil-filter/): 16 SKUs.
+- [Fuel Filter category](https://data.huiying.com/products/fuel-filter/): 6 SKUs.
+- [Wiper category](https://data.huiying.com/products/wiper/): 0 SKUs.
+- [Brake Pads category](https://data.huiying.com/products/brake-pads/): 2 SKUs.
+- [Spark Plugs category](https://data.huiying.com/products/spark-plugs/): 1 SKU.
+- [Rubber Hoses category](https://data.huiying.com/products/rubber-hoses/): 13 SKUs.
+
+## SKU details
+
+- [SKU HY-OF-690](https://data.huiying.com/products/HY-OF-690/): Oil Filter parameter page.
+- [SKU HY-CF-691](https://data.huiying.com/products/HY-CF-691/): Cabin Filter parameter page.
+- [SKU HY-AF-692](https://data.huiying.com/products/HY-AF-692/): Air Filter parameter page.
+- [SKU HY-AF-693](https://data.huiying.com/products/HY-AF-693/): Air Filter parameter page.
+- [SKU HY-AF-698](https://data.huiying.com/products/HY-AF-698/): Air Filter parameter page.
+- [SKU HY-AF-699](https://data.huiying.com/products/HY-AF-699/): Air Filter parameter page.
+- [SKU HY-AF-700](https://data.huiying.com/products/HY-AF-700/): Air Filter parameter page.
+- [SKU HY-AF-701](https://data.huiying.com/products/HY-AF-701/): Air Filter parameter page.
+- [SKU HY-AF-702](https://data.huiying.com/products/HY-AF-702/): Air Filter parameter page.
+- [SKU HY-AF-703](https://data.huiying.com/products/HY-AF-703/): Air Filter parameter page.
+- [SKU 90915-YZZE1](https://data.huiying.com/products/90915-YZZE1/): Oil Filter parameter page.
+- [SKU 500FH](https://data.huiying.com/products/500FH/): Fuel Filter parameter page.
+- [SKU HY-RH-603](https://data.huiying.com/products/HY-RH-603/): Rubber Hoses parameter page.
+- [SKU 17801-30070](https://data.huiying.com/products/17801-30070/): Air Filter parameter page.
+- [SKU 17801-21050](https://data.huiying.com/products/17801-21050/): Air Filter parameter page.
+- [SKU LF14000NN](https://data.huiying.com/products/LF14000NN/): Oil Filter parameter page.
+- [SKU 15400-PLC-004](https://data.huiying.com/products/15400-PLC-004/): Oil Filter parameter page.
+- [SKU FF5507](https://data.huiying.com/products/FF5507/): Fuel Filter parameter page.
+- [SKU 03-42776-010](https://data.huiying.com/products/03-42776-010/): Air Filter parameter page.
+- [SKU 17127525023](https://data.huiying.com/products/17127525023/): Rubber Hoses parameter page.
+- [SKU RE596317](https://data.huiying.com/products/RE596317/): Air Filter parameter page.
+- [SKU 04465-04030](https://data.huiying.com/products/04465-04030/): Brake Pads parameter page.
+- [SKU 35330-08010](https://data.huiying.com/products/35330-08010/): Oil Filter parameter page.
+- [SKU 04E129620](https://data.huiying.com/products/04E129620/): Air Filter parameter page.
+- [SKU 16546-ED000](https://data.huiying.com/products/16546-ED000/): Air Filter parameter page.
+- [SKU 1500A098](https://data.huiying.com/products/1500A098/): Air Filter parameter page.
+- [SKU 17220-5R0-008](https://data.huiying.com/products/17220-5R0-008/): Air Filter parameter page.
+- [SKU 28113-2S000](https://data.huiying.com/products/28113-2S000/): Air Filter parameter page.
+- [SKU A2700940004](https://data.huiying.com/products/A2700940004/): Air Filter parameter page.
+- [SKU 13717811026](https://data.huiying.com/products/13717811026/): Air Filter parameter page.
+- [SKU LR011593](https://data.huiying.com/products/LR011593/): Air Filter parameter page.
+- [SKU 90915-YZZE2](https://data.huiying.com/products/90915-YZZE2/): Oil Filter parameter page.
+- [SKU A0001802309](https://data.huiying.com/products/A0001802309/): Oil Filter parameter page.
+- [SKU A2701800009](https://data.huiying.com/products/A2701800009/): Oil Filter parameter page.
+- [SKU 04152-37010](https://data.huiying.com/products/04152-37010/): Oil Filter parameter page.
+- [SKU 04152-31080](https://data.huiying.com/products/04152-31080/): Oil Filter parameter page.
+- [SKU 04465-0K020](https://data.huiying.com/products/04465-0K020/): Brake Pads parameter page.
+- [SKU P320510](https://data.huiying.com/products/P320510/): Air Filter parameter page.
+- [SKU 15400-PLC](https://data.huiying.com/products/15400-PLC/): Oil Filter parameter page.
+- [SKU 04152-31090](https://data.huiying.com/products/04152-31090/): Oil Filter parameter page.
+- [SKU 900FG](https://data.huiying.com/products/900FG/): Fuel Filter parameter page.
+- [SKU 1000FH](https://data.huiying.com/products/1000FH/): Fuel Filter parameter page.
+- [SKU 15208-65F00](https://data.huiying.com/products/15208-65F00/): Oil Filter parameter page.
+- [SKU 23390-0L070](https://data.huiying.com/products/23390-0L070/): Fuel Filter parameter page.
+- [SKU 87139-0N010](https://data.huiying.com/products/87139-0N010/): Cabin Filter parameter page.
+- [SKU HY-OF-637](https://data.huiying.com/products/HY-OF-637/): Oil Filter parameter page.
+- [SKU HY-RH-638](https://data.huiying.com/products/HY-RH-638/): Rubber Hoses parameter page.
+- [SKU HY-RH-639](https://data.huiying.com/products/HY-RH-639/): Rubber Hoses parameter page.
+- [SKU HY-RH-640](https://data.huiying.com/products/HY-RH-640/): Rubber Hoses parameter page.
+- [SKU HY-RH-641](https://data.huiying.com/products/HY-RH-641/): Rubber Hoses parameter page.
+- [SKU HY-RH-642](https://data.huiying.com/products/HY-RH-642/): Rubber Hoses parameter page.
+- [SKU HY-RH-643](https://data.huiying.com/products/HY-RH-643/): Rubber Hoses parameter page.
+- [SKU HY-RH-644](https://data.huiying.com/products/HY-RH-644/): Rubber Hoses parameter page.
+- [SKU HY-RH-645](https://data.huiying.com/products/HY-RH-645/): Rubber Hoses parameter page.
+- [SKU HY-RH-646](https://data.huiying.com/products/HY-RH-646/): Rubber Hoses parameter page.
+- [SKU HY-RH-647](https://data.huiying.com/products/HY-RH-647/): Rubber Hoses parameter page.
+- [SKU HY-RH-648](https://data.huiying.com/products/HY-RH-648/): Rubber Hoses parameter page.
+- [SKU HY-OF-649](https://data.huiying.com/products/HY-OF-649/): Oil Filter parameter page.
+- [SKU HY-SP-650](https://data.huiying.com/products/HY-SP-650/): Spark Plugs parameter page.
+- [SKU HY-FF-651](https://data.huiying.com/products/HY-FF-651/): Fuel Filter parameter page.
+- [SKU HY-OF-652](https://data.huiying.com/products/HY-OF-652/): Oil Filter parameter page.
+
+## Reference
+
+- [Fitment Index](https://data.huiying.com/fitment/)
+- [Engine Air Filter fitment](https://data.huiying.com/fitment/air-filter/)
+- [Engine Oil Filter fitment](https://data.huiying.com/fitment/oil-filter/)
+- [Cabin Air Filter fitment](https://data.huiying.com/fitment/cabin-filter/)
+- [Fuel Filter fitment](https://data.huiying.com/fitment/fuel-filter/)
+- [Wiper fitment](https://data.huiying.com/fitment/wiper/)
+- [Brake Pads fitment](https://data.huiying.com/fitment/brake-pads/)
+- [Spark Plugs fitment](https://data.huiying.com/fitment/spark-plugs/)
+- [Rubber Hoses fitment](https://data.huiying.com/fitment/rubber-hoses/)
+- [OE Prefix Patterns](https://data.huiying.com/reference/oe-patterns/)
+- [Size Ranges](https://data.huiying.com/reference/size-ranges/)
+- [Replacement Intervals](https://data.huiying.com/reference/replacement-intervals/)
+- [Procurement](https://data.huiying.com/reference/procurement/)
+- [Filter Media comparison](https://data.huiying.com/materials/media-comparison/)
+- [Field Schema](https://data.huiying.com/specification/field-schema/)
+- [Data Status Labels](https://data.huiying.com/specification/data-status/)
+- [Sources & Disclaimer](https://data.huiying.com/specification/sources/)
+- [Changelog](https://data.huiying.com/specification/changelog/)
 
 ## Notes
 
 - Per-SKU dimensions, material, efficiency, OE numbers and packing are NOT published by the
   source catalogue; they are marked `NEEDS_VERIFICATION` here, never invented.
 - Vehicle fitment is `reference` only — common applications, not verified OE cross-references.
-- OE-number data is `prefix pattern reference` only — prefixes are shown, never full OE numbers.
-- Size ranges, replacement intervals and HS codes are `reference` / common-knowledge — verify
-  with the manufacturer, customs or the OEM schedule before relying on them.
-- Filter-media efficiency figures are typical framework ranges (`[]`), not measured SKU specs.
 - Commercial catalog and quotations: huiyingfilter.com (this data site is reference-only).
+

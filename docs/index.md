@@ -12,10 +12,10 @@ canonical dataset or explicitly marked `NEEDS_VERIFICATION` / `reference`.
 
 | Section | What it contains | Data status |
 |---|---|---|
-| [SKU Index](products/index.md) | All 10 SKUs in the canonical dataset | `verified` (identity) + `NEEDS_VERIFICATION` (specs) |
-| [Categories](products/air-filter.md) | 5 product categories (air / cabin / oil / fuel / wiper) | `verified` |
+| [SKU Index](products/index.md) | All 61 SKUs in the canonical dataset | `verified` (identity) + `NEEDS_VERIFICATION` (specs) |
+| [Categories](products/air-filter.md) | 8 product categories (air / cabin / oil / fuel / wiper / brake-pads / spark-plugs / rubber-hoses) | `verified` |
 | [SKU Details](products/HY-AF-692.md) | Per-SKU parameter tables | `verified` (identity) + `NEEDS_VERIFICATION` (specs) |
-| [Fitment Reference](fitment/index.md) | Vehicle-fitment framework for 5 filter types | `reference` |
+| [Fitment Reference](fitment/index.md) | Vehicle-fitment framework for 8 filter types | `reference` |
 | [OE Prefix Patterns](reference/oe-patterns.md) | OE-number prefix-pattern framework | `prefix pattern reference` |
 | [Size Ranges](reference/size-ranges.md) | Typical dimensions by vehicle class + oil-filter threads | `reference` |
 | [Replacement Intervals](reference/replacement-intervals.md) | Reference replacement cycles for 5 filter types | `reference` |
@@ -25,8 +25,8 @@ canonical dataset or explicitly marked `NEEDS_VERIFICATION` / `reference`.
 
 ## Quick facts
 
-- **10 SKUs** across **5 categories** (air filter: 8 · cabin filter: 1 · oil filter: 1 · fuel: 0 · wiper: 0).
-- **74 vehicle models** across **28 brands** in the fitment reference framework (5 filter types × 74 vehicles = 370 rows), prioritising **overseas-market models** (56 overseas + 18 Chinese domestic).
+- **61 SKUs** across **8 categories** (air filter: 21 · cabin filter: 2 · oil filter: 16 · fuel filter: 6 · wiper: 0 · brake-pads: 2 · spark-plugs: 1 · rubber-hoses: 13).
+- **74 vehicle models** across **28 brands** in the fitment reference framework (8 filter types × 74 vehicles = 592 rows), prioritising **overseas-market models** (56 overseas + 18 Chinese domestic).
 - **OE prefix-pattern framework** across 4 filter types (prefix patterns only — full OE numbers are never asserted).
 - Canonical dataset version: `0.1.0` (generated 2026-10-26); fitment framework `0.2.0`.
 

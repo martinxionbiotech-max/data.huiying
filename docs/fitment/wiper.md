@@ -1,3 +1,7 @@
+---
+title: Wiper — Fitment Reference
+---
+
 # Wiper — Fitment Reference
 
 Wiper blades are selected by blade length, curvature and connector type — not by OE number. The vehicle references below are examples of common fitment; exact length and connector are confirmed per vehicle.
